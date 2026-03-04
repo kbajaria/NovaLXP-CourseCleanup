@@ -17,9 +17,11 @@ Artifacts and runbooks for repeatable course-content changes in NovaLXP (Moodle 
 ## Quick start
 1. Review the change runbook:
    - `docs/course-918-google-skills-change.md`
-2. (Optional) Discover ALB hostnames once AWS credentials are configured:
+2. Review environment/domain reference:
+   - `docs/environment-endpoints.md`
+3. (Optional) Discover ALB hostnames once AWS credentials are configured:
    - `./scripts/discover_alb_domains.sh eu-west-2`
-3. Apply the Moodle UI change in `dev` first, then `test`, then `production`.
+4. Apply the Moodle UI change in `dev` first, then `test`, then `production`.
 
 ## AWS credentials note
 This workstation currently has no configured AWS credentials. Run `aws login` (or your org credential process) before using discovery scripts.

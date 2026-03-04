@@ -17,8 +17,14 @@ Add a **new final section** in the course that includes:
 3. Repeat in `test`.
 4. Repeat in `production`.
 
+## Discovered ALBs (AWS eu-west-2)
+- `dev-novalxp-alb`: `dev-novalxp-alb-1221185513.eu-west-2.elb.amazonaws.com`
+- `test-novalxp-alb`: `test-novalxp-alb-1337136894.eu-west-2.elb.amazonaws.com`
+- `prod-novalxp-alb`: `prod-novalxp-alb-1974695819.eu-west-2.elb.amazonaws.com`
+
 ## Relative URL policy
 - Use **relative URLs** for links back into NovaLXP, e.g. `/course/view.php?id=<courseid>`.
+- For this change, use `/course/section.php?id=918` as the return link.
 - External Google Skills link remains absolute (`https://...`) because it leaves NovaLXP.
 
 ## Implementation steps in Moodle UI
@@ -26,16 +32,14 @@ Add a **new final section** in the course that includes:
 2. Add a new section at the end (title suggested: `External Google Skills Course`).
 3. In the section summary, paste content from:
    - `templates/course-918-section-summary.html`
-4. Update the return link in the template to the correct internal course URL:
-   - `/course/view.php?id=<COURSE_ID>`
-5. Add an activity in this section named `Mark this section complete`.
-6. Use a simple activity type that supports manual completion (recommended: `Page`):
+4. Add an activity in this section named `Mark this section complete`.
+5. Use a simple activity type that supports manual completion (recommended: `Page`):
    - Description: `Use this after you finish the Google Skills course.`
-7. In the activity `Completion tracking` settings:
+6. In the activity `Completion tracking` settings:
    - Set `Completion tracking` to `Show activity as complete when conditions are met`.
    - Set condition to `Students can manually mark the activity as completed`.
-8. Save and return to course.
-9. Confirm the section shows:
+7. Save and return to course.
+8. Confirm the section shows:
    - External launch button,
    - Return guidance,
    - A manual completion checkbox/button for the learner activity.
