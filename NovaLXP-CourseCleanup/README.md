@@ -30,3 +30,8 @@ Use this workspace to build and run repeatable cleanup/maintenance tasks such as
 ## Next additions
 - Add first script in `scripts/` (for example, duplicate-course detection).
 - Add a runbook template per script in `runbooks/`.
+
+## Initial script added
+- `scripts/apply-course-changes.py`
+  - Input CSV columns: `CourseID`, `Action` (`Delete` or `Hide`)
+  - Dry-run by default; add `--execute` to apply changes
