@@ -50,3 +50,16 @@ Defaults:
 
 Then run maintenance:
 - `./NovaLXP-CourseCleanup/scripts/apply-course-changes.py --env dev --csv course_changes.csv --execute --aws-secret-id novalxp/dev/moodle/webservice-token`
+
+## SSM execution script (API-key fallback)
+- `apply-course-changes-ssm.py`: reads the same CSV and executes changes directly on Moodle app EC2 over AWS SSM.
+- `Delete` uses `admin/cli/delete_course.php --non-interactive --disablerecyclebin`
+- `Hide` uses Moodle PHP `course_change_visibility(<id>, false)`
+
+Usage:
+- Dry-run:
+  - `./NovaLXP-CourseCleanup/scripts/apply-course-changes-ssm.py --env dev --csv course_changes.csv`
+- Execute in dev:
+  - `./NovaLXP-CourseCleanup/scripts/apply-course-changes-ssm.py --env dev --csv course_changes.csv --execute`
+- Override target instance:
+  - `./NovaLXP-CourseCleanup/scripts/apply-course-changes-ssm.py --env dev --instance-id i-xxxxxxxx --csv course_changes.csv --execute`
