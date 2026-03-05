@@ -63,3 +63,13 @@ Usage:
   - `./NovaLXP-CourseCleanup/scripts/apply-course-changes-ssm.py --env dev --csv course_changes.csv --execute`
 - Override target instance:
   - `./NovaLXP-CourseCleanup/scripts/apply-course-changes-ssm.py --env dev --instance-id i-xxxxxxxx --csv course_changes.csv --execute`
+- Write a specific log file:
+  - `./NovaLXP-CourseCleanup/scripts/apply-course-changes-ssm.py --env dev --csv course_changes.csv --execute --log-file NovaLXP-CourseCleanup/logs/dev-run.csv`
+
+Logging and failure classification:
+- default log path: `NovaLXP-CourseCleanup/logs/ssm-course-changes-<timestamp>.csv`
+- each row includes `status`, `failure_type`, `ssm_status`, `ssm_command_id`, and full detail
+- current failure types include:
+  - `COURSE_NOT_FOUND` (already deleted/missing)
+  - `MOODLE_CODE_EXCEPTION` (delete process error inside Moodle code)
+  - `MOODLE_EXCEPTION`, `SSM_TIMEOUT`, `SSM_COMMAND_ERROR`, `SSM_REMOTE_FAILURE`, `AWS_CLI_ERROR`, `UNKNOWN_FAILURE`

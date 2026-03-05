@@ -12,11 +12,14 @@ from __future__ import annotations
 
 import argparse
 import csv
+import datetime as dt
 import json
+import os
 import subprocess
 import sys
 import time
 from dataclasses import dataclass
+from pathlib import Path
 from typing import List
 
 VALID_ACTIONS = {"delete", "hide"}
@@ -39,6 +42,9 @@ class Result:
     action: str
     status: str
     detail: str
+    failure_type: str = ""
+    ssm_command_id: str = ""
+    ssm_status: str = ""
 
 
 def parse_args() -> argparse.Namespace:
@@ -76,6 +82,13 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=180,
         help="Per-command wait timeout in seconds (default: 180).",
+    )
+    parser.add_argument(
+        "--log-file",
+        help=(
+            "Optional CSV log output path. "
+            "Default: NovaLXP-CourseCleanup/logs/ssm-course-changes-<timestamp>.csv"
+        ),
     )
     return parser.parse_args()
 
@@ -250,6 +263,84 @@ def wait_ssm_result(command_id: str, instance_id: str, region: str, timeout: int
         time.sleep(2)
 
 
+def classify_failure(detail: str, ssm_status: str) -> str:
+    lower = detail.lower()
+    if "course not found" in lower:
+        return "COURSE_NOT_FOUND"
+    if "undefined function course_get_format()" in lower:
+        return "MOODLE_CODE_EXCEPTION"
+    if "default exception handler" in lower or "error code:" in lower:
+        return "MOODLE_EXCEPTION"
+    if ssm_status in {"TimedOut"}:
+        return "SSM_TIMEOUT"
+    if ssm_status in {"Cancelled", "Undeliverable", "Terminated"}:
+        return "SSM_COMMAND_ERROR"
+    if "failed to run commands" in lower:
+        return "SSM_REMOTE_FAILURE"
+    if "unknown aws cli error" in lower or "an error occurred" in lower:
+        return "AWS_CLI_ERROR"
+    return "UNKNOWN_FAILURE"
+
+
+def resolve_log_file(log_file_arg: str | None) -> Path:
+    if log_file_arg:
+        return Path(log_file_arg)
+    ts = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    return Path("NovaLXP-CourseCleanup") / "logs" / f"ssm-course-changes-{ts}.csv"
+
+
+def write_log(
+    *,
+    log_file: Path,
+    env: str,
+    region: str,
+    instance_id: str,
+    csv_path: str,
+    execute: bool,
+    results: List[Result],
+) -> None:
+    log_file.parent.mkdir(parents=True, exist_ok=True)
+    timestamp = dt.datetime.now(dt.timezone.utc).isoformat()
+
+    with log_file.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(
+            [
+                "timestamp_utc",
+                "env",
+                "region",
+                "instance_id",
+                "execute",
+                "input_csv",
+                "course_id",
+                "action",
+                "status",
+                "failure_type",
+                "ssm_status",
+                "ssm_command_id",
+                "detail",
+            ]
+        )
+        for r in results:
+            writer.writerow(
+                [
+                    timestamp,
+                    env,
+                    region,
+                    instance_id,
+                    "true" if execute else "false",
+                    csv_path,
+                    r.course_id,
+                    r.action,
+                    r.status,
+                    r.failure_type,
+                    r.ssm_status,
+                    r.ssm_command_id,
+                    r.detail.replace("\n", "\\n"),
+                ]
+            )
+
+
 def main() -> int:
     args = parse_args()
     try:
@@ -272,6 +363,8 @@ def main() -> int:
     print(f"Moodle root: {args.moodle_root}")
     print(f"CSV: {args.csv}")
     print(f"Changes loaded: {len(changes)}")
+    log_file = resolve_log_file(args.log_file)
+    print(f"Log file: {log_file}")
 
     results: List[Result] = []
 
@@ -296,22 +389,53 @@ def main() -> int:
             if status == "Success":
                 detail = stdout or "Completed"
                 results.append(
-                    Result(change.course_id, change.action, "SUCCESS", detail)
+                    Result(
+                        change.course_id,
+                        change.action,
+                        "SUCCESS",
+                        detail,
+                        ssm_command_id=command_id,
+                        ssm_status=status,
+                    )
                 )
             else:
                 detail = stderr or stdout or f"SSM status: {status}"
-                results.append(Result(change.course_id, change.action, "FAILED", detail))
+                results.append(
+                    Result(
+                        change.course_id,
+                        change.action,
+                        "FAILED",
+                        detail,
+                        failure_type=classify_failure(detail, status),
+                        ssm_command_id=command_id,
+                        ssm_status=status,
+                    )
+                )
         except RuntimeError as exc:
-            results.append(Result(change.course_id, change.action, "FAILED", str(exc)))
+            detail = str(exc)
+            results.append(
+                Result(
+                    change.course_id,
+                    change.action,
+                    "FAILED",
+                    detail,
+                    failure_type=classify_failure(detail, "RuntimeError"),
+                    ssm_status="RuntimeError",
+                )
+            )
 
     print("\nExecution summary")
     print("-" * 96)
     success = failed = dry_run = 0
+    failure_counts: dict[str, int] = {}
     for result in results:
         if result.status == "SUCCESS":
             success += 1
         elif result.status == "FAILED":
             failed += 1
+            failure_counts[result.failure_type or "UNKNOWN_FAILURE"] = (
+                failure_counts.get(result.failure_type or "UNKNOWN_FAILURE", 0) + 1
+            )
         else:
             dry_run += 1
 
@@ -325,6 +449,21 @@ def main() -> int:
     print(
         f"Totals: {len(results)} processed | success={success} failed={failed} dry_run={dry_run}"
     )
+    if failure_counts:
+        print("Failure breakdown:")
+        for key in sorted(failure_counts.keys()):
+            print(f"- {key}: {failure_counts[key]}")
+
+    write_log(
+        log_file=log_file,
+        env=args.env,
+        region=args.region,
+        instance_id=instance_id,
+        csv_path=args.csv,
+        execute=args.execute,
+        results=results,
+    )
+    print(f"Detailed log written: {log_file}")
 
     return 1 if failed else 0
 
