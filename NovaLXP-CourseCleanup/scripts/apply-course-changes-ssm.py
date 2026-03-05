@@ -198,8 +198,25 @@ def build_remote_command(change: Change, moodle_root: str) -> str:
     if change.action == "delete":
         return (
             f"cd {moodle_root} && "
-            f"sudo -u apache /usr/bin/php admin/cli/delete_course.php "
-            f"--non-interactive --disablerecyclebin --courseid={change.course_id}"
+            "sudo -u apache /usr/bin/php -r "
+            "'define(\"CLI_SCRIPT\", true); "
+            "require_once(\"config.php\"); "
+            "require_once($CFG->dirroot . \"/course/lib.php\"); "
+            f"$course = $DB->get_record(\"course\", array(\"id\" => {change.course_id})); "
+            "if (!$course) { fwrite(STDERR, \"Course not found\\n\"); exit(1); } "
+            "echo \"Deleting course id {$course->id}\\n\"; "
+            "echo \"Course name: {$course->fullname}\\n\"; "
+            "echo \"Short name: {$course->shortname}\\n\"; "
+            "echo \"Disabling recycle bin...\\n\"; "
+            "if (!isset($CFG->forced_plugin_settings) || !is_array($CFG->forced_plugin_settings)) { "
+            "$CFG->forced_plugin_settings = array(); } "
+            "$override = array(\"tool_recyclebin\" => array(\"coursebinenable\" => false, \"categorybinenable\" => false)); "
+            "$CFG->forced_plugin_settings = array_merge($CFG->forced_plugin_settings, $override); "
+            "core_php_time_limit::raise(); "
+            "delete_course($course); "
+            "echo \"Updating course count in categories...\\n\"; "
+            "fix_course_sortorder(); "
+            "echo \"Done!\\n\";'"
         )
 
     return (
