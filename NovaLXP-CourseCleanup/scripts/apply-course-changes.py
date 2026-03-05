@@ -13,6 +13,7 @@ import argparse
 import csv
 import json
 import os
+import subprocess
 import sys
 import urllib.error
 import urllib.parse
@@ -26,6 +27,15 @@ ENV_TO_VAR = {
     "test": "NOVALXP_TEST_BASE_URL",
     "production": "NOVALXP_PRODUCTION_BASE_URL",
 }
+COMMON_SECRET_TOKEN_KEYS = [
+    "token",
+    "moodle_token",
+    "novalxp_moodle_token",
+    "wstoken",
+    "ws_token",
+    "value",
+    "secret",
+]
 
 
 @dataclass
@@ -68,6 +78,26 @@ def parse_args() -> argparse.Namespace:
         "--token",
         default=os.environ.get("NOVALXP_MOODLE_TOKEN"),
         help="Moodle web service token. Defaults to NOVALXP_MOODLE_TOKEN.",
+    )
+    parser.add_argument(
+        "--aws-secret-id",
+        help=(
+            "AWS Secrets Manager secret ID/ARN for Moodle token. "
+            "If omitted, tries NOVALXP_<ENV>_MOODLE_TOKEN_SECRET_ID then "
+            "NOVALXP_MOODLE_TOKEN_SECRET_ID."
+        ),
+    )
+    parser.add_argument(
+        "--aws-secret-key",
+        help=(
+            "Optional key when SecretString is JSON. "
+            "If omitted, common keys are auto-detected."
+        ),
+    )
+    parser.add_argument(
+        "--aws-region",
+        default=os.environ.get("AWS_REGION", "eu-west-2"),
+        help="AWS region for Secrets Manager lookups (default: AWS_REGION or eu-west-2).",
     )
     parser.add_argument(
         "--execute",
@@ -148,6 +178,85 @@ def parse_changes(csv_path: str) -> List[Change]:
         raise ValueError("No valid rows found in CSV.")
 
     return changes
+
+
+def resolve_aws_secret_id(args: argparse.Namespace) -> str | None:
+    if args.aws_secret_id:
+        return args.aws_secret_id
+
+    env_specific = f"NOVALXP_{args.env.upper()}_MOODLE_TOKEN_SECRET_ID"
+    return os.environ.get(env_specific) or os.environ.get("NOVALXP_MOODLE_TOKEN_SECRET_ID")
+
+
+def extract_token_from_secret(secret_value: str, secret_key: str | None) -> str:
+    secret_value = secret_value.strip()
+    if not secret_value:
+        raise ValueError("SecretString is empty.")
+
+    if secret_key:
+        try:
+            parsed = json.loads(secret_value)
+        except json.JSONDecodeError as exc:
+            raise ValueError(
+                "SecretString is not JSON; cannot use --aws-secret-key."
+            ) from exc
+        if not isinstance(parsed, dict):
+            raise ValueError("SecretString JSON must be an object when using --aws-secret-key.")
+        token = parsed.get(secret_key)
+        if isinstance(token, str) and token.strip():
+            return token.strip()
+        raise ValueError(f"Secret key '{secret_key}' missing or empty in SecretString JSON.")
+
+    try:
+        parsed = json.loads(secret_value)
+    except json.JSONDecodeError:
+        return secret_value
+
+    if isinstance(parsed, dict):
+        for key in COMMON_SECRET_TOKEN_KEYS:
+            token = parsed.get(key)
+            if isinstance(token, str) and token.strip():
+                return token.strip()
+        raise ValueError(
+            "Could not auto-detect token field in SecretString JSON. "
+            "Use --aws-secret-key to select a key."
+        )
+    if isinstance(parsed, str) and parsed.strip():
+        return parsed.strip()
+    raise ValueError("SecretString JSON did not contain a usable token string.")
+
+
+def fetch_token_from_aws(secret_id: str, region: str, secret_key: str | None) -> str:
+    command = [
+        "aws",
+        "secretsmanager",
+        "get-secret-value",
+        "--secret-id",
+        secret_id,
+        "--region",
+        region,
+        "--query",
+        "SecretString",
+        "--output",
+        "text",
+    ]
+    completed = subprocess.run(
+        command,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if completed.returncode != 0:
+        stderr = completed.stderr.strip() or "Unknown AWS CLI error"
+        raise RuntimeError(f"Failed to read secret '{secret_id}' from AWS: {stderr}")
+
+    output = completed.stdout.strip()
+    if output == "None":
+        raise RuntimeError(
+            f"Secret '{secret_id}' has no SecretString (SecretBinary is not supported by this script)."
+        )
+
+    return extract_token_from_secret(output, secret_key)
 
 
 def post_moodle(
@@ -283,9 +392,22 @@ def main() -> int:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 2
 
-    if args.execute and not args.token:
+    token = args.token
+    token_source = "NOVALXP_MOODLE_TOKEN/--token"
+    if args.execute and not token:
+        secret_id = resolve_aws_secret_id(args)
+        if secret_id:
+            try:
+                token = fetch_token_from_aws(secret_id, args.aws_region, args.aws_secret_key)
+                token_source = f"AWS Secrets Manager ({secret_id})"
+            except (RuntimeError, ValueError) as exc:
+                print(f"ERROR: {exc}", file=sys.stderr)
+                return 2
+
+    if args.execute and not token:
         print(
-            "ERROR: Missing Moodle token. Provide --token or set NOVALXP_MOODLE_TOKEN.",
+            "ERROR: Missing Moodle token. Provide --token, set NOVALXP_MOODLE_TOKEN, "
+            "or configure --aws-secret-id/NOVALXP_<ENV>_MOODLE_TOKEN_SECRET_ID.",
             file=sys.stderr,
         )
         return 2
@@ -296,12 +418,14 @@ def main() -> int:
     print(f"Base URL: {base_url}")
     print(f"CSV: {args.csv}")
     print(f"Changes loaded: {len(changes)}")
+    if args.execute:
+        print(f"Token source: {token_source}")
 
     results = [
         apply_change(
             change,
             base_url=base_url,
-            token=args.token or "",
+            token=token or "",
             timeout=args.timeout,
             execute=args.execute,
         )
