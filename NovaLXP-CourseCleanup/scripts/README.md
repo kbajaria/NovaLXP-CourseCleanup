@@ -73,3 +73,21 @@ Logging and failure classification:
   - `COURSE_NOT_FOUND` (already deleted/missing)
   - `MOODLE_CODE_EXCEPTION` (delete process error inside Moodle code)
   - `MOODLE_EXCEPTION`, `SSM_TIMEOUT`, `SSM_COMMAND_ERROR`, `SSM_REMOTE_FAILURE`, `AWS_CLI_ERROR`, `UNKNOWN_FAILURE`
+
+## Category maintenance script
+- `apply-category-changes-ssm.py`: reads category CSV changes and applies hide/delete using Moodle category APIs over SSM.
+
+Expected CSV columns:
+- first column category id: `category_id` (also accepts `CategoryID`, `categoryid`)
+- second column operation: `operation` (also accepts `Action`)
+- operations: `Delete` or `Hide`
+
+Usage:
+- Dry-run:
+  - `./NovaLXP-CourseCleanup/scripts/apply-category-changes-ssm.py --env dev --csv category_changes.csv`
+- Execute:
+  - `./NovaLXP-CourseCleanup/scripts/apply-category-changes-ssm.py --env dev --csv category_changes.csv --execute`
+
+Logging:
+- default log path: `NovaLXP-CourseCleanup/logs/ssm-category-changes-<timestamp>.csv`
+- failure classification includes `CATEGORY_NOT_FOUND`, `CATEGORY_DELETE_BLOCKED`, and other SSM/Moodle error types
