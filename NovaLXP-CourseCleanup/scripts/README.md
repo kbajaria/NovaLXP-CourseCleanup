@@ -34,3 +34,19 @@ Token resolution when `--execute` is used:
 - `--aws-secret-id` (or `NOVALXP_<ENV>_MOODLE_TOKEN_SECRET_ID`, then `NOVALXP_MOODLE_TOKEN_SECRET_ID`)
 - optional `--aws-secret-key` when SecretString is JSON
 - AWS region from `--aws-region` (default `AWS_REGION` or `eu-west-2`)
+
+## Token bootstrap script
+- `store-moodle-token-secret.py`: creates or updates an environment secret in AWS Secrets Manager and prints the secret ARN.
+
+Usage:
+- `./NovaLXP-CourseCleanup/scripts/store-moodle-token-secret.py --env dev`
+  - prompts for token securely (hidden input)
+- `./NovaLXP-CourseCleanup/scripts/store-moodle-token-secret.py --env dev --token '<token>'`
+- `./NovaLXP-CourseCleanup/scripts/store-moodle-token-secret.py --env production --region eu-west-2`
+
+Defaults:
+- secret name: `novalxp/<env>/moodle/webservice-token`
+- payload format: JSON with `token` field
+
+Then run maintenance:
+- `./NovaLXP-CourseCleanup/scripts/apply-course-changes.py --env dev --csv course_changes.csv --execute --aws-secret-id novalxp/dev/moodle/webservice-token`
