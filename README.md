@@ -13,6 +13,7 @@ Artifacts and runbooks for repeatable course-content changes in NovaLXP (Moodle 
 - `docs/` implementation runbooks and change records
 - `templates/` ready-to-paste Moodle HTML snippets
 - `scripts/` helper scripts for environment discovery and repo bootstrap
+- `NovaLXP-CourseCleanup/` cleanup and maintenance artifacts/scripts for Moodle course-catalog operations
 
 ## Quick start
 1. Review the change runbook:
