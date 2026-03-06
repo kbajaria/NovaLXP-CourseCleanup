@@ -1,0 +1,30 @@
+{
+  "quiz_name": "Aha! Roadmaps for Beginners — Quiz",
+  "questionbank_import_format": "gift",
+  "recommended_settings": {
+    "attempts_allowed": 2,
+    "shuffle_questions": true,
+    "shuffle_answers": true,
+    "questions_per_attempt": 10,
+    "pass_mark_percent": 80
+  },
+  "moodle_guardrails": {
+    "course_enablecompletion": true,
+    "quiz_activity_completion": {
+      "completion": 2,
+      "completionpassgrade": 1,
+      "completiongradeitemnumber": 0
+    },
+    "course_completion_criteria": {
+      "require_activity_criterion": true,
+      "remove_course_grade_criterion": true
+    },
+    "question_shuffle": {
+      "quiz_shuffleanswers": true,
+      "multichoice_shuffleanswers": true
+    },
+    "messaging_mitigation": {
+      "disable_email_processor_if_submit_errors": true
+    }
+  }
+}

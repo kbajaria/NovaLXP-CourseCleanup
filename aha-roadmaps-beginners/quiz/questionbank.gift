@@ -1,0 +1,110 @@
+// Aha! Roadmaps for Beginners - Question Bank (GIFT)
+// Import into Moodle Question bank, then build a quiz drawing random questions.
+
+::RM01_RoadmapPurpose::
+What is the primary purpose of a product roadmap?
+{
+=To communicate direction and priorities over time to align stakeholders
+~To list every task engineers will complete this sprint
+~To replace project plans and detailed schedules
+~To document every historical release
+}
+
+::RM02_RoadmapVsPlan::
+A roadmap is best described as:
+{
+=High-level communication of intent and priorities
+~A day-by-day execution schedule
+~A list of tickets with assignees
+~A retrospective report of what shipped
+}
+
+::RM03_AudienceFirst::
+Which practice most improves roadmap usefulness?
+{
+=Tailor the view and level of detail to the audience
+~Show every internal field to be transparent
+~Use only technical language for accuracy
+~Avoid updating it to prevent confusion
+}
+
+::RM04_NowNextLater::
+When is a “Now / Next / Later” roadmap especially helpful?
+{
+=When dates are uncertain but priorities are clear
+~When you must provide exact delivery dates
+~When you have no strategic goals
+~When you want to document completed work
+}
+
+::RM05_MinimalStructure::
+A common minimal structure to build a roadmap is:
+{
+=Goals/initiatives → releases → features
+~Epics → sprints → bugs only
+~Sales leads → deals → invoices
+~Ideas only (no releases or features)
+}
+
+::RM06_ReleaseMeaning::
+In a typical Aha! setup, a release usually represents:
+{
+=A planned delivery window that groups features
+~A single user story
+~A weekly timesheet
+~A support ticket queue
+}
+
+::RM07_FeatureMeaning::
+A feature is best understood as:
+{
+=A piece of work that delivers value and can be scheduled in a release
+~A company mission statement
+~A completed retrospective note
+~An internal HR policy
+}
+
+::RM08_SavedViewsPurpose::
+Why create a saved view in Aha! Roadmaps?
+{
+=To reuse the same filtered/customized roadmap later and share it consistently
+~To permanently delete old roadmap drafts
+~To automatically approve all roadmap changes
+~To convert all features into ideas
+}
+
+::RM09_FirstDeclutterStep::
+If a roadmap is too busy, the first best step is usually to:
+{
+=Apply filters and hide fields that are not relevant to the audience
+~Add more items so the pattern is clearer
+~Switch everything to daily granularity
+~Export to PDF immediately
+}
+
+::RM10_ExternalTiming::
+Which statement is safest when sharing roadmap timing externally?
+{
+=Share ranges/themes and clarify that dates may change as priorities evolve
+~Share exact dates and guarantee delivery
+~Share internal staffing constraints in full
+~Avoid sharing any roadmap information at all
+}
+
+::RM11_TrustworthyRoadmaps::
+What is a good habit to keep roadmaps trustworthy?
+{
+=Update the roadmap when priorities or delivery windows change
+~Only update once per year
+~Never remove items once published
+~Use a separate spreadsheet for each audience
+}
+
+::RM12_SharingApproach::
+Which is a sensible approach to sharing roadmaps?
+{
+=Use saved views and appropriate permissions to control what each audience sees
+~Email screenshots and ask people not to forward them
+~Share the admin account so everyone can access everything
+~Export once and never revisit
+}

@@ -1,0 +1,20 @@
+{
+  "course": {
+    "shortname": "aha-roadmaps-beginners",
+    "fullname": "Aha! Roadmaps for Beginners: Create Your First Roadmap",
+    "summary": "A short beginner course on what roadmaps are and how to create and share a basic roadmap in Aha! Roadmaps.",
+    "estimated_minutes": 55
+  },
+  "sections": [
+    {"id": "00", "title": "Welcome", "source": "content/section-00-welcome.md"},
+    {"id": "01", "title": "Roadmaps primer (theory)", "source": "content/section-01-roadmaps-primer.md"},
+    {"id": "02", "title": "Aha! basics you need", "source": "content/section-02-aha-basics.md"},
+    {"id": "03", "title": "Build your first roadmap in Aha!", "source": "content/section-03-build-your-first-roadmap.md"},
+    {"id": "04", "title": "Save, share, and present your roadmap", "source": "content/section-04-save-share-present.md"},
+    {"id": "05", "title": "Wrap-up", "source": "content/section-05-wrap-up.md"}
+  ],
+  "quiz": {
+    "questionbank_gift": "quiz/questionbank.gift",
+    "config": "quiz/quiz-config.json"
+  }
+}

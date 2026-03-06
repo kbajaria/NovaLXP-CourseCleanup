@@ -11,8 +11,9 @@ Artifacts and runbooks for repeatable course-content changes in NovaLXP (Moodle 
 
 ## Repository layout
 - `docs/` implementation runbooks and change records
+- `docs/runbooks/` reusable course-factory runbooks
 - `templates/` ready-to-paste Moodle HTML snippets
-- `scripts/` helper scripts for environment discovery and repo bootstrap
+- `scripts/` helper scripts for environment discovery, bootstrap, and course-factory guardrails
 - `NovaLXP-CourseCleanup/` cleanup and maintenance artifacts/scripts for Moodle course-catalog operations
 
 ## Quick start
@@ -23,6 +24,12 @@ Artifacts and runbooks for repeatable course-content changes in NovaLXP (Moodle 
 3. (Optional) Discover ALB hostnames once AWS credentials are configured:
    - `./scripts/discover_alb_domains.sh eu-west-2`
 4. Apply the Moodle UI change in `dev` first, then `test`, then `production`.
+
+## Course factory standard (quiz-driven completion)
+For new courses where passing a quiz should complete the course, use:
+- Runbook: [/Users/kamilabajaria/Projects/NovaLXP-Courses/docs/runbooks/course-factory-quiz-completion-guardrails.md](/Users/kamilabajaria/Projects/NovaLXP-Courses/docs/runbooks/course-factory-quiz-completion-guardrails.md)
+- Guardrail script: [/Users/kamilabajaria/Projects/NovaLXP-Courses/scripts/course_factory/moodle_quiz_guardrails.php](/Users/kamilabajaria/Projects/NovaLXP-Courses/scripts/course_factory/moodle_quiz_guardrails.php)
+- Quiz config template: [/Users/kamilabajaria/Projects/NovaLXP-Courses/templates/course-factory-quiz-config.template.json](/Users/kamilabajaria/Projects/NovaLXP-Courses/templates/course-factory-quiz-config.template.json)
 
 ## AWS credentials note
 This workstation currently has no configured AWS credentials. Run `aws login` (or your org credential process) before using discovery scripts.
