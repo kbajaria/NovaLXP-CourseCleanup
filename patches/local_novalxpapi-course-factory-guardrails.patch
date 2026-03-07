@@ -1,0 +1,219 @@
+diff --git a/local/novalxpapi/db/services.php b/local/novalxpapi/db/services.php
+--- a/local/novalxpapi/db/services.php
++++ b/local/novalxpapi/db/services.php
+@@
+     'local_novalxpapi_create_quiz' => array(
+         'classname'    => 'local_novalxpapi\external',
+         'methodname'   => 'create_quiz',
+         'description'  => 'Create a quiz in a course section and (optionally) populate it from GIFT text.',
+         'type'         => 'write',
+         'capabilities' => 'moodle/course:manageactivities,mod/quiz:addinstance',
+         'ajax'         => false,
+     ),
++
++    'local_novalxpapi_apply_quiz_completion_guardrails' => array(
++        'classname'    => 'local_novalxpapi\external',
++        'methodname'   => 'apply_quiz_completion_guardrails',
++        'description'  => 'Apply quiz-pass-based course completion guardrails for NovaLXP AI-generated courses.',
++        'type'         => 'write',
++        'capabilities' => 'moodle/course:update,moodle/course:manageactivities',
++        'ajax'         => false,
++    ),
+ );
+@@
+             'local_novalxpapi_add_page',
+             'local_novalxpapi_create_quiz',
++            'local_novalxpapi_apply_quiz_completion_guardrails',
+         ),
+         'enabled'         => 1,
+         'restrictedusers' => 0,
+         'downloadfiles'   => 0,
+         'uploadfiles'     => 0,
+diff --git a/local/novalxpapi/version.php b/local/novalxpapi/version.php
+--- a/local/novalxpapi/version.php
++++ b/local/novalxpapi/version.php
+@@
+-$plugin->version   = 2025112525;          // YYYYMMDDXX – bump as needed.
++$plugin->version   = 2026030700;          // YYYYMMDDXX – course factory guardrails.
+diff --git a/local/novalxpapi/classes/external.php b/local/novalxpapi/classes/external.php
+--- a/local/novalxpapi/classes/external.php
++++ b/local/novalxpapi/classes/external.php
+@@
+     public static function create_quiz_returns() {
+         return new external_single_structure(array(
+             'cmid'            => new external_value(PARAM_INT,  'New course module ID for the quiz'),
+             'quizid'          => new external_value(PARAM_INT,  'Quiz ID (mod_quiz instance id)'),
+             'questionsparsed' => new external_value(PARAM_INT,  'Number of questions imported into the quiz question bank'),
+             'questionsadded'  => new external_value(PARAM_INT,  'Number of questions added to the quiz'),
+             'status'          => new external_value(PARAM_BOOL, 'True on success'),
+             'message'         => new external_value(PARAM_TEXT, 'Status message'),
+         ));
+     }
++
++    // -------------------------------------------------------------------------
++    // Apply quiz completion guardrails
++    // -------------------------------------------------------------------------
++    public static function apply_quiz_completion_guardrails_parameters() {
++        return new external_function_parameters(array(
++            'courseid'       => new external_value(PARAM_INT, 'Course ID', VALUE_REQUIRED),
++            'quizcmid'       => new external_value(PARAM_INT, 'Quiz course module ID', VALUE_DEFAULT, 0),
++            'quizid'         => new external_value(PARAM_INT, 'Quiz instance ID', VALUE_DEFAULT, 0),
++            'passmark'       => new external_value(PARAM_FLOAT, 'Pass mark percentage', VALUE_DEFAULT, 80),
++            'shuffleanswers' => new external_value(PARAM_INT, 'Whether to force quiz/question answer shuffling', VALUE_DEFAULT, 1),
++        ));
++    }
++
++    public static function apply_quiz_completion_guardrails($courseid, $quizcmid = 0, $quizid = 0,
++        $passmark = 80, $shuffleanswers = 1) {
++        global $CFG, $DB;
++
++        require_once($CFG->dirroot . '/course/lib.php');
++
++        $params = self::validate_parameters(self::apply_quiz_completion_guardrails_parameters(), array(
++            'courseid'       => $courseid,
++            'quizcmid'       => $quizcmid,
++            'quizid'         => $quizid,
++            'passmark'       => $passmark,
++            'shuffleanswers' => $shuffleanswers,
++        ));
++
++        $course = get_course($params['courseid']);
++        $coursectx = \context_course::instance($course->id);
++        self::validate_context($coursectx);
++
++        \require_capability('moodle/course:update', $coursectx);
++        \require_capability('moodle/course:manageactivities', $coursectx);
++
++        $quizmodule = $DB->get_record('modules', ['name' => 'quiz'], '*', MUST_EXIST);
++
++        $cm = null;
++        $quiz = null;
++
++        if (!empty($params['quizcmid'])) {
++            $cm = get_coursemodule_from_id('quiz', (int)$params['quizcmid'], $course->id, false, MUST_EXIST);
++            $quiz = $DB->get_record('quiz', ['id' => $cm->instance], '*', MUST_EXIST);
++        } else if (!empty($params['quizid'])) {
++            $quiz = $DB->get_record('quiz', ['id' => (int)$params['quizid'], 'course' => $course->id], '*', MUST_EXIST);
++            $cm = $DB->get_record('course_modules', [
++                'course' => $course->id,
++                'module' => $quizmodule->id,
++                'instance' => $quiz->id,
++            ], '*', MUST_EXIST);
++        } else {
++            throw new \moodle_exception('invalidparameter', 'error', '', 'quizcmid or quizid');
++        }
++
++        $transaction = $DB->start_delegated_transaction();
++        $actions = array();
++
++        if ((int)$course->enablecompletion !== 1) {
++            $course->enablecompletion = 1;
++            $DB->update_record('course', $course);
++            $actions[] = 'enabled_course_completion';
++        }
++
++        $cmupdate = (object) array(
++            'id' => $cm->id,
++            'completion' => 2,
++            'completionpassgrade' => 1,
++            'completiongradeitemnumber' => 0,
++        );
++        $DB->update_record('course_modules', $cmupdate);
++        $actions[] = 'set_quiz_activity_completion_passgrade';
++
++        $gradeitem = $DB->get_record('grade_items', [
++            'courseid' => $course->id,
++            'itemmodule' => 'quiz',
++            'iteminstance' => $quiz->id,
++        ], '*', IGNORE_MISSING);
++        if ($gradeitem) {
++            $gradeitem->gradepass = (float)$params['passmark'];
++            $DB->update_record('grade_items', $gradeitem);
++            $actions[] = 'set_quiz_gradepass';
++        }
++
++        $criteriaexists = $DB->record_exists_select(
++            'course_completion_criteria',
++            'course = :course AND criteriatype = 4 AND moduleinstance = :moduleinstance',
++            ['course' => $course->id, 'moduleinstance' => $cm->id]
++        );
++
++        if (!$criteriaexists) {
++            $columns = $DB->get_columns('course_completion_criteria');
++            $criterion = (object) array(
++                'course' => $course->id,
++                'criteriatype' => 4,
++                'moduleinstance' => $cm->id,
++            );
++
++            if (isset($columns['module'])) {
++                $criterion->module = $quizmodule->id;
++            }
++            if (isset($columns['courseinstance'])) {
++                $criterion->courseinstance = 0;
++            }
++            if (isset($columns['enrolperiod'])) {
++                $criterion->enrolperiod = 0;
++            }
++            if (isset($columns['timeend'])) {
++                $criterion->timeend = 0;
++            }
++            if (isset($columns['gradepass'])) {
++                $criterion->gradepass = null;
++            }
++            if (isset($columns['role'])) {
++                $criterion->role = null;
++            }
++
++            $DB->insert_record('course_completion_criteria', $criterion);
++            $actions[] = 'added_activity_completion_criterion';
++        }
++
++        $DB->delete_records('course_completion_criteria', [
++            'course' => $course->id,
++            'criteriatype' => 6,
++        ]);
++        $actions[] = 'removed_course_grade_criteria';
++
++        if ((int)$params['shuffleanswers'] === 1) {
++            if ((int)$quiz->shuffleanswers !== 1) {
++                $quizupdate = (object) array(
++                    'id' => $quiz->id,
++                    'shuffleanswers' => 1,
++                );
++                $DB->update_record('quiz', $quizupdate);
++            }
++            $actions[] = 'enabled_quiz_shuffleanswers';
++
++        }
++
++        \rebuild_course_cache($course->id, true);
++        $transaction->allow_commit();
++
++        $guardrailsready = true;
++        $cmfresh = $DB->get_record('course_modules', ['id' => $cm->id], '*', MUST_EXIST);
++        if ((int)$cmfresh->completion !== 2 || (int)$cmfresh->completionpassgrade !== 1) {
++            $guardrailsready = false;
++        }
++
++        return array(
++            'status' => true,
++            'courseid' => (int)$course->id,
++            'quizid' => (int)$quiz->id,
++            'quizcmid' => (int)$cm->id,
++            'guardrailsready' => $guardrailsready,
++            'actionsjson' => json_encode($actions),
++        );
++    }
++
++    public static function apply_quiz_completion_guardrails_returns() {
++        return new external_single_structure(array(
++            'status' => new external_value(PARAM_BOOL, 'True on success'),
++            'courseid' => new external_value(PARAM_INT, 'Course ID'),
++            'quizid' => new external_value(PARAM_INT, 'Quiz ID'),
++            'quizcmid' => new external_value(PARAM_INT, 'Quiz course module ID'),
++            'guardrailsready' => new external_value(PARAM_BOOL, 'Whether the key guardrails appear to be in place'),
++            'actionsjson' => new external_value(PARAM_RAW, 'JSON list of actions applied'),
++        ));
++    }
+ }

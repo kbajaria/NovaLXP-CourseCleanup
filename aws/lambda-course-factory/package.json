@@ -1,0 +1,10 @@
+{
+  "name": "novalxp-course-factory-lambda",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.883.0",
+    "openai": "^6.0.0"
+  }
+}

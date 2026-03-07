@@ -1,0 +1,27 @@
+<?php
+$string['pluginname'] = 'NovaLXP AI course factory';
+$string['settingsheading'] = 'NovaLXP AI course factory settings';
+$string['enabled'] = 'Enable front-page course factory';
+$string['enabled_desc'] = 'Inject the AI course request form into the fourth card of the Edutor featured section.';
+$string['lambdafunctionname'] = 'Lambda function name';
+$string['lambdafunctionname_desc'] = 'AWS Lambda function invoked by Moodle to generate and provision AI-created courses.';
+$string['lambdaregion'] = 'Lambda region';
+$string['lambdaregion_desc'] = 'AWS region for the course factory Lambda function. Example: eu-west-2.';
+$string['requesttimeout'] = 'Request timeout (seconds)';
+$string['requesttimeout_desc'] = 'HTTP timeout for requests to the course factory backend.';
+$string['placeholdertext'] = 'Textarea guidance';
+$string['placeholdertext_desc'] = 'Placeholder shown in the learner prompt field.';
+$string['placeholderdefault'] = 'Describe the course you want in a few sentences. Be specific about the skills you want to gain and what you want to be able to do after passing the course.';
+$string['buttontext'] = 'Submit button text';
+$string['buttontext_desc'] = 'Label shown on the front-page submit button.';
+$string['buttondefault'] = 'Create my course';
+$string['missingconfig'] = 'NovaLXP AI course factory is not configured. Set Lambda function name and region in plugin settings.';
+$string['invalidrequest'] = 'A course description is required.';
+$string['serviceerror'] = 'NovaLXP AI course factory request failed.';
+$string['submitlabel'] = 'Course description';
+$string['submitting'] = 'Creating your course. This usually takes about a minute...';
+$string['successprefix'] = 'Your AI-generated course is ready.';
+$string['invokeerror'] = 'We could not create your course right now. Please try again.';
+$string['jobqueued'] = 'Creating your course. This usually takes about a minute...';
+$string['jobprocessing'] = 'Your course request is being processed.';
+$string['jobnotfound'] = 'We could not find that course request.';

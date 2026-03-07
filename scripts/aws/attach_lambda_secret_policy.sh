@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+usage() {
+  cat <<'EOF'
+Usage:
+  attach_lambda_secret_policy.sh --profile PROFILE --role-name ROLE --policy-name NAME --secret-arn ARN
+EOF
+}
+
+PROFILE=""
+ROLE_NAME=""
+POLICY_NAME=""
+SECRET_ARN=""
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --profile) PROFILE="$2"; shift 2 ;;
+    --role-name) ROLE_NAME="$2"; shift 2 ;;
+    --policy-name) POLICY_NAME="$2"; shift 2 ;;
+    --secret-arn) SECRET_ARN="$2"; shift 2 ;;
+    *) usage; exit 1 ;;
+  esac
+done
+
+[[ -n "$PROFILE" && -n "$ROLE_NAME" && -n "$POLICY_NAME" && -n "$SECRET_ARN" ]] || { usage; exit 1; }
+
+POLICY_FILE="$(mktemp)"
+cat > "$POLICY_FILE" <<EOF
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["secretsmanager:GetSecretValue"],
+      "Resource": "$SECRET_ARN"
+    }
+  ]
+}
+EOF
+
+AWS_PROFILE="$PROFILE" aws iam put-role-policy \
+  --role-name "$ROLE_NAME" \
+  --policy-name "$POLICY_NAME" \
+  --policy-document "file://$POLICY_FILE" >/dev/null
+
+rm -f "$POLICY_FILE"
+echo "Attached secret-read policy $POLICY_NAME for $SECRET_ARN to $ROLE_NAME"
