@@ -37,6 +37,13 @@ Current learner-facing titles:
 ## Pathway completion rule
 Each course includes a quiz with an `80%` pass mark. The pathway is complete when all four courses are complete.
 
+## Pathway completion badge
+Learners should receive the pathway badge only after the hub course marks complete from the four child-course completions.
+
+- Badge name: `First-Time Hackathon Pathway Completion Badge`
+- Badge criterion target: the hub course created from `learning_path.id`
+- Current badge image source: `hackathon-digital-basics/media/ai-hackathon-orientation-badge.png`
+
 ## Source files
 - `learning-path.json`
 - `hackathon-digital-basics/`

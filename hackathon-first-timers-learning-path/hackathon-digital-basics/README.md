@@ -32,5 +32,6 @@ This course includes explicit quiz-completion guardrails in:
 - `quiz/quiz-config.json` (`moodle_guardrails` block)
 
 ## Dev notes
-- The course includes a completion badge image source at `media/ai-hackathon-orientation-badge.png`.
+- The course includes the current pathway badge image source at `media/ai-hackathon-orientation-badge.png`.
+- The badge is no longer awarded for course 1 completion. It is awarded only when the learner completes the pathway hub course after all four courses are complete.
 - The current recommended Moodle course-image asset for the pathway is the shared-media `BG` crop-safe variant, not a per-course image file.

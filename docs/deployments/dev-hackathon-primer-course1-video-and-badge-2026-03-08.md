@@ -51,4 +51,5 @@ Updated source files:
 
 ## Notes
 - The badge image was generated locally without the OpenAI Image API because `OPENAI_API_KEY` was not set in the shell environment at deployment time.
+- The original badge behavior documented here was later superseded by `pathway-badge-rollup-fix-2026-03-08.md`, which moved badge issuance to the pathway hub course.
 - No manual browser QA was performed for the course page or badge display.
