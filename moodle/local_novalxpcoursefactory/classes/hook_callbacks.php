@@ -48,6 +48,7 @@ class hook_callbacks {
             'submitLabel' => get_string('submitlabel', 'local_novalxpcoursefactory'),
             'submittingText' => get_string('submitting', 'local_novalxpcoursefactory'),
             'successPrefix' => get_string('successprefix', 'local_novalxpcoursefactory'),
+            'successSuffix' => get_string('successsuffix', 'local_novalxpcoursefactory'),
         ]]);
     }
 }

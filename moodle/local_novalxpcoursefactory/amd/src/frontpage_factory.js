@@ -240,13 +240,12 @@ define([], function() {
             try {
                 var started = await submit(config, brief);
                 var payload = await pollForCompletion(config, started.requestid, status);
-                var summary = payload && payload.message ? ' ' + payload.message : '';
                 var linkText = payload && payload.coursetitle ? payload.coursetitle : 'Open your new course';
                 var href = payload && payload.courseurl ? payload.courseurl : '#';
                 status.className = 'novalxp-coursefactory-status is-success';
                 status.innerHTML = escapeHtml(config.successPrefix || 'Your AI-generated course is ready.') +
                     ' <a href="' + escapeHtml(href) + '">' + escapeHtml(linkText) + '</a>.' +
-                    escapeHtml(summary);
+                    ' ' + escapeHtml(config.successSuffix || 'Click the course title to open it and enrol.');
                 textarea.value = '';
             } catch (error) {
                 setStatus(status, extractErrorMessage(error) || 'Course creation failed.', 'is-error');

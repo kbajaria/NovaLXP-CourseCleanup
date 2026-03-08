@@ -130,7 +130,7 @@ As a learner:
 2. Confirm pane 1 block 4 is replaced by the AI course form.
 3. Submit a realistic course brief.
 4. Confirm the UI immediately shows queued/processing status.
-5. Follow the success link to the generated course when polling completes.
+5. Confirm the created course title is shown as the clickable success link, then follow it to the generated course when polling completes.
 
 ## 7. Validate the generated dev course
 

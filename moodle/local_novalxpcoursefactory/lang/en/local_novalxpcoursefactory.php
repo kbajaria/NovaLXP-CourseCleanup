@@ -21,6 +21,7 @@ $string['serviceerror'] = 'NovaLXP AI course factory request failed.';
 $string['submitlabel'] = 'Course description';
 $string['submitting'] = 'Creating your course. This usually takes about a minute...';
 $string['successprefix'] = 'Your AI-generated course is ready.';
+$string['successsuffix'] = 'Click the course title to open it and enrol.';
 $string['invokeerror'] = 'We could not create your course right now. Please try again.';
 $string['jobqueued'] = 'Creating your course. This usually takes about a minute...';
 $string['jobprocessing'] = 'Your course request is being processed.';

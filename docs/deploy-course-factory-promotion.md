@@ -40,7 +40,7 @@ Important:
 - If the token is attached to a restricted manual service such as `CourseCreationAPI`, add `local_novalxpapi_apply_quiz_completion_guardrails` to that service before smoke testing.
 - Add `local_novalxpcoursefactory_update_job` to that same service as well.
 - Updating only the plugin-defined service registration will not update a separate manual service record already tied to the token.
-- The learner flow is asynchronous by design. A correct deployment should show queued/processing state first, then success after polling completes.
+- The learner flow is asynchronous by design. A correct deployment should show queued/processing state first, then the created course title as the success link after polling completes.
 
 ## Recommended environment values
 

@@ -177,7 +177,7 @@ Log in as a learner and verify:
 2. Edutor featured pane 1 block 4 is replaced by the multiline form.
 3. Placeholder guidance appears.
 4. Submitting a realistic course brief immediately shows a queued/processing message.
-5. After background processing completes, the success link appears without a full page reload.
+5. After background processing completes, the created course title appears as the clickable success link without a full page reload.
 
 ## Step 7: Moodle Course Validation
 

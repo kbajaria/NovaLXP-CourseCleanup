@@ -16,7 +16,7 @@ Provide a separate AI course-creation capability on the NovaLXP front page witho
 4. Learner submits a descriptive course brief.
 5. Moodle queues a job record in `moodledata`, invokes Lambda asynchronously through the AWS CLI, and returns immediately with a request id.
 6. The browser polls a Moodle status endpoint until the job is complete or failed.
-7. When complete, the UI shows a direct link to the generated course.
+7. When complete, the UI shows the created course title as a direct clickable link so the learner can open the course immediately and enrol.
 
 ## Backend path
 1. Moodle invokes Lambda via AWS CLI and the EC2 instance role using async invocation (`StatusCode 202`).
