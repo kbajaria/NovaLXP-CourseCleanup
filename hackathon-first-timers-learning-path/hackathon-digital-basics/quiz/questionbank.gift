@@ -1,0 +1,91 @@
+// AI Hackathon Orientation - Question Bank (GIFT)
+
+::AHO01_HackathonDefinition::
+An AI hackathon is best described as:
+{
+=A short, time-boxed event where teams build or improve a practical AI solution
+~A mandatory production release with no room for experimentation
+~A certification exam for software engineers only
+~A vendor demo with no team participation
+}
+
+::AHO02_PrimaryOutcome::
+What is the most common outcome of an AI hackathon?
+{
+=A working prototype that proves an idea and shows value
+~A fully governed enterprise platform ready for all users
+~A complete replacement for every existing business process
+~A guarantee that no further development will be needed
+}
+
+::AHO03_NotProduction::
+Which statement is most accurate?
+{
+=Hackathons usually aim to test and demonstrate ideas quickly, not finish full production delivery
+~Hackathons should avoid all experimentation
+~Hackathons are only useful after a product is already complete
+~Hackathons remove the need for business input
+}
+
+::AHO04_WhyOrganizationsRunThem::
+Why do organizations run AI hackathons?
+{
+=To explore useful ideas quickly, learn fast, and connect business needs to technical prototypes
+~To prevent teams from working together
+~To replace every project with a two-day event
+~To avoid making decisions after the event
+}
+
+::AHO05_BusinessRole::
+What is a key contribution from business-focused departments during a hackathon?
+{
+=They provide process knowledge, customer context, constraints, and success criteria
+~They only observe and should not influence the solution
+~They mainly choose the font and slide colors
+~They are responsible for writing every line of code themselves
+}
+
+::AHO06_WeakOutcome::
+Which result is a weak hackathon outcome?
+{
+=A technically interesting demo with no clear user problem or business value
+~A prototype that runs and is tied to a real need
+~A solution with a clear explanation of who benefits
+~A demo that shows what the team learned
+}
+
+::AHO07_DayOneFocus::
+What is a likely focus on day 1 of the hackathon?
+{
+=Understanding the challenge, setting up the environment, and getting the starter solution running
+~Finalizing enterprise procurement paperwork
+~Replacing all legacy systems immediately
+~Skipping the setup and going straight to production launch
+}
+
+::AHO08_DayTwoFocus::
+What is a likely focus on day 2 of the hackathon?
+{
+=Refining the prototype, testing it, and preparing a short explanation or demo
+~Ignoring the business problem and adding unrelated features
+~Deleting the working prototype to start over from zero
+~Avoiding all testing to save time
+}
+
+::AHO09_BestMindset::
+What mindset is most helpful in an AI hackathon?
+{
+=Build something small that works and connects clearly to the problem being solved
+~Try to make the broadest possible system, even if nothing works
+~Avoid asking what the user problem is
+~Treat the event like a solo competition only for technical specialists
+}
+
+::AHO10_TechAndBusiness::
+Why do the best hackathon teams combine technical and business participants?
+{
+=Technical participants can build the solution, while business participants help ensure it solves the right problem
+~Because business participants should prevent any technology work
+~Because technical participants should avoid user problems
+~Because the team should separate business value from the prototype
+}

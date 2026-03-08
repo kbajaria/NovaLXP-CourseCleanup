@@ -1,0 +1,20 @@
+{
+  "course": {
+    "shortname": "hackathon-agent-and-subagent-basics",
+    "fullname": "Hackathon Pathway 3 of 4: Agent Foundations",
+    "summary": "Course 3 of 4 in the First-Time Hackathon Pathway. Explains what an AI agent is, how a starter agent project is structured, and how a sub-agent fits into the overall hackathon work.",
+    "estimated_minutes": 70
+  },
+  "sections": [
+    {"id": "00", "title": "Welcome", "source": "content/section-00-welcome.md"},
+    {"id": "01", "title": "What an AI agent is and is not", "source": "content/section-01-what-is-an-agent.md"},
+    {"id": "02", "title": "Anatomy of an agent project", "source": "content/section-02-anatomy-of-an-agent-project.md"},
+    {"id": "03", "title": "Agent bootstrapping", "source": "content/section-03-agent-bootstrapping.md"},
+    {"id": "04", "title": "Complaints sub-agent basics", "source": "content/section-04-complaints-subagent-basics.md"},
+    {"id": "05", "title": "Testing, debugging, and wrap-up", "source": "content/section-05-testing-debugging-wrap-up.md"}
+  ],
+  "quiz": {
+    "questionbank_gift": "quiz/questionbank.gift",
+    "config": "quiz/quiz-config.json"
+  }
+}
