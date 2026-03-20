@@ -29,6 +29,13 @@ You need:
 - OpenAI API key for the Lambda environment
 - a Secrets Manager secret for the Moodle API token is recommended
 
+Path warning:
+- The repo folder for this plugin is `moodle/local_novalxpcoursefactory`.
+- The live Moodle plugin folder must be `local/novalxpcoursefactory`.
+- Do not deploy it as `local/local_novalxpcoursefactory`.
+- On hosts using a split layout, always confirm `$CFG->dirroot` before copying plugin files.
+- On the current dev host, `$CFG->dirroot = /var/www/moodle/public` while CLI scripts live under `/var/www/moodle/admin/cli`.
+
 ## Files To Deploy
 
 From this repo:
@@ -55,13 +62,13 @@ In the real Moodle codebase:
 4. Run Moodle upgrade if required:
 
 ```bash
-php admin/cli/upgrade.php --non-interactive
+php /var/www/moodle/admin/cli/upgrade.php --non-interactive
 ```
 
 5. Purge caches:
 
 ```bash
-php admin/cli/purge_caches.php
+php /var/www/moodle/admin/cli/purge_caches.php
 ```
 
 ## Step 2: Confirm The Web Service Token Can Call The Required Functions
@@ -85,14 +92,21 @@ If the service does not automatically include the new function, add it manually.
 Copy:
 
 ```bash
-cp -R /Users/kamilabajaria/Projects/NovaLXP-Courses/moodle/local_novalxpcoursefactory /path/to/moodle/local/
+cp -R /Users/kamilabajaria/Projects/NovaLXP-Courses/moodle/local_novalxpcoursefactory /path/to/moodle/dirroot/local/novalxpcoursefactory
+```
+
+Before copying, confirm the actual Moodle dirroot from `config.php`.
+Example for the current dev host:
+
+```bash
+php -r 'define("CLI_SCRIPT", true); require "/var/www/moodle/config.php"; global $CFG; echo $CFG->dirroot, PHP_EOL;'
 ```
 
 Then run:
 
 ```bash
-php admin/cli/upgrade.php --non-interactive
-php admin/cli/purge_caches.php
+php /var/www/moodle/admin/cli/upgrade.php --non-interactive
+php /var/www/moodle/admin/cli/purge_caches.php
 ```
 
 In Moodle admin, configure:
@@ -212,6 +226,8 @@ If course creation fails:
 - Lambda environment missing `OPENAI_API_KEY`
 - Moodle token service missing the new `local_novalxpapi_apply_quiz_completion_guardrails` function
 - Moodle token service missing `local_novalxpcoursefactory_update_job`
+- plugin copied into the wrong root because `$CFG->dirroot` was not checked first
+- plugin folder named `local_novalxpcoursefactory` instead of `novalxpcoursefactory`
 - Lambda zip missing `node_modules`
 - the browser is still running an old cached JS bundle and not the polling client
 

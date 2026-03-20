@@ -36,10 +36,13 @@ class service {
 
         $payload = payload_builder::build($brief);
         $requestid = isset($payload['request_id']) ? (string)$payload['request_id'] : 'unknown';
-        job_store::create($requestid, (int)$USER->id, $brief);
+        job_store::create($requestid, (int)$USER->id, [
+            'requesttype' => 'ai_course_factory',
+            'brief' => $brief,
+        ]);
         self::log(
             "request_id={$requestid} service_start user_id=" . (string)($payload['user']['id'] ?? '') .
-            " brief_length=" . strlen((string)($payload['query']['course_brief'] ?? ''))
+            " request_type=ai_course_factory brief_length=" . strlen((string)($payload['query']['course_brief'] ?? ''))
         );
         $invokeresponse = client::invoke_async($functionname, $region, $payload);
         if (empty($invokeresponse['ok'])) {
@@ -58,6 +61,69 @@ class service {
             'ok' => true,
             'request_id' => $requestid,
             'summary' => get_string('jobqueued', 'local_novalxpcoursefactory'),
+        ];
+    }
+
+    /**
+     * @param string $sourcecourseid
+     * @param string $reason
+     * @return array
+     */
+    public static function queue_migration_request(string $sourcecourseid, string $reason): array {
+        global $USER;
+
+        $enabled = (int)get_config('local_novalxpcoursefactory', 'enabled');
+        $functionname = trim((string)get_config('local_novalxpcoursefactory', 'lambdafunctionname'));
+        $region = trim((string)get_config('local_novalxpcoursefactory', 'lambdaregion'));
+
+        if ($enabled !== 1 || $functionname === '' || $region === '') {
+            return [
+                'ok' => false,
+                'error' => get_string('missingconfig', 'local_novalxpcoursefactory'),
+                'status' => 500,
+            ];
+        }
+
+        try {
+            $payload = payload_builder::build_migration_request($sourcecourseid, $reason);
+        } catch (\Throwable $error) {
+            return [
+                'ok' => false,
+                'error' => $error->getMessage(),
+                'status' => 400,
+            ];
+        }
+        $requestid = isset($payload['request_id']) ? (string)$payload['request_id'] : 'unknown';
+        $course = $payload['migration_request']['course'] ?? [];
+        job_store::create($requestid, (int)$USER->id, [
+            'requesttype' => 'talentlms_migration',
+            'reason' => $reason,
+            'sourcecourseid' => (string)($course['id'] ?? ''),
+            'sourcecoursetitle' => (string)($course['title'] ?? ''),
+            'sourcecourseurl' => (string)($course['url'] ?? ''),
+        ]);
+        self::log(
+            "request_id={$requestid} service_start user_id=" . (string)($payload['user']['id'] ?? '') .
+            " request_type=talentlms_migration course_id=" . (string)($course['id'] ?? '') .
+            " reason_length=" . strlen($reason)
+        );
+        $invokeresponse = client::invoke_async($functionname, $region, $payload);
+        if (empty($invokeresponse['ok'])) {
+            job_store::update($requestid, [
+                'state' => 'failed',
+                'message' => (string)($invokeresponse['error'] ?? get_string('invokeerror', 'local_novalxpcoursefactory')),
+            ]);
+            return [
+                'ok' => false,
+                'error' => (string)($invokeresponse['error'] ?? get_string('invokeerror', 'local_novalxpcoursefactory')),
+                'status' => (int)($invokeresponse['status'] ?? 0),
+            ];
+        }
+
+        return [
+            'ok' => true,
+            'request_id' => $requestid,
+            'summary' => get_string('migrationjobqueued', 'local_novalxpcoursefactory'),
         ];
     }
 

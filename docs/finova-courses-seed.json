@@ -1,0 +1,5406 @@
+﻿[
+    {
+        "id":  "executive-welcome-ind-01",
+        "title":  "Executive Welcome (IND-01)"
+    },
+    {
+        "id":  "industry-overview-ind-02",
+        "title":  "Industry Overview (IND-02)"
+    },
+    {
+        "id":  "finova-academy-skills-matrix-overview-technical-ind-10",
+        "title":  "Finova Academy \u0026 Skills Matrix Overview (Technical) (IND-10)"
+    },
+    {
+        "id":  "life-at-finova-ind-05",
+        "title":  "Life at Finova (IND-05)"
+    },
+    {
+        "id":  "samanage-35",
+        "title":  "Samanage (35)"
+    },
+    {
+        "id":  "introduction-to-our-core-banking-solutions-ind-03",
+        "title":  "Introduction to our Core Banking Solutions (IND-03)"
+    },
+    {
+        "id":  "data-protection-refresher-training",
+        "title":  "Data Protection (Refresher Training)"
+    },
+    {
+        "id":  "bribery-prevention-refresher-training",
+        "title":  "Bribery Prevention (Refresher Training)"
+    },
+    {
+        "id":  "fraud-prevention-refresher-training",
+        "title":  "Fraud Prevention (Refresher Training)"
+    },
+    {
+        "id":  "information-security-refresher-training",
+        "title":  "Information Security (Refresher Training)"
+    },
+    {
+        "id":  "dse-refresher-training",
+        "title":  "DSE (Refresher Training)"
+    },
+    {
+        "id":  "responsible-use-of-social-media-refresher-training",
+        "title":  "Responsible Use of Social Media (Refresher Training)"
+    },
+    {
+        "id":  "where-to-find-information",
+        "title":  "Where to find information"
+    },
+    {
+        "id":  "introduction-to-lending-ambb01",
+        "title":  "Introduction to Lending (AMBB01)"
+    },
+    {
+        "id":  "apprivo-ways-of-working",
+        "title":  "Apprivo Ways of Working"
+    },
+    {
+        "id":  "delivery-methodology-overview-ind-09",
+        "title":  "Delivery Methodology Overview (IND-09)"
+    },
+    {
+        "id":  "equity-release-fund02",
+        "title":  "Equity Release (FUND02)"
+    },
+    {
+        "id":  "apprivo-broker-guide-apr",
+        "title":  "Apprivo Broker Guide (APR)"
+    },
+    {
+        "id":  "solution-overview-technical-demo-appr-tech",
+        "title":  "Solution Overview (Technical) Demo (APPR_TECH)"
+    },
+    {
+        "id":  "solution-overview-functional-demo-apr-0",
+        "title":  "Solution Overview (Functional) Demo (APR_0)"
+    },
+    {
+        "id":  "introduction-to-mortgage-calculations-ambb06",
+        "title":  "Introduction to Mortgage Calculations (AMBB06)"
+    },
+    {
+        "id":  "data-protection",
+        "title":  "Data Protection"
+    },
+    {
+        "id":  "introduction-to-residential-mortgages-ambb03a",
+        "title":  "Introduction to Residential Mortgages (AMBB03a)"
+    },
+    {
+        "id":  "bribery-prevention",
+        "title":  "Bribery Prevention"
+    },
+    {
+        "id":  "scrum-framework-inc-sprint-planning",
+        "title":  "Scrum Framework (inc. Sprint Planning)"
+    },
+    {
+        "id":  "responsible-use-of-social-media",
+        "title":  "Responsible Use of Social Media"
+    },
+    {
+        "id":  "information-security",
+        "title":  "Information Security"
+    },
+    {
+        "id":  "dse",
+        "title":  "DSE"
+    },
+    {
+        "id":  "introduction-to-buy-to-let-ambb03",
+        "title":  "Introduction to Buy To Let (AMBB03)"
+    },
+    {
+        "id":  "fraud-prevention",
+        "title":  "Fraud Prevention"
+    },
+    {
+        "id":  "savings-fund03",
+        "title":  "Savings (FUND03)"
+    },
+    {
+        "id":  "developer-processes",
+        "title":  "Developer Processes"
+    },
+    {
+        "id":  "data-breaches-42",
+        "title":  "Data Breaches (42)"
+    },
+    {
+        "id":  "forms-technical-101-appr-tech01",
+        "title":  "Forms Technical 101 (APPR_TECH01)"
+    },
+    {
+        "id":  "orientation-accreditation-apprivo",
+        "title":  "Orientation Accreditation (Apprivo)"
+    },
+    {
+        "id":  "mortgage-process-demo-ambb02",
+        "title":  "Mortgage Process Demo (AMBB02)"
+    },
+    {
+        "id":  "back-office-basics-includes-roles-tasks-wizards",
+        "title":  "Back Office Basics (Includes Roles, Tasks, Wizards)"
+    },
+    {
+        "id":  "rules-09",
+        "title":  "Rules (09)"
+    },
+    {
+        "id":  "risk-assessment-apr-05",
+        "title":  "Risk Assessment (APR_05)"
+    },
+    {
+        "id":  "how-to-prepare-and-present-to-an-online-audience-65",
+        "title":  "How to Prepare and Present to an Online Audience (65)"
+    },
+    {
+        "id":  "how-to-use-talent-lms",
+        "title":  "How to use Talent LMS"
+    },
+    {
+        "id":  "vault-training-lookups-templates-rule-releases-44",
+        "title":  "Vault Training: Lookups, Templates, Rule Releases (44)"
+    },
+    {
+        "id":  "introduction-to-apprivo-broker-registration-apr-01",
+        "title":  "Introduction to Apprivo Broker Registration (APR_01)"
+    },
+    {
+        "id":  "esis-kfi-32",
+        "title":  "ESIS / KFI (32)"
+    },
+    {
+        "id":  "document-templates-10",
+        "title":  "Document Templates (10)"
+    },
+    {
+        "id":  "how-to-use-the-finova-academy",
+        "title":  "How to use the Finova Academy"
+    },
+    {
+        "id":  "clockify-timesheets",
+        "title":  "Clockify Timesheets"
+    },
+    {
+        "id":  "servicing-overview-fund04",
+        "title":  "Servicing Overview (FUND04)"
+    },
+    {
+        "id":  "bug-bash",
+        "title":  "Bug Bash"
+    },
+    {
+        "id":  "attestation-statements",
+        "title":  "Attestation Statements"
+    },
+    {
+        "id":  "architectural-overview-tba04",
+        "title":  "Architectural Overview (TBA04)"
+    },
+    {
+        "id":  "products-fees-mortgages",
+        "title":  "Products \u0026 Fees (Mortgages)"
+    },
+    {
+        "id":  "product-technical-101-tba03",
+        "title":  "Product Technical 101 (TBA03)"
+    },
+    {
+        "id":  "notes-and-diary-apr-04",
+        "title":  "Notes And Diary (APR_04)"
+    },
+    {
+        "id":  "case-management-apr-03",
+        "title":  "Case Management (APR_03)"
+    },
+    {
+        "id":  "mapper-technical-101-appr-tech02",
+        "title":  "Mapper Technical 101 (APPR_TECH02)"
+    },
+    {
+        "id":  "deployment-overview-dp20",
+        "title":  "Deployment: Overview (DP20)"
+    },
+    {
+        "id":  "july-2020-stop-the-clock-servicing",
+        "title":  "July 2020: Stop the Clock: Servicing"
+    },
+    {
+        "id":  "product-selection-and-switching-apr-07",
+        "title":  "Product Selection and Switching (APR_07)"
+    },
+    {
+        "id":  "may-2020-stop-the-clock-end-2-end-delivery-processes-for-existing-clients",
+        "title":  "May 2020 - Stop the Clock: End 2 End delivery processes (for existing clients)"
+    },
+    {
+        "id":  "solicitor-panel-apr-06",
+        "title":  "Solicitor Panel (APR_06)"
+    },
+    {
+        "id":  "pair-programming",
+        "title":  "Pair Programming"
+    },
+    {
+        "id":  "introduction-to-dpr-training-academy",
+        "title":  "Introduction to DPR Training Academy"
+    },
+    {
+        "id":  "indexing-thinking-paperless-46",
+        "title":  "Indexing (Thinking paperless) (46)"
+    },
+    {
+        "id":  "june-2020-stop-the-clock-mortgages",
+        "title":  "June 2020 - Stop the Clock: Mortgages"
+    },
+    {
+        "id":  "risk-management",
+        "title":  "Risk Management"
+    },
+    {
+        "id":  "requirements-confluence-azure-devops",
+        "title":  "Requirements: Confluence \u0026 Azure DevOps"
+    },
+    {
+        "id":  "checkflow-technical-101",
+        "title":  "CheckFlow Technical 101"
+    },
+    {
+        "id":  "build-test-product-framework-versioning-dp10",
+        "title":  "Build \u0026 Test: Product Framework Versioning (DP10)"
+    },
+    {
+        "id":  "fundamentals-training-accreditation-apprivo",
+        "title":  "Fundamentals Training Accreditation (Apprivo)"
+    },
+    {
+        "id":  "appsetupcm-basics-59",
+        "title":  "AppSetupCM Basics (59)"
+    },
+    {
+        "id":  "boards-links-to-training-content",
+        "title":  "Boards - Links to Training Content"
+    },
+    {
+        "id":  "electronic-payments-pas-savings-07",
+        "title":  "Electronic Payments \u0026 PAS (Savings) (07)"
+    },
+    {
+        "id":  "automation-testing-level-2-apr-09",
+        "title":  "Automation Testing (Level 2) (APR_09)"
+    },
+    {
+        "id":  "third-party-integrations-gateways-interfaces-introduction-05",
+        "title":  "Third Party Integrations (Gateways / Interfaces - Introduction) (05)"
+    },
+    {
+        "id":  "test-harness",
+        "title":  "Test Harness"
+    },
+    {
+        "id":  "performance-review-approach",
+        "title":  "Performance Review Approach"
+    },
+    {
+        "id":  "april-2020-stop-the-clock-dpr-industry-fundamentals",
+        "title":  "April 2020: Stop the Clock: DPR Industry Fundamentals"
+    },
+    {
+        "id":  "deployment-non-functional-impacts-dp26",
+        "title":  "Deployment: Non Functional Impacts (DP26)"
+    },
+    {
+        "id":  "learning-development-introduction",
+        "title":  "Learning \u0026 Development Introduction"
+    },
+    {
+        "id":  "enterprise-tools-workflow-builder-34",
+        "title":  "Enterprise Tools - Workflow builder (34)"
+    },
+    {
+        "id":  "core-logging-57",
+        "title":  "Core Logging (57)"
+    },
+    {
+        "id":  "security-technical-101",
+        "title":  "Security Technical 101"
+    },
+    {
+        "id":  "boards-intermediate-course",
+        "title":  "Boards Intermediate Course"
+    },
+    {
+        "id":  "provide-360-feedback-accurately",
+        "title":  "Provide 360 Feedback Accurately"
+    },
+    {
+        "id":  "build-test-product-solution-framework-release-notes-dp11",
+        "title":  "Build \u0026 Test: Product \u0026 Solution Framework Release Notes (DP11)"
+    },
+    {
+        "id":  "regulatory-reporting-basics-30",
+        "title":  "Regulatory Reporting Basics (30)"
+    },
+    {
+        "id":  "infrastructure-delivery-basics-04",
+        "title":  "Infrastructure - Delivery Basics (04)"
+    },
+    {
+        "id":  "how-to-hold-a-good-virtual-standup-meeting",
+        "title":  "How to hold a good (virtual) standup meeting"
+    },
+    {
+        "id":  "project-induction-hands-on-training",
+        "title":  "Project Induction \u0026 Hands-on Training"
+    },
+    {
+        "id":  "mortgage-servicing-solution-configuration",
+        "title":  "Mortgage Servicing Solution \u0026 Configuration"
+    },
+    {
+        "id":  "engineer-basics-24",
+        "title":  "Engineer Basics (24)"
+    },
+    {
+        "id":  "developer-technical-analyst-role",
+        "title":  "Developer / Technical Analyst Role"
+    },
+    {
+        "id":  "job-runner-to90",
+        "title":  "Job Runner (TO90)"
+    },
+    {
+        "id":  "build-test-client-delivery-test-basics-dp14",
+        "title":  "Build \u0026 Test: Client Delivery Test Basics (DP14)"
+    },
+    {
+        "id":  "scrum-agile-concepts",
+        "title":  "Scrum \u0026 Agile Concepts"
+    },
+    {
+        "id":  "introduction-to-broker-platform-ind-16",
+        "title":  "Introduction to Broker Platform (IND-16)"
+    },
+    {
+        "id":  "gateways-credit-reference-agencies-cra-51",
+        "title":  "Gateways: Credit Reference Agencies (CRA) (51)"
+    },
+    {
+        "id":  "roles-and-operations-recipe",
+        "title":  "Roles and Operations Recipe"
+    },
+    {
+        "id":  "mortgage-origination-dpr-fund01",
+        "title":  "Mortgage Origination (DPR) (FUND01)"
+    },
+    {
+        "id":  "behaviour-driven-development-in-delivery-3-amigos",
+        "title":  "Behaviour Driven Development in Delivery (3 amigos)"
+    },
+    {
+        "id":  "dynamic-mapper-syntax-recipe",
+        "title":  "Dynamic Mapper Syntax Recipe"
+    },
+    {
+        "id":  "security-recipe",
+        "title":  "Security Recipe"
+    },
+    {
+        "id":  "kanban-checklists-recipe",
+        "title":  "Kanban Checklists Recipe"
+    },
+    {
+        "id":  "end-to-end-delivery-basics-fund05",
+        "title":  "End to End Delivery Basics (FUND05)"
+    },
+    {
+        "id":  "pe-processes-tfs-release-publishing-acceptance-criteria-etc-38",
+        "title":  "PE Processes (TFS, Release Publishing, Acceptance criteria, etc…) (38)"
+    },
+    {
+        "id":  "how-to-set-up-the-apprivo-training-environment-devassess",
+        "title":  "How to set up the Apprivo training environment (DEVASSESS)"
+    },
+    {
+        "id":  "policy-shields-recipe",
+        "title":  "Policy Shields Recipe"
+    },
+    {
+        "id":  "mortgage-product-training",
+        "title":  "Mortgage Product Training"
+    },
+    {
+        "id":  "rebrand-recipe",
+        "title":  "Rebrand Recipe"
+    },
+    {
+        "id":  "rules-classroom",
+        "title":  "Rules Classroom"
+    },
+    {
+        "id":  "gateways-epdq-48",
+        "title":  "Gateways: ePDQ (48)"
+    },
+    {
+        "id":  "wireframes-43",
+        "title":  "Wireframes (43)"
+    },
+    {
+        "id":  "contracts-finova-s-legal-team",
+        "title":  "Contracts \u0026 finova\u0027s legal team"
+    },
+    {
+        "id":  "apprivo-environment-overview",
+        "title":  "Apprivo Environment Overview"
+    },
+    {
+        "id":  "system-lists-technical-101",
+        "title":  "System Lists Technical 101"
+    },
+    {
+        "id":  "introduction-to-affordability",
+        "title":  "Introduction to Affordability"
+    },
+    {
+        "id":  "developer-basics-overview-of-the-enterprise-software-20",
+        "title":  "Developer Basics: Overview of the Enterprise Software (20)"
+    },
+    {
+        "id":  "log-scourer",
+        "title":  "Log Scourer"
+    },
+    {
+        "id":  "data-warehouse-basics-31",
+        "title":  "Data Warehouse Basics (31)"
+    },
+    {
+        "id":  "savings-servicing-solution-configuration",
+        "title":  "Savings Servicing Solution \u0026 Configuration"
+    },
+    {
+        "id":  "product-catalogue-and-lending-rule-recipe",
+        "title":  "Product Catalogue and Lending Rule Recipe"
+    },
+    {
+        "id":  "forms-assessment-level-2-devassess030",
+        "title":  "Forms Assessment (Level 2) (DevAssess030)"
+    },
+    {
+        "id":  "what-a-user-story-should-look-like",
+        "title":  "What a user story SHOULD look like"
+    },
+    {
+        "id":  "developer-basics-build-v3-overview-19",
+        "title":  "Developer Basics: Build V3 Overview (19)"
+    },
+    {
+        "id":  "developer-technical-making-a-change-21",
+        "title":  "Developer Technical: Making a change (21)"
+    },
+    {
+        "id":  "cra",
+        "title":  "CRA"
+    },
+    {
+        "id":  "azure-devops-boards-top-tips",
+        "title":  "Azure DevOps Boards - Top Tips"
+    },
+    {
+        "id":  "teams-how-to-record-62",
+        "title":  "Teams - How to record (62)"
+    },
+    {
+        "id":  "how-to-use-onescript-27",
+        "title":  "How to use OneScript (27)"
+    },
+    {
+        "id":  "git-for-beginners",
+        "title":  "Git for Beginners"
+    },
+    {
+        "id":  "tasks-recipe",
+        "title":  "Tasks Recipe"
+    },
+    {
+        "id":  "apprivo-building-blocks",
+        "title":  "Apprivo Building Blocks"
+    },
+    {
+        "id":  "notes-and-diaries-recipe",
+        "title":  "Notes and Diaries Recipe"
+    },
+    {
+        "id":  "finance-application",
+        "title":  "Finance Application"
+    },
+    {
+        "id":  "savings-origination-solution-configuration",
+        "title":  "Savings Origination Solution \u0026 Configuration"
+    },
+    {
+        "id":  "roles-assessment-level-2-devassess020",
+        "title":  "Roles Assessment (Level 2) (DevAssess020)"
+    },
+    {
+        "id":  "general-overview-to-boards",
+        "title":  "General overview to Boards"
+    },
+    {
+        "id":  "equality-and-diversity-in-the-workplace",
+        "title":  "Equality and Diversity in the Workplace"
+    },
+    {
+        "id":  "debugging-back-office-25",
+        "title":  "Debugging Back Office (25)"
+    },
+    {
+        "id":  "client-training-document-template-99",
+        "title":  "Client Training - Document Template (99)"
+    },
+    {
+        "id":  "business-analyst-role",
+        "title":  "Business Analyst Role"
+    },
+    {
+        "id":  "requirements-spec-design-client-requirements-internal-dp01",
+        "title":  "Requirements, Spec \u0026 Design: Client Requirements (Internal) (DP01)"
+    },
+    {
+        "id":  "checklist-items-assessment-level-2-devassess050",
+        "title":  "Checklist Items Assessment (Level 2) (DevAssess050)"
+    },
+    {
+        "id":  "mental-health-at-work",
+        "title":  "Mental Health at Work"
+    },
+    {
+        "id":  "arrears",
+        "title":  "Arrears"
+    },
+    {
+        "id":  "apprivo-apis-get-xml-and-affordability-data",
+        "title":  "Apprivo APIs: Get XML and Affordability Data"
+    },
+    {
+        "id":  "quest",
+        "title":  "Quest"
+    },
+    {
+        "id":  "dynamic-mapper-assessment-level-2-devassess040",
+        "title":  "Dynamic Mapper Assessment (Level 2) (DevAssess040)"
+    },
+    {
+        "id":  "business-analyst-basics-75",
+        "title":  "Business Analyst Basics (75)"
+    },
+    {
+        "id":  "stop-the-clock-certificates",
+        "title":  "Stop the Clock: Certificates"
+    },
+    {
+        "id":  "solution-component-fundamentals-fund06",
+        "title":  "Solution Component Fundamentals (FUND06)"
+    },
+    {
+        "id":  "introduction-to-the-distribution-hub-ind-18",
+        "title":  "Introduction to the Distribution Hub (IND-18)"
+    },
+    {
+        "id":  "unconscious-bias",
+        "title":  "Unconscious Bias"
+    },
+    {
+        "id":  "reporting-db-basics",
+        "title":  "Reporting DB Basics"
+    },
+    {
+        "id":  "docusign-multi-factor-authentication-recipe",
+        "title":  "DocuSign Multi Factor Authentication Recipe"
+    },
+    {
+        "id":  "devops-for-testers",
+        "title":  "DevOps (for Testers)"
+    },
+    {
+        "id":  "adopt-model",
+        "title":  "Adopt Model"
+    },
+    {
+        "id":  "rebrand-assessment-level-2-devassess010",
+        "title":  "Rebrand Assessment (Level 2) (DevAssess010)"
+    },
+    {
+        "id":  "apprivo-developer-problem-solving-basics",
+        "title":  "Apprivo Developer Problem Solving Basics"
+    },
+    {
+        "id":  "requirements-spec-design-product-framework-change-requests-dp03",
+        "title":  "Requirements, Spec, Design: Product Framework change requests (DP03)"
+    },
+    {
+        "id":  "introduction-to-broker-hierarchy",
+        "title":  "Introduction to Broker Hierarchy"
+    },
+    {
+        "id":  "checkflow-items-assessment-level-2",
+        "title":  "Checkflow Items Assessment (Level 2)"
+    },
+    {
+        "id":  "training-clients-on-product-config-basics",
+        "title":  "Training Clients on Product Config (Basics)"
+    },
+    {
+        "id":  "completions-file",
+        "title":  "Completions File"
+    },
+    {
+        "id":  "introduction-to-firewalls",
+        "title":  "Introduction to Firewalls"
+    },
+    {
+        "id":  "deployment-client-release-notes-dp24",
+        "title":  "Deployment: Client Release Notes (DP24)"
+    },
+    {
+        "id":  "apprivo-delivery-method",
+        "title":  "Apprivo Delivery Method"
+    },
+    {
+        "id":  "savings-products",
+        "title":  "Savings Products"
+    },
+    {
+        "id":  "planet-press",
+        "title":  "Planet Press"
+    },
+    {
+        "id":  "introduction-to-confluence-and-finova-core-banking-space",
+        "title":  "Introduction to Confluence and finova Core Banking Space"
+    },
+    {
+        "id":  "policy-shields-assessment-level-2",
+        "title":  "Policy Shields Assessment (Level 2)"
+    },
+    {
+        "id":  "apprivo-broker-hierarchy-v2-apr-clone",
+        "title":  "Apprivo Broker Hierarchy V2 (APR-clone)"
+    },
+    {
+        "id":  "pcv-overview-76",
+        "title":  "PCV Overview (76)"
+    },
+    {
+        "id":  "pm-role",
+        "title":  "PM Role"
+    },
+    {
+        "id":  "fees-configuration-high-level-functionality",
+        "title":  "Fees Configuration \u0026 High Level Functionality"
+    },
+    {
+        "id":  "testing-document-template-testing",
+        "title":  "Testing: Document Template Testing"
+    },
+    {
+        "id":  "testing-mapper-testing",
+        "title":  "Testing: Mapper Testing"
+    },
+    {
+        "id":  "teller-basics",
+        "title":  "Teller Basics"
+    },
+    {
+        "id":  "product-catalogue-and-lending-rules-assessment-level-2",
+        "title":  "Product Catalogue and Lending Rules Assessment (Level 2)"
+    },
+    {
+        "id":  "tech-lead-basics-61",
+        "title":  "Tech Lead Basics (61)"
+    },
+    {
+        "id":  "non-functional-impact-stop-the-clock",
+        "title":  "Non-Functional Impact: Stop the Clock"
+    },
+    {
+        "id":  "javascript-for-beginners",
+        "title":  "JavaScript for beginners"
+    },
+    {
+        "id":  "client-training-finance-application",
+        "title":  "Client Training - Finance Application"
+    },
+    {
+        "id":  "forms-assessment-level-3",
+        "title":  "Forms Assessment (Level 3)"
+    },
+    {
+        "id":  "how-to-create-a-feature-spindle-breach-silo-26",
+        "title":  "How to create a feature spindle / breach silo (26)"
+    },
+    {
+        "id":  "pm-basics",
+        "title":  "PM Basics"
+    },
+    {
+        "id":  "orientation-accreditation-enterprise",
+        "title":  "Orientation Accreditation (Enterprise)"
+    },
+    {
+        "id":  "javascript",
+        "title":  "JavaScript"
+    },
+    {
+        "id":  "c",
+        "title":  "C#"
+    },
+    {
+        "id":  "test-report-generator",
+        "title":  "Test Report Generator"
+    },
+    {
+        "id":  "sql",
+        "title":  "SQL"
+    },
+    {
+        "id":  "client-training-pool-management",
+        "title":  "Client Training - Pool Management"
+    },
+    {
+        "id":  "broker-hierarchy-assessment-level-2",
+        "title":  "Broker Hierarchy Assessment (Level 2)"
+    },
+    {
+        "id":  "vaults-training-classroom",
+        "title":  "Vaults Training (Classroom)"
+    },
+    {
+        "id":  "requirements-spec-design-analysis-blocks-dp02",
+        "title":  "Requirements, Spec \u0026 Design: Analysis Blocks (DP02)"
+    },
+    {
+        "id":  "roles-assessment-level-3",
+        "title":  "Roles Assessment (Level 3)"
+    },
+    {
+        "id":  "deployment-classroom",
+        "title":  "Deployment Classroom"
+    },
+    {
+        "id":  "jquery",
+        "title":  "jQuery"
+    },
+    {
+        "id":  "deployment-exemplar-cab-dp22",
+        "title":  "Deployment: Exemplar CAB (DP22)"
+    },
+    {
+        "id":  "setting-up-a-user-in-talentlms",
+        "title":  "Setting up a user in TalentLMS"
+    },
+    {
+        "id":  "client-training-samanage",
+        "title":  "Client Training - Samanage"
+    },
+    {
+        "id":  "client-training-gl-extract",
+        "title":  "Client Training - GL Extract"
+    },
+    {
+        "id":  "bootstrap",
+        "title":  "Bootstrap"
+    },
+    {
+        "id":  "introduction-to-burrow-ind-12",
+        "title":  "Introduction to Burrow (IND-12)"
+    },
+    {
+        "id":  "end-to-end-recruitment-process",
+        "title":  "End-to-end Recruitment Process"
+    },
+    {
+        "id":  "dynamic-mapper-assessment-level-3",
+        "title":  "Dynamic Mapper Assessment (Level 3)"
+    },
+    {
+        "id":  "checklist-items-assessment-level-3",
+        "title":  "Checklist Items Assessment (Level 3)"
+    },
+    {
+        "id":  "playing-with-the-api-checkflows-and-mappers",
+        "title":  "Playing with the API, Checkflows and Mappers"
+    },
+    {
+        "id":  "checkflow-items-assessment-level-3",
+        "title":  "Checkflow Items Assessment (Level 3)"
+    },
+    {
+        "id":  "routing-questions-assessment-level-2",
+        "title":  "Routing Questions Assessment (Level 2)"
+    },
+    {
+        "id":  "product-feature-defect-processes-overview",
+        "title":  "Product Feature \u0026 Defect Processes Overview"
+    },
+    {
+        "id":  "developer-and-senior-developer-basics",
+        "title":  "Developer And Senior Developer Basics"
+    },
+    {
+        "id":  "client-training-roles-teams",
+        "title":  "Client Training - Roles \u0026 Teams"
+    },
+    {
+        "id":  "build-test-template-delivery-processes-dp12",
+        "title":  "Build \u0026 Test: Template Delivery Processes (DP12)"
+    },
+    {
+        "id":  "broker-registration-basics",
+        "title":  "Broker Registration Basics"
+    },
+    {
+        "id":  "affordability-recipe",
+        "title":  "Affordability recipe"
+    },
+    {
+        "id":  "rebrand-assessment-level-3",
+        "title":  "Rebrand Assessment (Level 3)"
+    },
+    {
+        "id":  "policy-shields-assessment-level-3",
+        "title":  "Policy Shields Assessment (Level 3)"
+    },
+    {
+        "id":  "creating-test-packs",
+        "title":  "Creating Test Packs"
+    },
+    {
+        "id":  "commits-and-pull-requests",
+        "title":  "Commits and Pull Requests"
+    },
+    {
+        "id":  "optimo-demo-drop-in-session",
+        "title":  "Optimo Demo Drop In Session"
+    },
+    {
+        "id":  "level-3-4-training-developer",
+        "title":  "Level 3 / 4 Training (Developer)"
+    },
+    {
+        "id":  "affordability-assessment-level-3",
+        "title":  "Affordability Assessment (Level 3)"
+    },
+    {
+        "id":  "creating-a-case",
+        "title":  "Creating a case"
+    },
+    {
+        "id":  "stop-the-clock-design-authority",
+        "title":  "Stop the Clock - Design Authority"
+    },
+    {
+        "id":  "requirements-for-key-mortgage-documents",
+        "title":  "Requirements for Key Mortgage Documents"
+    },
+    {
+        "id":  "product-catalogue-and-lending-rules-assessment-level-3",
+        "title":  "Product Catalogue and Lending Rules Assessment (Level 3)"
+    },
+    {
+        "id":  "checkflow-items-assessment-level-4",
+        "title":  "Checkflow Items Assessment (Level 4)"
+    },
+    {
+        "id":  "product-catalogue-and-lending-rules-assessment-level-4",
+        "title":  "Product Catalogue and Lending Rules Assessment (Level 4)"
+    },
+    {
+        "id":  "outline-test-plan",
+        "title":  "Outline Test Plan"
+    },
+    {
+        "id":  "ingestion-case-creator-tool",
+        "title":  "Ingestion Case Creator Tool"
+    },
+    {
+        "id":  "devops-level-4",
+        "title":  "DevOps (Level 4)"
+    },
+    {
+        "id":  "troubleshooting-apprivo-performance",
+        "title":  "Troubleshooting Apprivo Performance"
+    },
+    {
+        "id":  "test-approach-for-quest-recipe",
+        "title":  "Test Approach for Quest - Recipe"
+    },
+    {
+        "id":  "sql-skills-using-reporting-intermediate-advanced",
+        "title":  "SQL Skills Using Reporting – Intermediate/Advanced"
+    },
+    {
+        "id":  "notes-diaries-testing-level-3",
+        "title":  "Notes\u0026 Diaries Testing (Level 3)"
+    },
+    {
+        "id":  "fundamentals-training-accreditation-enterprise",
+        "title":  "Fundamentals Training Accreditation (Enterprise)"
+    },
+    {
+        "id":  "stop-the-clock-deployments",
+        "title":  "Stop the Clock: Deployments"
+    },
+    {
+        "id":  "forms-assessment-level-4",
+        "title":  "Forms Assessment (Level 4)"
+    },
+    {
+        "id":  "test-approach-for-cra-v2-recipe",
+        "title":  "Test Approach for CRA V2 - Recipe"
+    },
+    {
+        "id":  "devops-level-3",
+        "title":  "DevOps (Level 3)"
+    },
+    {
+        "id":  "client-training-savings-product-cloning",
+        "title":  "Client Training - Savings Product Cloning"
+    },
+    {
+        "id":  "back-office-configuration-enterprise-testing",
+        "title":  "Back Office Configuration - Enterprise Testing"
+    },
+    {
+        "id":  "tasks-assessment-level-2",
+        "title":  "Tasks Assessment (Level 2)"
+    },
+    {
+        "id":  "routing-questions-assessment-level-3",
+        "title":  "Routing Questions Assessment (Level 3)"
+    },
+    {
+        "id":  "process-stages-assessment-level-2",
+        "title":  "Process Stages Assessment (Level 2)"
+    },
+    {
+        "id":  "broker-hierarchy-testing-level-3",
+        "title":  "Broker Hierarchy Testing (Level 3)"
+    },
+    {
+        "id":  "lending-rules-testing-level-3",
+        "title":  "Lending Rules Testing (Level 3)"
+    },
+    {
+        "id":  "gherkin-l4",
+        "title":  "Gherkin- L4"
+    },
+    {
+        "id":  "fees-level-3",
+        "title":  "Fees (Level 3)"
+    },
+    {
+        "id":  "dynamic-mapper-assessment-level-4",
+        "title":  "Dynamic Mapper Assessment (Level 4)"
+    },
+    {
+        "id":  "completions-recipe",
+        "title":  "Completions recipe"
+    },
+    {
+        "id":  "checklist-items-assessment-level-4",
+        "title":  "Checklist Items Assessment (Level 4)"
+    },
+    {
+        "id":  "apprivo-sales-demo",
+        "title":  "Apprivo Sales Demo"
+    },
+    {
+        "id":  "test-approach-for-risk-assessment-screen-recipe",
+        "title":  "Test Approach for Risk Assessment Screen - Recipe"
+    },
+    {
+        "id":  "test-approach-for-process-stages-recipe",
+        "title":  "Test Approach for Process stages - Recipe"
+    },
+    {
+        "id":  "migration",
+        "title":  "Migration"
+    },
+    {
+        "id":  "test-approach-for-policy-shield-recipe",
+        "title":  "Test Approach for Policy Shield - Recipe"
+    },
+    {
+        "id":  "test-approach-for-broker-hierarchy-recipe",
+        "title":  "Test Approach for Broker Hierarchy - Recipe"
+    },
+    {
+        "id":  "emails-recipe",
+        "title":  "Emails Recipe"
+    },
+    {
+        "id":  "test-approach-for-submission-checklist-recipe",
+        "title":  "Test Approach for Submission Checklist - Recipe"
+    },
+    {
+        "id":  "submission-checklist-testing-level-3",
+        "title":  "Submission Checklist Testing (Level 3)"
+    },
+    {
+        "id":  "risk-assessment-screen-testing-level-3",
+        "title":  "Risk Assessment Screen Testing (Level 3)"
+    },
+    {
+        "id":  "policy-shields-assessment-level-4",
+        "title":  "Policy Shields Assessment (Level 4)"
+    },
+    {
+        "id":  "policy-shield-testing-level-3",
+        "title":  "Policy Shield Testing (Level 3)"
+    },
+    {
+        "id":  "fee-payment-testing-level-3",
+        "title":  "Fee Payment Testing (Level 3)"
+    },
+    {
+        "id":  "affordability-assessment-level-4",
+        "title":  "Affordability Assessment (Level 4)"
+    },
+    {
+        "id":  "test-approach-for-user-role-operations-recipe",
+        "title":  "Test Approach for User Role Operations- Recipe"
+    },
+    {
+        "id":  "test-approach-for-test-approach-for-notes-diaries-recipe",
+        "title":  "Test Approach for Test Approach for Notes \u0026 Diaries - Recipe"
+    },
+    {
+        "id":  "process-stages-testing-level-3",
+        "title":  "Process stages Testing (Level 3)"
+    },
+    {
+        "id":  "operations-user-roles-testing-level-3",
+        "title":  "Operations (User Roles Testing) (Level 3)"
+    },
+    {
+        "id":  "forms-assessment-level-5",
+        "title":  "Forms Assessment (Level 5)"
+    },
+    {
+        "id":  "notes-diaries-assessment-level-2",
+        "title":  "Notes \u0026 Diaries Assessment (Level 2)"
+    },
+    {
+        "id":  "enterprise-end-to-end-journey",
+        "title":  "Enterprise end to end journey"
+    },
+    {
+        "id":  "data-capture-forms-testing-level-3",
+        "title":  "Data Capture (Forms) Testing (Level 3)"
+    },
+    {
+        "id":  "test-script-production-level-5",
+        "title":  "Test script production (Level 5)"
+    },
+    {
+        "id":  "test-harness-testing-level-3",
+        "title":  "Test Harness Testing (Level 3)"
+    },
+    {
+        "id":  "test-harness-assessment-level-2",
+        "title":  "Test Harness Assessment (Level 2)"
+    },
+    {
+        "id":  "test-approach-for-affordability-recipe",
+        "title":  "Test Approach for Affordability - Recipe"
+    },
+    {
+        "id":  "enterprise-back-office-config-level-5",
+        "title":  "Enterprise - Back Office (CONFIG) (Level 5)"
+    },
+    {
+        "id":  "devops-level-5",
+        "title":  "DevOps (Level 5)"
+    },
+    {
+        "id":  "cra-configuration-recipe",
+        "title":  "CRA Configuration recipe"
+    },
+    {
+        "id":  "completions-file-testing-level-3",
+        "title":  "Completions file Testing (Level 3)"
+    },
+    {
+        "id":  "broker-hierarchy-assessment-level-3",
+        "title":  "Broker Hierarchy Assessment (Level 3)"
+    },
+    {
+        "id":  "affordability-testing-level-3",
+        "title":  "Affordability Testing (Level 3)"
+    },
+    {
+        "id":  "test-approach-for-docu-sign-recipe",
+        "title":  "Test Approach for  Docu-Sign - Recipe"
+    },
+    {
+        "id":  "enterprise-task-viewer-level-4",
+        "title":  "Enterprise - Task Viewer (Level 4)"
+    },
+    {
+        "id":  "enterprise-retail-savings-level-3",
+        "title":  "Enterprise - Retail Savings (Level 3)"
+    },
+    {
+        "id":  "dynamic-mapper-assessment-level-5",
+        "title":  "Dynamic Mapper Assessment (Level 5)"
+    },
+    {
+        "id":  "documents-testing-level-3",
+        "title":  "Documents Testing (Level 3)"
+    },
+    {
+        "id":  "data-capture-branding-forms-business-assessment-level-5",
+        "title":  "Data Capture, Branding, Forms Business Assessment (Level 5)"
+    },
+    {
+        "id":  "test-approach-for-test-approach-for-document-testing-recipe",
+        "title":  "Test Approach for Test Approach for Document Testing - Recipe"
+    },
+    {
+        "id":  "test-approach-for-lending-rules-recipe",
+        "title":  "Test Approach for Lending Rules - Recipe"
+    },
+    {
+        "id":  "pre-production-data-refresh",
+        "title":  "Pre-Production Data Refresh"
+    },
+    {
+        "id":  "policy-shield-testing-level-4",
+        "title":  "Policy Shield Testing (Level 4)"
+    },
+    {
+        "id":  "enterprise-corporate-savings-level-3",
+        "title":  "Enterprise - Corporate Savings (Level 3)"
+    },
+    {
+        "id":  "docusign-testing-level-3",
+        "title":  "Docusign Testing (Level 3)"
+    },
+    {
+        "id":  "credentials-permissions-and-sharing-tp93",
+        "title":  "Credentials, Permissions and Sharing (TP93)"
+    },
+    {
+        "id":  "btl-industry-and-regulation-level-3",
+        "title":  "BTL Industry and Regulation - Level 3"
+    },
+    {
+        "id":  "broker-hierarchy-testing-level-4",
+        "title":  "Broker Hierarchy Testing (Level 4)"
+    },
+    {
+        "id":  "using-postman-whilst-in-support",
+        "title":  "Using Postman whilst in support"
+    },
+    {
+        "id":  "risk-assessment-screen-testing-level-4",
+        "title":  "Risk Assessment Screen Testing (Level 4)"
+    },
+    {
+        "id":  "requirements-traceability-matrix",
+        "title":  "Requirements Traceability Matrix"
+    },
+    {
+        "id":  "process-stages-testing-level-4",
+        "title":  "Process stages Testing (Level 4)"
+    },
+    {
+        "id":  "defect-logging-and-triage-level-5",
+        "title":  "Defect logging and triage (Level 5)"
+    },
+    {
+        "id":  "defect-logging-and-triage-level-4",
+        "title":  "Defect logging and triage (Level 4)"
+    },
+    {
+        "id":  "data-capture-forms-testing-level-4",
+        "title":  "Data Capture (Forms) Testing (Level 4)"
+    },
+    {
+        "id":  "checkflow-items-assessment-level-5",
+        "title":  "Checkflow Items Assessment (Level 5)"
+    },
+    {
+        "id":  "build-test-tracker",
+        "title":  "Build \u0026 Test Tracker"
+    },
+    {
+        "id":  "test-script-production-level-3",
+        "title":  "Test script production (Level 3)"
+    },
+    {
+        "id":  "roles-assessment-level-4",
+        "title":  "Roles Assessment (Level 4)"
+    },
+    {
+        "id":  "policy-shields-assessment-level-5",
+        "title":  "Policy Shields Assessment (Level 5)"
+    },
+    {
+        "id":  "packaging-custom-scripts-update",
+        "title":  "Packaging – Custom Scripts Update"
+    },
+    {
+        "id":  "operations-user-roles-testing-level-4",
+        "title":  "Operations (User Roles Testing) (Level 4)"
+    },
+    {
+        "id":  "how-to-add-someone-to-azure-devops-for-apprivo",
+        "title":  "How to add someone to Azure Devops for Apprivo"
+    },
+    {
+        "id":  "enterprise-reference-data-portal-users-lookup-level-4",
+        "title":  "Enterprise - Reference Data - Portal Users, Lookup (Level 4)"
+    },
+    {
+        "id":  "enterprise-core-logging-level-5",
+        "title":  "Enterprise - Core Logging (Level 5)"
+    },
+    {
+        "id":  "enterprise-common-lookup-lists-level-3",
+        "title":  "Enterprise - Common - Lookup Lists (Level 3)"
+    },
+    {
+        "id":  "enterprise-breathing-space-level-3",
+        "title":  "Enterprise - Breathing space (Level 3)"
+    },
+    {
+        "id":  "enterprise-affordability-config-level-3",
+        "title":  "Enterprise - Affordability CONFIG (Level 3)"
+    },
+    {
+        "id":  "completions-file-dev-level-2",
+        "title":  "Completions File Dev (Level 2)"
+    },
+    {
+        "id":  "checklist-items-assessment-level-5",
+        "title":  "Checklist Items Assessment (Level 5)"
+    },
+    {
+        "id":  "uk-residential-mortgage-industry-and-regulation-level-3",
+        "title":  "UK Residential Mortgage Industry and Regulation - Level 3"
+    },
+    {
+        "id":  "test-approach-for-offer-conditions-recipe",
+        "title":  "Test Approach for Offer Conditions - Recipe"
+    },
+    {
+        "id":  "savings-industry-and-regulation-level-3",
+        "title":  "Savings Industry and Regulation - Level 3"
+    },
+    {
+        "id":  "product-catalogue-and-lending-rules-assessment-level-5",
+        "title":  "Product Catalogue and Lending Rules Assessment (Level 5)"
+    },
+    {
+        "id":  "pair-programming-kata-level-2",
+        "title":  "Pair Programming Kata (Level 2)"
+    },
+    {
+        "id":  "mortgage-origination-apprivo-fund01a",
+        "title":  "Mortgage Origination (Apprivo) (FUND01a)"
+    },
+    {
+        "id":  "enterprise-document-configuration-level-3",
+        "title":  "Enterprise - Document Configuration (Level 3)"
+    },
+    {
+        "id":  "enterprise-core-logging-level-4",
+        "title":  "Enterprise - Core Logging (Level 4)"
+    },
+    {
+        "id":  "enterprise-arrangements-level-3",
+        "title":  "Enterprise - Arrangements (Level 3)"
+    },
+    {
+        "id":  "testing-strategy-level-4",
+        "title":  "Testing Strategy (Level 4)"
+    },
+    {
+        "id":  "test-planning-and-estimation-level-4",
+        "title":  "Test Planning and Estimation (Level 4)"
+    },
+    {
+        "id":  "test-approach-for-multi-currency-recipe",
+        "title":  "Test Approach for Multi-Currency - Recipe"
+    },
+    {
+        "id":  "submission-checklist-testing-level-4",
+        "title":  "Submission Checklist Testing (Level 4)"
+    },
+    {
+        "id":  "products-and-fees-level-3",
+        "title":  "Products and Fees - Level 3"
+    },
+    {
+        "id":  "process-stages-assessment-level-3",
+        "title":  "Process Stages Assessment (Level 3)"
+    },
+    {
+        "id":  "later-life-lending-industry-and-regulation-level-3",
+        "title":  "Later Life Lending Industry and Regulation - Level 3"
+    },
+    {
+        "id":  "enterprise-origination-savings-level-4",
+        "title":  "Enterprise Origination Savings (Level 4)"
+    },
+    {
+        "id":  "enterprise-origination-savings-level-3",
+        "title":  "Enterprise Origination Savings (Level 3)"
+    },
+    {
+        "id":  "enterprise-second-charge-level-3",
+        "title":  "Enterprise - Second Charge (Level 3)"
+    },
+    {
+        "id":  "enterprise-reference-data-portal-users-lookup-level-3",
+        "title":  "Enterprise - Reference Data - Portal Users, Lookup (Level 3)"
+    },
+    {
+        "id":  "enterprise-portal-configuration-level-3",
+        "title":  "Enterprise - Portal Configuration (Level 3)"
+    },
+    {
+        "id":  "enterprise-first-charge-level-4",
+        "title":  "Enterprise - First Charge (Level 4)"
+    },
+    {
+        "id":  "enterprise-first-charge-level-3",
+        "title":  "Enterprise - First Charge (Level 3)"
+    },
+    {
+        "id":  "enterprise-finance-application-level-3",
+        "title":  "Enterprise - Finance Application (Level 3)"
+    },
+    {
+        "id":  "enterprise-e-banking-level-3",
+        "title":  "Enterprise - E-Banking (Level 3)"
+    },
+    {
+        "id":  "enterprise-affordability-config-level-4",
+        "title":  "Enterprise - Affordability CONFIG (Level 4)"
+    },
+    {
+        "id":  "documents-testing-level-4",
+        "title":  "Documents Testing (Level 4)"
+    },
+    {
+        "id":  "client-training-pool-management-level-4",
+        "title":  "Client Training - Pool Management (Level 4)"
+    },
+    {
+        "id":  "test-approach-for-epdq-integration-recipe",
+        "title":  "Test Approach for EPDQ Integration - Recipe"
+    },
+    {
+        "id":  "routing-questions-assessment-level-4",
+        "title":  "Routing Questions Assessment (Level 4)"
+    },
+    {
+        "id":  "lending-rules-testing-level-4",
+        "title":  "Lending Rules Testing (Level 4)"
+    },
+    {
+        "id":  "enterprise-task-viewer-level-3",
+        "title":  "Enterprise - Task Viewer (Level 3)"
+    },
+    {
+        "id":  "enterprise-servicing-arrears-analysis-level-4",
+        "title":  "Enterprise - Servicing - Arrears (ANALYSIS) (Level 4)"
+    },
+    {
+        "id":  "enterprise-servicing-arrears-analysis-level-3",
+        "title":  "Enterprise - Servicing - Arrears (ANALYSIS) (Level 3)"
+    },
+    {
+        "id":  "enterprise-document-kfi-esis-config-level-3",
+        "title":  "Enterprise - Document KFI / ESIS Config (Level 3)"
+    },
+    {
+        "id":  "enterprise-arrangements-level-4",
+        "title":  "Enterprise - Arrangements (Level 4)"
+    },
+    {
+        "id":  "apprivo-intro-demo",
+        "title":  "Apprivo Intro Demo"
+    },
+    {
+        "id":  "quest-testing-level-3",
+        "title":  "Quest Testing (Level 3)"
+    },
+    {
+        "id":  "notes-diaries-testing-level-4",
+        "title":  "Notes \u0026 Diaries Testing (Level 4)"
+    },
+    {
+        "id":  "fundamentals-training-accreditation-apprivo-testers",
+        "title":  "Fundamentals Training Accreditation (Apprivo Testers)"
+    },
+    {
+        "id":  "fees-level-4",
+        "title":  "Fees (Level 4)"
+    },
+    {
+        "id":  "fee-payment-testing-level-4",
+        "title":  "Fee Payment Testing (Level 4)"
+    },
+    {
+        "id":  "epdq",
+        "title":  "ePDQ"
+    },
+    {
+        "id":  "enterprise-origination-pcv-level-4",
+        "title":  "Enterprise Origination PCV (Level 4)"
+    },
+    {
+        "id":  "enterprise-origination-pcv-level-3",
+        "title":  "Enterprise Origination PCV (Level 3)"
+    },
+    {
+        "id":  "enterprise-portal-configuration-level-4",
+        "title":  "Enterprise - Portal Configuration (Level 4)"
+    },
+    {
+        "id":  "enterprise-document-kfi-esis-config-level-4",
+        "title":  "Enterprise - Document KFI / ESIS Config (Level 4)"
+    },
+    {
+        "id":  "enterprise-advice-journeys-level-3",
+        "title":  "Enterprise - Advice Journeys (Level 3)"
+    },
+    {
+        "id":  "enterprise-1st-charge-level-5",
+        "title":  "Enterprise - 1st Charge (Level 5)"
+    },
+    {
+        "id":  "enterprise-1st-charge-level-3",
+        "title":  "Enterprise - 1st Charge (Level 3)"
+    },
+    {
+        "id":  "docusign-testing-level-4",
+        "title":  "Docusign Testing (Level 4)"
+    },
+    {
+        "id":  "documentation-email-offer-conditions-level-3",
+        "title":  "Documentation, Email \u0026 Offer Conditions (Level 3)"
+    },
+    {
+        "id":  "client-training-pool-management-level-5",
+        "title":  "Client Training - Pool Management (Level 5)"
+    },
+    {
+        "id":  "behavior-driven-development-level4",
+        "title":  "Behavior Driven Development (Level4)"
+    },
+    {
+        "id":  "automated-testing-coding-level-3",
+        "title":  "Automated testing - Coding (Level 3)"
+    },
+    {
+        "id":  "apprivo-quest-level-3",
+        "title":  "Apprivo Quest - Level 3"
+    },
+    {
+        "id":  "test-approach-for-modular-pricing-recipe",
+        "title":  "Test Approach for Modular Pricing - Recipe"
+    },
+    {
+        "id":  "tasks-assessment-level-3",
+        "title":  "Tasks Assessment (Level 3)"
+    },
+    {
+        "id":  "how-to-accredit-someone-s-skills-matrix-score",
+        "title":  "How to accredit someone\u0027s skills matrix score"
+    },
+    {
+        "id":  "enterprise-rules-level-3",
+        "title":  "Enterprise - Rules (Level 3)"
+    },
+    {
+        "id":  "enterprise-retail-savings-level-4",
+        "title":  "Enterprise - Retail Savings (Level 4)"
+    },
+    {
+        "id":  "enterprise-fma-xml-level-3",
+        "title":  "Enterprise - FMA XML (Level 3)"
+    },
+    {
+        "id":  "enterprise-completion-xml-level-4",
+        "title":  "Enterprise - Completion XML (Level 4)"
+    },
+    {
+        "id":  "enterprise-back-office-config-level-4",
+        "title":  "Enterprise - Back Office (CONFIG) (Level 4)"
+    },
+    {
+        "id":  "defect-logging-and-triage-level-3",
+        "title":  "Defect logging and triage (Level 3)"
+    },
+    {
+        "id":  "client-training-gl-extract-level-3",
+        "title":  "Client Training - GL Extract (Level 3)"
+    },
+    {
+        "id":  "apprivo-completions-file-level-3",
+        "title":  "Apprivo Completions File - Level 3"
+    },
+    {
+        "id":  "affordability-testing-level-4",
+        "title":  "Affordability Testing (Level 4)"
+    },
+    {
+        "id":  "testing-strategy-level-3",
+        "title":  "Testing Strategy (Level 3)"
+    },
+    {
+        "id":  "test-planning-and-estimation-level-3",
+        "title":  "Test Planning and Estimation (Level 3)"
+    },
+    {
+        "id":  "test-harness-testing-level-4",
+        "title":  "Test Harness Testing (Level 4)"
+    },
+    {
+        "id":  "roles-assessment-level-5",
+        "title":  "Roles Assessment (Level 5)"
+    },
+    {
+        "id":  "rebrand-assessment-level-4",
+        "title":  "Rebrand Assessment (Level 4)"
+    },
+    {
+        "id":  "enterprise-gateways-payment-valuation-l4-l5",
+        "title":  "Enterprise Gateways (Payment \u0026 Valuation) L4 \u0026 L5"
+    },
+    {
+        "id":  "enterprise-servicing-roles-wizards-analysis-level-4",
+        "title":  "Enterprise - Servicing - Roles \u0026 Wizards (ANALYSIS) (Level 4)"
+    },
+    {
+        "id":  "enterprise-product-setup-level-3",
+        "title":  "Enterprise - Product Setup (Level 3)"
+    },
+    {
+        "id":  "enterprise-portal-configuration-level-5",
+        "title":  "Enterprise - Portal Configuration (Level 5)"
+    },
+    {
+        "id":  "enterprise-fma-xml-level-4",
+        "title":  "Enterprise - FMA XML (Level 4)"
+    },
+    {
+        "id":  "enterprise-e-banking-level-4",
+        "title":  "Enterprise - E-Banking (Level 4)"
+    },
+    {
+        "id":  "enterprise-document-kfi-esis-config-level-5",
+        "title":  "Enterprise - Document KFI / ESIS Config (Level 5)"
+    },
+    {
+        "id":  "enterprise-corporate-savings-level-4",
+        "title":  "Enterprise - Corporate Savings (Level 4)"
+    },
+    {
+        "id":  "enterprise-completion-xml-level-3",
+        "title":  "Enterprise - Completion XML (Level 3)"
+    },
+    {
+        "id":  "enterprise-common-lookup-lists-level-5",
+        "title":  "Enterprise - Common - Lookup Lists (Level 5)"
+    },
+    {
+        "id":  "document-templates-level-5",
+        "title":  "Document Templates (Level 5)"
+    },
+    {
+        "id":  "data-capture-forms-testing-level-5",
+        "title":  "Data Capture (Forms) Testing (Level 5)"
+    },
+    {
+        "id":  "confluence-configuration",
+        "title":  "Confluence Configuration"
+    },
+    {
+        "id":  "config-apprivo-level-3",
+        "title":  "Config Apprivo (Level 3)"
+    },
+    {
+        "id":  "client-training-pool-management-level-3",
+        "title":  "Client Training - Pool Management (Level 3)"
+    },
+    {
+        "id":  "selenium-level-3",
+        "title":  "Selenium (Level 3)"
+    },
+    {
+        "id":  "high-level-enterprise-system-overview",
+        "title":  "High Level Enterprise system overview"
+    },
+    {
+        "id":  "enterprise-task-viewer-level-5",
+        "title":  "Enterprise - Task Viewer (Level 5)"
+    },
+    {
+        "id":  "enterprise-interfaces-valuation-level-3",
+        "title":  "Enterprise - Interfaces: Valuation (Level 3)"
+    },
+    {
+        "id":  "enterprise-equity-release-servicing-level-3",
+        "title":  "Enterprise - Equity Release- Servicing (Level 3)"
+    },
+    {
+        "id":  "enterprise-core-logging-level-3",
+        "title":  "Enterprise - Core Logging (Level 3)"
+    },
+    {
+        "id":  "enterprise-common-fees-level-3",
+        "title":  "Enterprise - Common - Fees (Level 3)"
+    },
+    {
+        "id":  "enterprise-1st-charge-level-4",
+        "title":  "Enterprise - 1st Charge (Level 4)"
+    },
+    {
+        "id":  "documents-and-docu-sign-assessment-level-3",
+        "title":  "Documents and Docu Sign Assessment (Level 3)"
+    },
+    {
+        "id":  "automated-testing-configuration-level-3",
+        "title":  "Automated testing - Configuration (Level 3)"
+    },
+    {
+        "id":  "retentions-business-assessment-level-3",
+        "title":  "Retentions Business Assessment (Level 3)"
+    },
+    {
+        "id":  "process-stages-testing-level-5",
+        "title":  "Process stages Testing (Level 5)"
+    },
+    {
+        "id":  "lending-policy-icr-how-to-answer-l3-l4-training-l34-ans",
+        "title":  "Lending Policy - ICR how to answer L3 / L4 Training (L34 Ans)"
+    },
+    {
+        "id":  "governance-when-to-go-to-deal-committee",
+        "title":  "Governance: When to go to Deal Committee"
+    },
+    {
+        "id":  "finova-s-glossary",
+        "title":  "Finova’s Glossary"
+    },
+    {
+        "id":  "enterprise-rules-level-4",
+        "title":  "Enterprise - Rules (Level 4)"
+    },
+    {
+        "id":  "enterprise-first-charge-level-5",
+        "title":  "Enterprise - First Charge (Level 5)"
+    },
+    {
+        "id":  "enterprise-calculations-level-3",
+        "title":  "Enterprise - Calculations (Level 3)"
+    },
+    {
+        "id":  "enterprise-app-forms-level3-devassess030-clone",
+        "title":  "Enterprise - App Forms (Level3) (DevAssess030-clone)"
+    },
+    {
+        "id":  "document-templates-level-3",
+        "title":  "Document Templates (Level 3)"
+    },
+    {
+        "id":  "devops-level-6",
+        "title":  "DevOps (Level 6)"
+    },
+    {
+        "id":  "day-in-the-life-of-a-support-analyst",
+        "title":  "Day in the life of... a Support Analyst"
+    },
+    {
+        "id":  "data-capture-branding-forms-business-assessment-level-3",
+        "title":  "Data Capture, Branding, Forms Business Assessment (Level 3)"
+    },
+    {
+        "id":  "test-reporting-and-metrics-level-3",
+        "title":  "Test Reporting and Metrics (Level 3)"
+    },
+    {
+        "id":  "submission-checklist-testing-level-5",
+        "title":  "Submission Checklist Testing (Level 5)"
+    },
+    {
+        "id":  "risk-assessment-screen-assessment-level-4",
+        "title":  "Risk Assessment Screen Assessment (Level 4)"
+    },
+    {
+        "id":  "risk-assessment-screen-assessment-level-3",
+        "title":  "Risk Assessment Screen Assessment (Level 3)"
+    },
+    {
+        "id":  "product-framework-new-patch-release-process",
+        "title":  "Product Framework New Patch Release Process"
+    },
+    {
+        "id":  "enterprise-servicing-roles-wizards-analysis-level-5",
+        "title":  "Enterprise - Servicing - Roles \u0026 Wizards (ANALYSIS) (Level 5)"
+    },
+    {
+        "id":  "enterprise-portal-branding-level-5",
+        "title":  "Enterprise - Portal Branding - Level 5"
+    },
+    {
+        "id":  "enterprise-portal-branding-level-4",
+        "title":  "Enterprise - Portal Branding - Level 4"
+    },
+    {
+        "id":  "enterprise-common-fees-level-4",
+        "title":  "Enterprise - Common - Fees (Level 4)"
+    },
+    {
+        "id":  "enterprise-back-office-config-level-3",
+        "title":  "Enterprise - Back Office (CONFIG) (Level 3)"
+    },
+    {
+        "id":  "enterprise-api-mapping-level3",
+        "title":  "Enterprise - API Mapping (Level3)"
+    },
+    {
+        "id":  "documents-and-docu-sign-assessment-level-4",
+        "title":  "Documents and Docu Sign Assessment (Level 4)"
+    },
+    {
+        "id":  "commercials-training-module-1",
+        "title":  "Commercials Training - Module 1"
+    },
+    {
+        "id":  "broker-hierarchy-assessment-level-4",
+        "title":  "Broker Hierarchy Assessment (Level 4)"
+    },
+    {
+        "id":  "test-script-production-level-4",
+        "title":  "Test script production (Level 4)"
+    },
+    {
+        "id":  "test",
+        "title":  "test"
+    },
+    {
+        "id":  "risk-assessment-screen-testing-level-5",
+        "title":  "Risk Assessment Screen Testing (Level 5)"
+    },
+    {
+        "id":  "lending-rules-testing-level-5",
+        "title":  "Lending Rules Testing (Level 5)"
+    },
+    {
+        "id":  "enterprise-reference-data-portal-users-lookup-level-5",
+        "title":  "Enterprise - Reference Data - Portal Users, Lookup (Level 5)"
+    },
+    {
+        "id":  "enterprise-interfaces-valuation-level-4",
+        "title":  "Enterprise - Interfaces: Valuation (Level 4)"
+    },
+    {
+        "id":  "enterprise-app-forms-level4-devassess030-clone-c",
+        "title":  "Enterprise - App Forms (Level4) (DevAssess030-clone-c)"
+    },
+    {
+        "id":  "enterprise-advice-journeys-level-4",
+        "title":  "Enterprise - Advice Journeys (Level 4)"
+    },
+    {
+        "id":  "document-templates-level-4",
+        "title":  "Document Templates (Level 4)"
+    },
+    {
+        "id":  "consumer-delphi-select-crav2-testing-level-3",
+        "title":  "Consumer Delphi Select - CRAV2 Testing (Level 3)"
+    },
+    {
+        "id":  "confluence-level-3",
+        "title":  "Confluence (Level 3)"
+    },
+    {
+        "id":  "test-reporting-and-metrics-level-4",
+        "title":  "Test Reporting and Metrics (Level 4)"
+    },
+    {
+        "id":  "retentions-business-assessment-level-4",
+        "title":  "Retentions Business Assessment (Level 4)"
+    },
+    {
+        "id":  "level-3-training-tester",
+        "title":  "Level 3 Training (Tester)"
+    },
+    {
+        "id":  "how-to-add-someone-on-to-confluence",
+        "title":  "How to add someone on to Confluence"
+    },
+    {
+        "id":  "forms-assessment-level-6",
+        "title":  "Forms Assessment (Level 6)"
+    },
+    {
+        "id":  "enterprise-workflow-config-level-3",
+        "title":  "Enterprise - Workflow Config (Level 3)"
+    },
+    {
+        "id":  "enterprise-retail-savings-level-5",
+        "title":  "Enterprise - Retail Savings (Level 5)"
+    },
+    {
+        "id":  "enterprise-finance-application-level-4",
+        "title":  "Enterprise - Finance Application (Level 4)"
+    },
+    {
+        "id":  "enterprise-calculations-level-4",
+        "title":  "Enterprise - Calculations (Level 4)"
+    },
+    {
+        "id":  "enterprise-branch-till-level-3",
+        "title":  "Enterprise - Branch Till (Level 3)"
+    },
+    {
+        "id":  "enterprise-batch-processing-serv-config-level-3",
+        "title":  "Enterprise - Batch Processing - Serv. Config. (Level 3)"
+    },
+    {
+        "id":  "data-capture-forms-testing-level-6",
+        "title":  "Data Capture (Forms) Testing (Level 6)"
+    },
+    {
+        "id":  "customer-facing-test-support-level-4",
+        "title":  "Customer facing test support (Level 4)"
+    },
+    {
+        "id":  "commercials-training-module-4",
+        "title":  "Commercials Training - Module 4"
+    },
+    {
+        "id":  "specflow-level-3",
+        "title":  "SpecFlow (Level 3)"
+    },
+    {
+        "id":  "quest-testing-level-4",
+        "title":  "Quest Testing (Level 4)"
+    },
+    {
+        "id":  "process-stages-testing-level-6",
+        "title":  "Process stages Testing (Level 6)"
+    },
+    {
+        "id":  "multi-currency-testing-level-3",
+        "title":  "Multi-currency Testing (Level 3)"
+    },
+    {
+        "id":  "level-3-broker-hierarchy",
+        "title":  "Level 3 - Broker Hierarchy"
+    },
+    {
+        "id":  "enterprise-origination-savings-level-5",
+        "title":  "Enterprise Origination Savings (Level 5)"
+    },
+    {
+        "id":  "enterprise-origination-pcv-level-5",
+        "title":  "Enterprise Origination PCV (Level 5)"
+    },
+    {
+        "id":  "enterprise-product-setup-level-4",
+        "title":  "Enterprise - Product Setup (Level 4)"
+    },
+    {
+        "id":  "enterprise-interfaces-cra-level-3",
+        "title":  "Enterprise - Interfaces: CRA (Level 3)"
+    },
+    {
+        "id":  "enterprise-general-ledger-level-3",
+        "title":  "Enterprise - General Ledger Level 3"
+    },
+    {
+        "id":  "commercials-training-module-2",
+        "title":  "Commercials Training - Module 2"
+    },
+    {
+        "id":  "commercial-delphi-select-crav2-testing-level-3",
+        "title":  "Commercial Delphi Select CRAV2 Testing (Level 3)"
+    },
+    {
+        "id":  "affordability-assessment-level-5",
+        "title":  "Affordability Assessment (Level 5)"
+    },
+    {
+        "id":  "using-app-insights",
+        "title":  "Using App Insights"
+    },
+    {
+        "id":  "test-harness-testing-level-5",
+        "title":  "Test Harness Testing (Level 5)"
+    },
+    {
+        "id":  "selenium-level-4",
+        "title":  "Selenium (Level 4)"
+    },
+    {
+        "id":  "risk-assessment-screen-assessment-level-5",
+        "title":  "Risk Assessment Screen Assessment (Level 5)"
+    },
+    {
+        "id":  "policy-shield-testing-level-6",
+        "title":  "Policy Shield Testing (Level 6)"
+    },
+    {
+        "id":  "operations-user-roles-testing-level-5",
+        "title":  "Operations (User Roles Testing) (Level 5)"
+    },
+    {
+        "id":  "enterprise-servicing-products-level-4",
+        "title":  "Enterprise - Servicing Products (Level 4)"
+    },
+    {
+        "id":  "enterprise-servicing-roles-wizards-analysis-level-3",
+        "title":  "Enterprise - Servicing - Roles \u0026 Wizards (ANALYSIS) (Level 3)"
+    },
+    {
+        "id":  "enterprise-corporate-savings-level-5",
+        "title":  "Enterprise - Corporate Savings (Level 5)"
+    },
+    {
+        "id":  "enterprise-common-lookup-lists-level-4",
+        "title":  "Enterprise - Common - Lookup Lists (Level 4)"
+    },
+    {
+        "id":  "enterprise-breathing-space-level-4",
+        "title":  "Enterprise - Breathing space (Level 4)"
+    },
+    {
+        "id":  "enterprise-batch-processing-serv-config-level-4",
+        "title":  "Enterprise - Batch Processing - Serv. Config. (Level 4)"
+    },
+    {
+        "id":  "enterprise-arrangements-level-5",
+        "title":  "Enterprise - Arrangements (Level 5)"
+    },
+    {
+        "id":  "enterprise-advice-journeys-level-5",
+        "title":  "Enterprise - Advice Journeys (Level 5)"
+    },
+    {
+        "id":  "devops-enterprise-testing-l4",
+        "title":  "DevOps- Enterprise Testing L4"
+    },
+    {
+        "id":  "defect-logging-and-triage-enterprise-testing",
+        "title":  "Defect Logging and Triage-  Enterprise Testing"
+    },
+    {
+        "id":  "customer-facing-test-support-level-3",
+        "title":  "Customer facing test support (Level 3)"
+    },
+    {
+        "id":  "commercials-training-module-3",
+        "title":  "Commercials Training - Module 3"
+    },
+    {
+        "id":  "checklist-items-assessment-level-6",
+        "title":  "Checklist Items Assessment (Level 6)"
+    },
+    {
+        "id":  "broker-hierarchy-testing-level-5",
+        "title":  "Broker Hierarchy Testing (Level 5)"
+    },
+    {
+        "id":  "affordability-testing-level-5",
+        "title":  "Affordability Testing (Level 5)"
+    },
+    {
+        "id":  "technical-c-net-level-3",
+        "title":  "Technical - C# .net (Level 3)"
+    },
+    {
+        "id":  "routing-questions-assessment-level-5",
+        "title":  "Routing Questions Assessment (Level 5)"
+    },
+    {
+        "id":  "roles-assessment-level-6",
+        "title":  "Roles Assessment (Level 6)"
+    },
+    {
+        "id":  "process-stages-assessment-level-4",
+        "title":  "Process Stages Assessment (Level 4)"
+    },
+    {
+        "id":  "policy-shields-assessment-level-6",
+        "title":  "Policy Shields Assessment (Level 6)"
+    },
+    {
+        "id":  "policy-shield-testing-level-5",
+        "title":  "Policy Shield Testing (Level 5)"
+    },
+    {
+        "id":  "operations-user-roles-testing-level-6",
+        "title":  "Operations (User Roles Testing) (Level 6)"
+    },
+    {
+        "id":  "lending-policy-assessment-resi",
+        "title":  "Lending Policy Assessment (Resi)"
+    },
+    {
+        "id":  "interview-best-practice-toolkit",
+        "title":  "Interview Best Practice Toolkit"
+    },
+    {
+        "id":  "how-to-update-the-skills-matrix",
+        "title":  "How to update the skills matrix"
+    },
+    {
+        "id":  "fee-payment-testing-level-5",
+        "title":  "Fee Payment Testing (Level 5)"
+    },
+    {
+        "id":  "enterprise-origination-stl-level-3",
+        "title":  "Enterprise - Origination - STL (Level 3)"
+    },
+    {
+        "id":  "enterprise-general-ledger-level-4",
+        "title":  "Enterprise - General Ledger Level 4"
+    },
+    {
+        "id":  "enterprise-equity-release-origination-level-3",
+        "title":  "Enterprise - Equity Release- Origination (Level 3)"
+    },
+    {
+        "id":  "enterprise-reference-data-portal-users-lookup-level-4-2",
+        "title":  "Enterprise  - Reference Data - Portal Users, Lookup - Level 4"
+    },
+    {
+        "id":  "documents-testing-level-5",
+        "title":  "Documents Testing (Level 5)"
+    },
+    {
+        "id":  "cra-level-3",
+        "title":  "CRA - Level 3"
+    },
+    {
+        "id":  "bdd-l4",
+        "title":  "BDD- L4"
+    },
+    {
+        "id":  "apprivo-support-script-awareness",
+        "title":  "Apprivo Support: Script Awareness"
+    },
+    {
+        "id":  "test-planning-and-estimation-level-5",
+        "title":  "Test Planning and Estimation (Level 5)"
+    },
+    {
+        "id":  "submission-checklist-testing-level-6",
+        "title":  "Submission Checklist Testing (Level 6)"
+    },
+    {
+        "id":  "rebrand-assessment-level-5",
+        "title":  "Rebrand Assessment (Level 5)"
+    },
+    {
+        "id":  "raid",
+        "title":  "RAID"
+    },
+    {
+        "id":  "pcv-enterprise-testing-l4",
+        "title":  "PCV- Enterprise Testing L4"
+    },
+    {
+        "id":  "notes-diaries-testing-level-5",
+        "title":  "Notes \u0026 Diaries Testing (Level 5)"
+    },
+    {
+        "id":  "notes-diaries-assessment-level-3",
+        "title":  "Notes \u0026 Diaries Assessment (Level 3)"
+    },
+    {
+        "id":  "interviewing-best-practice",
+        "title":  "Interviewing Best Practice"
+    },
+    {
+        "id":  "enterprise-mortgage-end-to-end-journey-demo-and-q-a",
+        "title":  "Enterprise Mortgage end-to-end journey demo and Q\u0026A"
+    },
+    {
+        "id":  "enterprise-servicing-products-level-3",
+        "title":  "Enterprise - Servicing Products (Level 3)"
+    },
+    {
+        "id":  "enterprise-servicing-arrears-analysis-level-5",
+        "title":  "Enterprise - Servicing - Arrears (ANALYSIS) (Level 5)"
+    },
+    {
+        "id":  "enterprise-finance-application-level-5",
+        "title":  "Enterprise - Finance Application (Level 5)"
+    },
+    {
+        "id":  "enterprise-completion-xml-level-5",
+        "title":  "Enterprise - Completion XML (Level 5)"
+    },
+    {
+        "id":  "enterprise-branch-till-level-4",
+        "title":  "Enterprise - Branch Till (Level 4)"
+    },
+    {
+        "id":  "docusign-testing-level-5",
+        "title":  "Docusign Testing (Level 5)"
+    },
+    {
+        "id":  "debug-enterprise-origination-and-servicing-using-symbol-server",
+        "title":  "Debug Enterprise Origination and Servicing Using Symbol Server"
+    },
+    {
+        "id":  "data-capture-branding-forms-business-assessment-level-4",
+        "title":  "Data Capture, Branding, Forms Business Assessment (Level 4)"
+    },
+    {
+        "id":  "back-office-configuration-enterprise-testing-l5",
+        "title":  "Back Office Configuration - Enterprise Testing L5"
+    },
+    {
+        "id":  "apprivo-support-ticket-templates",
+        "title":  "Apprivo Support: Ticket Templates"
+    },
+    {
+        "id":  "technical-c-net-level-3-2",
+        "title":  "Technical - C# .net (Level 3)."
+    },
+    {
+        "id":  "support-mi-how-to-use-it",
+        "title":  "Support MI - How To Use It"
+    },
+    {
+        "id":  "notes-diaries-testing-level-6",
+        "title":  "Notes \u0026 Diaries Testing (Level 6)"
+    },
+    {
+        "id":  "manager-s-mental-health-toolkit",
+        "title":  "Manager\u0027s Mental Health Toolkit"
+    },
+    {
+        "id":  "kfi-and-esis-l4",
+        "title":  "KFI and ESIS - L4"
+    },
+    {
+        "id":  "kanban-cards-checklist-items-business-assessment-level-4",
+        "title":  "Kanban Cards / Checklist Items Business Assessment (Level 4)"
+    },
+    {
+        "id":  "hands-on-training-accreditation-for-engineers-and-developers-top-5",
+        "title":  "Hands-on Training Accreditation for Engineers and Developers (Top 5)"
+    },
+    {
+        "id":  "enterprise-lookup-lists-level-4",
+        "title":  "Enterprise - Lookup Lists - Level 4"
+    },
+    {
+        "id":  "enterprise-equity-release-servicing-level-5",
+        "title":  "Enterprise - Equity Release- Servicing (Level 5)"
+    },
+    {
+        "id":  "enterprise-breathing-space-level-5",
+        "title":  "Enterprise - Breathing space (Level 5)"
+    },
+    {
+        "id":  "ebanking-enterprise-testing-l3",
+        "title":  "Ebanking - Enterprise Testing L3"
+    },
+    {
+        "id":  "core-logging-enterprise-testing-l4",
+        "title":  "Core Logging - Enterprise Testing L4"
+    },
+    {
+        "id":  "broker-hierarchy-testing-level-6",
+        "title":  "Broker Hierarchy Testing (Level 6)"
+    },
+    {
+        "id":  "ways-of-working-level-3",
+        "title":  "Ways of Working (Level 3)"
+    },
+    {
+        "id":  "testing-strategy-level-5",
+        "title":  "Testing Strategy (Level 5)"
+    },
+    {
+        "id":  "technical-jquery-level-3",
+        "title":  "Technical - JQuery (Level 3)."
+    },
+    {
+        "id":  "technical-git-level-3",
+        "title":  "Technical - GIT (Level 3)."
+    },
+    {
+        "id":  "technical-asp-net-mvc-level-3",
+        "title":  "Technical - ASP.NET MVC (Level 3)."
+    },
+    {
+        "id":  "technical-api-level-3",
+        "title":  "Technical - API (Level 3)"
+    },
+    {
+        "id":  "tasks-assessment-level-4",
+        "title":  "Tasks Assessment (Level 4)"
+    },
+    {
+        "id":  "submission-checklist-business-assessment-level-4",
+        "title":  "Submission Checklist Business Assessment (Level 4)"
+    },
+    {
+        "id":  "sonarcloud-issues-in-pull-requests",
+        "title":  "SonarCloud issues in Pull Requests"
+    },
+    {
+        "id":  "process-stages-business-assessment-level-4",
+        "title":  "Process Stages Business Assessment (Level 4)"
+    },
+    {
+        "id":  "notes-diaries-assessment-level-4",
+        "title":  "Notes \u0026 Diaries Assessment (Level 4)"
+    },
+    {
+        "id":  "migration-classroom",
+        "title":  "Migration Classroom"
+    },
+    {
+        "id":  "lending-policy-including-policy-shields-business-assessment-level-4",
+        "title":  "Lending Policy including policy shields Business Assessment (Level 4)"
+    },
+    {
+        "id":  "introduction-to-finova-payment-mortgage-services-coming-soon",
+        "title":  "Introduction to finova Payment \u0026 Mortgage Services (Coming Soon)"
+    },
+    {
+        "id":  "id-v-fraud-testing-level-5",
+        "title":  "ID\u0026V + Fraud Testing (Level 5)"
+    },
+    {
+        "id":  "finance-app-level-3-4",
+        "title":  "Finance App Level 3 \u0026 4"
+    },
+    {
+        "id":  "enterprise-rules-level-5",
+        "title":  "Enterprise - Rules (Level 5)"
+    },
+    {
+        "id":  "enterprise-origination-stl-level-4",
+        "title":  "Enterprise - Origination - STL (Level 4)"
+    },
+    {
+        "id":  "enterprise-equity-release-servicing-level-4",
+        "title":  "Enterprise - Equity Release- Servicing (Level 4)"
+    },
+    {
+        "id":  "enterprise-api-mapping-level4",
+        "title":  "Enterprise - API Mapping (Level4)"
+    },
+    {
+        "id":  "ebanking-enterprise-testing-l4",
+        "title":  "Ebanking - Enterprise Testing L4"
+    },
+    {
+        "id":  "devops-pms-bas-developers",
+        "title":  "DevOps (PMs, BAs \u0026 Developers)"
+    },
+    {
+        "id":  "completions-file-level-5",
+        "title":  "Completions file (Level 5)"
+    },
+    {
+        "id":  "broker-hierarchy-assessment-level-5",
+        "title":  "Broker Hierarchy Assessment (Level 5)"
+    },
+    {
+        "id":  "behavior-driven-development-level5",
+        "title":  "Behavior Driven Development (Level5)"
+    },
+    {
+        "id":  "automated-testing-configuration-level-4",
+        "title":  "Automated testing - Configuration (Level 4)"
+    },
+    {
+        "id":  "test-harness-testing-level-6",
+        "title":  "Test Harness Testing (Level 6)"
+    },
+    {
+        "id":  "technical-yaml-level-3",
+        "title":  "Technical - YAML (Level 3)."
+    },
+    {
+        "id":  "technical-json-level-3",
+        "title":  "Technical - JSON (Level 3)."
+    },
+    {
+        "id":  "technical-javascript-level-3",
+        "title":  "Technical - Javascript (Level 3)."
+    },
+    {
+        "id":  "talentlms-admin-training",
+        "title":  "TalentLMS Admin Training"
+    },
+    {
+        "id":  "specflow-level-4",
+        "title":  "SpecFlow (Level 4)"
+    },
+    {
+        "id":  "routing-questions-business-assessment-level-4",
+        "title":  "Routing Questions Business Assessment (Level 4)"
+    },
+    {
+        "id":  "routing-questions-assessment-level-6",
+        "title":  "Routing Questions Assessment (Level 6)"
+    },
+    {
+        "id":  "risk-assessment-screen-business-assessment-level-4",
+        "title":  "Risk Assessment Screen Business Assessment (Level 4)"
+    },
+    {
+        "id":  "rebrand-assessment-level-6",
+        "title":  "Rebrand Assessment (Level 6)"
+    },
+    {
+        "id":  "multi-currency-assessment-level-3",
+        "title":  "Multi Currency Assessment (Level 3)"
+    },
+    {
+        "id":  "lgbtq-discussion",
+        "title":  "LGBTQ+ Discussion"
+    },
+    {
+        "id":  "fee-payment-testing-level-6",
+        "title":  "Fee Payment Testing (Level 6)"
+    },
+    {
+        "id":  "enterprise-servicing-stl-level-3",
+        "title":  "Enterprise - Servicing- STL (Level 3)"
+    },
+    {
+        "id":  "enterprise-lookup-lists-level-5",
+        "title":  "Enterprise - Lookup Lists - Level 5"
+    },
+    {
+        "id":  "enterprise-general-ledger-level-5",
+        "title":  "Enterprise - General Ledger Level 5"
+    },
+    {
+        "id":  "enterprise-e-banking-level-5",
+        "title":  "Enterprise - E-Banking (Level 5)"
+    },
+    {
+        "id":  "enterprise-affordability-analysis-level-4",
+        "title":  "Enterprise - Affordability ANALYSIS (Level 4)"
+    },
+    {
+        "id":  "enterprise-reference-data-portal-users-lookup-level-5-2",
+        "title":  "Enterprise  - Reference Data - Portal Users, Lookup - Level 5"
+    },
+    {
+        "id":  "emails-business-assessment-level-4",
+        "title":  "Emails Business Assessment (Level 4)"
+    },
+    {
+        "id":  "ebanking-enterprise-testing-l5",
+        "title":  "Ebanking - Enterprise Testing L5"
+    },
+    {
+        "id":  "dynamic-mapper-assessment-level-6",
+        "title":  "Dynamic Mapper Assessment (Level 6)"
+    },
+    {
+        "id":  "docusign-testing-level-6",
+        "title":  "Docusign Testing (Level 6)"
+    },
+    {
+        "id":  "direct-debit-functionality-servicing",
+        "title":  "Direct Debit Functionality (servicing)"
+    },
+    {
+        "id":  "core-logging-enterprise-testing-l5",
+        "title":  "Core Logging - Enterprise Testing L5"
+    },
+    {
+        "id":  "commercial-decision-crav2-testing-level-3",
+        "title":  "Commercial (Decision+) - CRAV2 Testing (Level 3)"
+    },
+    {
+        "id":  "apprivo-go-live-production-run-book",
+        "title":  "Apprivo Go Live Production Run Book"
+    },
+    {
+        "id":  "affordability-btl-business-assessment-level-4",
+        "title":  "Affordability (BTL) Business Assessment (Level 4)"
+    },
+    {
+        "id":  "ways-of-working-level-4",
+        "title":  "Ways of Working (Level 4)"
+    },
+    {
+        "id":  "test-reporting-and-metrics-level-5",
+        "title":  "Test Reporting and Metrics (Level 5)"
+    },
+    {
+        "id":  "test-packs-enterprise-testing-l3",
+        "title":  "Test Packs-  Enterprise Testing L3"
+    },
+    {
+        "id":  "technical-database-level-3",
+        "title":  "Technical - Database (Level 3)."
+    },
+    {
+        "id":  "tasks-assessment-level-5",
+        "title":  "Tasks Assessment (Level 5)"
+    },
+    {
+        "id":  "roles-business-assessment-level-4",
+        "title":  "Roles Business Assessment (Level 4)"
+    },
+    {
+        "id":  "risk-assessment-screen-testing-level-6",
+        "title":  "Risk Assessment Screen Testing (Level 6)"
+    },
+    {
+        "id":  "risk-ass-screen-testing-level-6",
+        "title":  "Risk Ass. Screen Testing (Level 6)"
+    },
+    {
+        "id":  "product-catalogue-and-lending-rules-assessment-level-6",
+        "title":  "Product Catalogue and Lending Rules Assessment (Level 6)"
+    },
+    {
+        "id":  "pre-requisite-selenium-level-3",
+        "title":  "Pre-Requisite Selenium (Level 3)"
+    },
+    {
+        "id":  "planet-press-release-training",
+        "title":  "Planet Press Release Training"
+    },
+    {
+        "id":  "pca-predict-locate-assessment-level-4",
+        "title":  "PCA Predict / Locate Assessment (Level 4)"
+    },
+    {
+        "id":  "optimo-pricing-engine-enterprise-testing-l3-l4",
+        "title":  "Optimo Pricing Engine - Enterprise Testing L3 \u0026 L4"
+    },
+    {
+        "id":  "kfi-and-esis-l5",
+        "title":  "KFI and ESIS - L5"
+    },
+    {
+        "id":  "id-v-fraud-testing-level-4",
+        "title":  "ID\u0026V + Fraud Testing (Level 4)"
+    },
+    {
+        "id":  "fees-level-5",
+        "title":  "Fees (Level 5)"
+    },
+    {
+        "id":  "enterprise-task-viewer-level-6",
+        "title":  "Enterprise - Task Viewer (Level 6)"
+    },
+    {
+        "id":  "enterprise-second-charge-level-4",
+        "title":  "Enterprise - Second Charge (Level 4)"
+    },
+    {
+        "id":  "enterprise-document-configuration-level-4",
+        "title":  "Enterprise - Document Configuration (Level 4)"
+    },
+    {
+        "id":  "enterprise-back-office-config-level-6",
+        "title":  "Enterprise - Back Office (CONFIG) (Level 6)"
+    },
+    {
+        "id":  "enterprise-affordability-config-level-6",
+        "title":  "Enterprise - Affordability CONFIG (Level 6)"
+    },
+    {
+        "id":  "documents-testing-level-6",
+        "title":  "Documents Testing (Level 6)"
+    },
+    {
+        "id":  "document-templates-level-6",
+        "title":  "Document Templates (Level 6)"
+    },
+    {
+        "id":  "data-capture-branding-forms-business-assessment-level-6",
+        "title":  "Data Capture, Branding, Forms Business Assessment (Level 6)"
+    },
+    {
+        "id":  "customer-facing-test-support-level-5",
+        "title":  "Customer facing test support (Level 5)"
+    },
+    {
+        "id":  "consumer-delphi-select-crav2-testing-level-5",
+        "title":  "Consumer Delphi Select - CRAV2 Testing (Level 5)"
+    },
+    {
+        "id":  "completions-file-level-6",
+        "title":  "Completions file (Level 6)"
+    },
+    {
+        "id":  "completions-file-level-3",
+        "title":  "Completions file (Level 3)"
+    },
+    {
+        "id":  "client-training-gl-extract-level-4",
+        "title":  "Client Training - GL Extract (Level 4)"
+    },
+    {
+        "id":  "boards-devops-level-3",
+        "title":  "Boards/ Devops (Level 3)"
+    },
+    {
+        "id":  "automation-testing-level-4",
+        "title":  "Automation Testing (Level 4)"
+    },
+    {
+        "id":  "automated-testing-coding-level-4",
+        "title":  "Automated testing - Coding (Level 4)"
+    },
+    {
+        "id":  "affordability-assessment-level-6",
+        "title":  "Affordability Assessment (Level 6)"
+    },
+    {
+        "id":  "affordability-btl-business-assessment-level-2",
+        "title":  "Affordability (BTL) Business Assessment (Level 2)"
+    },
+    {
+        "id":  "test-script-production-enterprise-testing-l3",
+        "title":  "Test Script Production- Enterprise Testing L3"
+    },
+    {
+        "id":  "solutionize-configuration-level-3",
+        "title":  "Solutionize Configuration (Level 3)"
+    },
+    {
+        "id":  "routing-questions-business-assessment-level-5",
+        "title":  "Routing Questions Business Assessment (Level 5)"
+    },
+    {
+        "id":  "roles-business-assessment-level-6",
+        "title":  "Roles Business Assessment (Level 6)"
+    },
+    {
+        "id":  "performance-feedback",
+        "title":  "Performance Feedback"
+    },
+    {
+        "id":  "multi-currency-assessment-level-4",
+        "title":  "Multi Currency Assessment (Level 4)"
+    },
+    {
+        "id":  "id-v-fraud-testing-level-3",
+        "title":  "ID\u0026V + Fraud Testing (Level 3)"
+    },
+    {
+        "id":  "id-v-fraud-assessment-level-3",
+        "title":  "ID\u0026V + Fraud Assessment (Level 3)"
+    },
+    {
+        "id":  "enterprise-migration-level-3",
+        "title":  "Enterprise - Migration (Level 3)"
+    },
+    {
+        "id":  "enterprise-interfaces-cra-level-4",
+        "title":  "Enterprise - Interfaces: CRA (Level 4)"
+    },
+    {
+        "id":  "enterprise-fma-xml-level-5",
+        "title":  "Enterprise - FMA XML (Level 5)"
+    },
+    {
+        "id":  "enterprise-document-configuration-level-5",
+        "title":  "Enterprise - Document Configuration (Level 5)"
+    },
+    {
+        "id":  "enterprise-completion-xml-level-6",
+        "title":  "Enterprise - Completion XML (Level 6)"
+    },
+    {
+        "id":  "enterprise-calculations-level-5",
+        "title":  "Enterprise - Calculations (Level 5)"
+    },
+    {
+        "id":  "enterprise-affordability-analysis-level-6",
+        "title":  "Enterprise - Affordability ANALYSIS (Level 6)"
+    },
+    {
+        "id":  "enterprise-affordability-analysis-level-5",
+        "title":  "Enterprise - Affordability ANALYSIS (Level 5)"
+    },
+    {
+        "id":  "emails-business-assessment-level-3",
+        "title":  "Emails Business Assessment (Level 3)"
+    },
+    {
+        "id":  "documents-and-docu-sign-assessment-level-6",
+        "title":  "Documents and Docu Sign Assessment (Level 6)"
+    },
+    {
+        "id":  "documents-and-docu-sign-assessment-level-5",
+        "title":  "Documents and Docu Sign Assessment (Level 5)"
+    },
+    {
+        "id":  "cra-experian-delphi-consumer-level-3",
+        "title":  "CRA - Experian Delphi Consumer (Level 3)"
+    },
+    {
+        "id":  "commercial-delphi-select-crav2-testing-level-5",
+        "title":  "Commercial Delphi Select - CRAV2 Testing (Level 5)"
+    },
+    {
+        "id":  "client-training-gl-extract-level-5",
+        "title":  "Client Training - GL Extract (Level 5)"
+    },
+    {
+        "id":  "broker-hierarchy-business-assessment-level-4",
+        "title":  "Broker Hierarchy Business Assessment (Level 4)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-2-dev",
+        "title":  "Adopt Model Assessment (Level 2) (Dev)"
+    },
+    {
+        "id":  "ways-of-working-level-6",
+        "title":  "Ways of Working (Level 6)"
+    },
+    {
+        "id":  "test-script-production-enterprise-testing-l5",
+        "title":  "Test Script Production- Enterprise Testing L5"
+    },
+    {
+        "id":  "test-script-production-enterprise-testing-l4",
+        "title":  "Test Script Production- Enterprise Testing L4"
+    },
+    {
+        "id":  "technical-bootstrap-level-3",
+        "title":  "Technical - Bootstrap (Level 3)."
+    },
+    {
+        "id":  "risk-assessment-screen-business-assessment-level-6",
+        "title":  "Risk Assessment Screen Business Assessment (Level 6)"
+    },
+    {
+        "id":  "risk-assessment-screen-assessment-level-6",
+        "title":  "Risk Assessment Screen Assessment (Level 6)"
+    },
+    {
+        "id":  "reporting-database-assessment-level-5",
+        "title":  "Reporting Database Assessment (Level 5)"
+    },
+    {
+        "id":  "quest-testing-level-5",
+        "title":  "Quest Testing (Level 5)"
+    },
+    {
+        "id":  "process-stages-business-assessment-level-6",
+        "title":  "Process Stages Business Assessment (Level 6)"
+    },
+    {
+        "id":  "payments-business-assessment-level-4",
+        "title":  "Payments Business Assessment (Level 4)"
+    },
+    {
+        "id":  "notes-diaries-assessment-level-6",
+        "title":  "Notes \u0026 Diaries Assessment (Level 6)"
+    },
+    {
+        "id":  "multi-currency-assessment-level-5",
+        "title":  "Multi Currency Assessment (Level 5)"
+    },
+    {
+        "id":  "lending-rules-testing-level-6",
+        "title":  "Lending Rules Testing (Level 6)"
+    },
+    {
+        "id":  "lending-policy-including-policy-shields-business-assessment-level-6",
+        "title":  "Lending Policy including policy shields Business Assessment (Level 6)"
+    },
+    {
+        "id":  "kanban-cards-checklist-items-business-assessment-level-6",
+        "title":  "Kanban Cards / Checklist Items Business Assessment (Level 6)"
+    },
+    {
+        "id":  "enterprise-origination-savings-level-6",
+        "title":  "Enterprise Origination Savings (Level 6)"
+    },
+    {
+        "id":  "enterprise-retail-savings-level-6",
+        "title":  "Enterprise - Retail Savings (Level 6)"
+    },
+    {
+        "id":  "enterprise-origination-stl-level-5",
+        "title":  "Enterprise - Origination - STL (Level 5)"
+    },
+    {
+        "id":  "enterprise-migration-level-4",
+        "title":  "Enterprise - Migration (Level 4)"
+    },
+    {
+        "id":  "enterprise-corporate-savings-level-6",
+        "title":  "Enterprise - Corporate Savings (Level 6)"
+    },
+    {
+        "id":  "enterprise-batch-processing-serv-sol-level-3",
+        "title":  "Enterprise - Batch Processing - Serv. Sol.(Level 3)"
+    },
+    {
+        "id":  "enterprise-back-office-analysis-level-5",
+        "title":  "Enterprise - Back Office (ANALYSIS) (Level 5)"
+    },
+    {
+        "id":  "enterprise-affordability-config-level-5",
+        "title":  "Enterprise - Affordability CONFIG (Level 5)"
+    },
+    {
+        "id":  "eid-v-business-assessment-level-5",
+        "title":  "eID\u0026V Business Assessment (Level 5)"
+    },
+    {
+        "id":  "eid-v-business-assessment-level-4",
+        "title":  "eID\u0026V Business Assessment (Level 4)"
+    },
+    {
+        "id":  "documentation-business-assessment-level-4",
+        "title":  "Documentation Business Assessment (Level 4)"
+    },
+    {
+        "id":  "defect-logging-and-triage-level-6",
+        "title":  "Defect logging and triage (Level 6)"
+    },
+    {
+        "id":  "cra-business-assessment-level-5",
+        "title":  "CRA Business Assessment (Level 5)"
+    },
+    {
+        "id":  "cra-business-assessment-level-4",
+        "title":  "CRA Business Assessment (Level 4)"
+    },
+    {
+        "id":  "completions-file-testing-level-5",
+        "title":  "Completions file Testing (Level 5)"
+    },
+    {
+        "id":  "completions-file-testing-level-4",
+        "title":  "Completions file Testing (Level 4)"
+    },
+    {
+        "id":  "completions-file-business-assessment-level-4",
+        "title":  "Completions File Business Assessment (Level 4)"
+    },
+    {
+        "id":  "completions-file-level-4",
+        "title":  "Completions file (Level 4)"
+    },
+    {
+        "id":  "commercial-decision-crav2-testing-level-5",
+        "title":  "Commercial (Decision+) - CRAV2 Testing (Level 5)"
+    },
+    {
+        "id":  "client-training-pool-management-level-6",
+        "title":  "Client Training - Pool Management (Level 6)"
+    },
+    {
+        "id":  "broker-hierarchy-business-assessment-level-6",
+        "title":  "Broker Hierarchy Business Assessment (Level 6)"
+    },
+    {
+        "id":  "automation-testing-level-3",
+        "title":  "Automation Testing (Level 3)"
+    },
+    {
+        "id":  "apprivo-delivery-process",
+        "title":  "Apprivo Delivery Process"
+    },
+    {
+        "id":  "affordability-resi-business-assessment-level-4",
+        "title":  "Affordability (RESI) Business Assessment (Level 4)"
+    },
+    {
+        "id":  "affordability-btl-business-assessment-level-6",
+        "title":  "Affordability (BTL) Business Assessment (Level 6)"
+    },
+    {
+        "id":  "ways-of-working-level-5",
+        "title":  "Ways of Working (Level 5)"
+    },
+    {
+        "id":  "test-script-production-level-6",
+        "title":  "Test script production (Level 6)"
+    },
+    {
+        "id":  "technical-asp-net-mvc-level-3-2",
+        "title":  "Technical - ASP.NET MVC (Level 3)"
+    },
+    {
+        "id":  "submission-checklist-business-assessment-level-6",
+        "title":  "Submission Checklist Business Assessment (Level 6)"
+    },
+    {
+        "id":  "solutionize-configuration-level-6",
+        "title":  "Solutionize Configuration (Level 6)"
+    },
+    {
+        "id":  "servicing-savings-configuration",
+        "title":  "Servicing Savings Configuration"
+    },
+    {
+        "id":  "savings-ebanking-browser-version-configuration",
+        "title":  "Savings eBanking Browser version Configuration"
+    },
+    {
+        "id":  "routing-questions-business-assessment-level-6",
+        "title":  "Routing Questions Business Assessment (Level 6)"
+    },
+    {
+        "id":  "retentions-business-assessment-level-5",
+        "title":  "Retentions Business Assessment (Level 5)"
+    },
+    {
+        "id":  "reporting-database-assessment-level-4",
+        "title":  "Reporting Database Assessment (Level 4)"
+    },
+    {
+        "id":  "reporting-database-assessment-level-3",
+        "title":  "Reporting Database Assessment (Level 3)"
+    },
+    {
+        "id":  "quest-testing-level-6",
+        "title":  "Quest Testing (Level 6)"
+    },
+    {
+        "id":  "quest-business-assessment-level-6",
+        "title":  "Quest Business Assessment (Level 6)"
+    },
+    {
+        "id":  "quest-level-5",
+        "title":  "Quest (Level 5)"
+    },
+    {
+        "id":  "quest-level-4",
+        "title":  "Quest (Level 4)"
+    },
+    {
+        "id":  "quest-level-3",
+        "title":  "Quest (Level 3)"
+    },
+    {
+        "id":  "product-catalogue-business-assessment-level-5",
+        "title":  "Product Catalogue Business Assessment (Level 5)"
+    },
+    {
+        "id":  "product-catalogue-business-assessment-level-4",
+        "title":  "Product Catalogue Business Assessment (Level 4)"
+    },
+    {
+        "id":  "process-stages-business-assessment-level-5",
+        "title":  "Process Stages Business Assessment (Level 5)"
+    },
+    {
+        "id":  "payments-business-assessment-level-5",
+        "title":  "Payments Business Assessment (Level 5)"
+    },
+    {
+        "id":  "offer-conditions-business-assessment-level-3",
+        "title":  "Offer Conditions Business Assessment (Level 3)"
+    },
+    {
+        "id":  "notes-diaries-assessment-level-5",
+        "title":  "Notes \u0026 Diaries Assessment (Level 5)"
+    },
+    {
+        "id":  "multi-currency-testing-level-4",
+        "title":  "Multi Currency Testing (Level 4)"
+    },
+    {
+        "id":  "linq-level-3",
+        "title":  "LINQ (Level 3)"
+    },
+    {
+        "id":  "lending-policy-including-policy-shields-business-assessment-level-5",
+        "title":  "Lending Policy including policy shields Business Assessment (Level 5)"
+    },
+    {
+        "id":  "lending-policy-business-assessment-btl",
+        "title":  "Lending Policy Business Assessment (BTL)"
+    },
+    {
+        "id":  "kanban-cards-checklist-items-business-assessment-level-5",
+        "title":  "Kanban Cards / Checklist Items Business Assessment (Level 5)"
+    },
+    {
+        "id":  "id-v-fraud-testing-level-6",
+        "title":  "ID\u0026V + Fraud Testing (Level 6)"
+    },
+    {
+        "id":  "fraud-business-assessment-level-5",
+        "title":  "Fraud Business Assessment (Level 5)"
+    },
+    {
+        "id":  "fraud-business-assessment-level-4",
+        "title":  "Fraud Business Assessment (Level 4)"
+    },
+    {
+        "id":  "finova-graduate-assessment",
+        "title":  "finova Graduate Assessment"
+    },
+    {
+        "id":  "fees-level-6",
+        "title":  "Fees (Level 6)"
+    },
+    {
+        "id":  "fee-configuration-servicing",
+        "title":  "Fee Configuration (servicing)"
+    },
+    {
+        "id":  "explorer-report-level-5",
+        "title":  "Explorer Report (Level 5)"
+    },
+    {
+        "id":  "explorer-report-level-4",
+        "title":  "Explorer Report (Level 4)"
+    },
+    {
+        "id":  "explorer-report-level-3",
+        "title":  "Explorer Report (Level 3)"
+    },
+    {
+        "id":  "enterprise-servicing-products-level-5",
+        "title":  "Enterprise - Servicing Products (Level 5)"
+    },
+    {
+        "id":  "enterprise-second-charge-level-5",
+        "title":  "Enterprise - Second Charge (Level 5)"
+    },
+    {
+        "id":  "enterprise-product-setup-level-5",
+        "title":  "Enterprise - Product Setup (Level 5)"
+    },
+    {
+        "id":  "enterprise-first-charge-level-6",
+        "title":  "Enterprise - First Charge (Level 6)"
+    },
+    {
+        "id":  "enterprise-completion-xml",
+        "title":  "Enterprise - Completion XML"
+    },
+    {
+        "id":  "enterprise-branch-till-level-5",
+        "title":  "Enterprise - Branch Till (Level 5)"
+    },
+    {
+        "id":  "enterprise-batch-processing-serv-config-level-5",
+        "title":  "Enterprise - Batch Processing - Serv. Config. (Level 5)"
+    },
+    {
+        "id":  "enterprise-1st-charge-level-6",
+        "title":  "Enterprise - 1st Charge (Level 6)"
+    },
+    {
+        "id":  "eid-v-business-assessment-level-6",
+        "title":  "eID\u0026V Business Assessment (Level 6)"
+    },
+    {
+        "id":  "eid-v-business-assessment-level-3",
+        "title":  "eID\u0026V Business Assessment (Level 3)"
+    },
+    {
+        "id":  "cra-business-assessment-level-6",
+        "title":  "CRA Business Assessment (Level 6)"
+    },
+    {
+        "id":  "cra-experian-delphi-commercial-level-3",
+        "title":  "CRA - Experian Delphi Commercial (Level 3)"
+    },
+    {
+        "id":  "confluence-level-4",
+        "title":  "Confluence (Level 4)"
+    },
+    {
+        "id":  "completions-file-business-assessment-level-5",
+        "title":  "Completions File Business Assessment (Level 5)"
+    },
+    {
+        "id":  "commercial-delphi-select-crav2-testing-level-4",
+        "title":  "Commercial Delphi Select - CRAV2 Testing (Level 4)"
+    },
+    {
+        "id":  "checkflow-items-assessment-level-6",
+        "title":  "Checkflow Items Assessment (Level 6)"
+    },
+    {
+        "id":  "bug-bash-pro-level-3",
+        "title":  "Bug Bash Pro (Level 3)"
+    },
+    {
+        "id":  "broker-registration-business-assessment-resi",
+        "title":  "Broker Registration Business Assessment (Resi)"
+    },
+    {
+        "id":  "branding-business-assessment-level-4",
+        "title":  "Branding Business Assessment (Level 4)"
+    },
+    {
+        "id":  "behavior-driven-development-level6",
+        "title":  "Behavior Driven Development (Level6)"
+    },
+    {
+        "id":  "affordability-testing-level-6",
+        "title":  "Affordability Testing (Level 6)"
+    },
+    {
+        "id":  "virtual-standup-meeting-accreditation",
+        "title":  "(Virtual) Standup Meeting Accreditation"
+    },
+    {
+        "id":  "underwriter-case-manager-mandate-and-case-officers-activities",
+        "title":  "Underwriter, Case Manager, Mandate and Case Officers Activities"
+    },
+    {
+        "id":  "technical-winforms-level-6",
+        "title":  "Technical - Winforms (Level 6)"
+    },
+    {
+        "id":  "technical-winforms-level-4",
+        "title":  "Technical - Winforms (Level 4)"
+    },
+    {
+        "id":  "technical-winforms-level-3",
+        "title":  "Technical - Winforms (Level 3)"
+    },
+    {
+        "id":  "technical-javascript-level-6",
+        "title":  "Technical - Javascript (Level 6)"
+    },
+    {
+        "id":  "technical-javascript-level-5",
+        "title":  "Technical - Javascript (Level 5)"
+    },
+    {
+        "id":  "technical-javascript-level-3-2",
+        "title":  "Technical - Javascript (Level 3)"
+    },
+    {
+        "id":  "technical-database-level-6",
+        "title":  "Technical - Database (Level 6)"
+    },
+    {
+        "id":  "technical-database-level-4",
+        "title":  "Technical - Database (Level 4)"
+    },
+    {
+        "id":  "technical-core-logging-level-4",
+        "title":  "Technical - Core Logging (Level 4)"
+    },
+    {
+        "id":  "technical-core-logging-level-3",
+        "title":  "Technical - Core Logging (Level 3)"
+    },
+    {
+        "id":  "technical-c-net-level-6",
+        "title":  "Technical - C# .net (Level 6)"
+    },
+    {
+        "id":  "technical-c-net-level-5",
+        "title":  "Technical - C# .net (Level 5)"
+    },
+    {
+        "id":  "technical-c-net-level-4",
+        "title":  "Technical - C# .net (Level 4)"
+    },
+    {
+        "id":  "technical-asp-net-mvc-level-6",
+        "title":  "Technical - ASP.NET MVC (Level 6)"
+    },
+    {
+        "id":  "technical-asp-net-mvc-level-5",
+        "title":  "Technical - ASP.NET MVC (Level 5)"
+    },
+    {
+        "id":  "tasks-assessment-level-6",
+        "title":  "Tasks Assessment (Level 6)"
+    },
+    {
+        "id":  "submission-checklist-business-assessment-level-5",
+        "title":  "Submission Checklist Business Assessment (Level 5)"
+    },
+    {
+        "id":  "solutionize-configuration-level-4",
+        "title":  "Solutionize Configuration (Level 4)"
+    },
+    {
+        "id":  "roles-business-assessment-level-5",
+        "title":  "Roles Business Assessment (Level 5)"
+    },
+    {
+        "id":  "quest-business-assessment-level-4",
+        "title":  "Quest Business Assessment (Level 4)"
+    },
+    {
+        "id":  "product-switch-business-assessment-level-4",
+        "title":  "Product Switch Business Assessment (Level 4)"
+    },
+    {
+        "id":  "product-catalogue-business-assessment-level-6",
+        "title":  "Product Catalogue Business Assessment (Level 6)"
+    },
+    {
+        "id":  "process-stages-assessment-level-6",
+        "title":  "Process Stages Assessment (Level 6)"
+    },
+    {
+        "id":  "pre-requisite-specflow-level-3",
+        "title":  "Pre-Requisite Specflow (Level 3)"
+    },
+    {
+        "id":  "pca-predict-locate-assessment-level-6",
+        "title":  "PCA Predict / Locate Assessment (Level 6)"
+    },
+    {
+        "id":  "pca-predict-locate-assessment-level-5",
+        "title":  "PCA Predict / Locate Assessment (Level 5)"
+    },
+    {
+        "id":  "pca-predict-locate-assessment-level-3",
+        "title":  "PCA Predict / Locate Assessment (Level 3)"
+    },
+    {
+        "id":  "payments-business-assessment-level-6",
+        "title":  "Payments Business Assessment (Level 6)"
+    },
+    {
+        "id":  "offer-conditions-business-assessment-level-4",
+        "title":  "Offer Conditions Business Assessment (Level 4)"
+    },
+    {
+        "id":  "multi-currency-testing-level-5",
+        "title":  "Multi-currency Testing (Level 5)"
+    },
+    {
+        "id":  "multi-currency-testing-level-3-2",
+        "title":  "Multi Currency Testing (Level 3)"
+    },
+    {
+        "id":  "id-v-fraud-assessment-level-4",
+        "title":  "ID\u0026V + Fraud Assessment (Level 4)"
+    },
+    {
+        "id":  "fraud-business-assessment-level-6",
+        "title":  "Fraud Business Assessment (Level 6)"
+    },
+    {
+        "id":  "enterprise-servicing-roles-wizards-config-level-4",
+        "title":  "Enterprise - Servicing - Roles \u0026 Wizards (CONFIG) (Level 4)"
+    },
+    {
+        "id":  "enterprise-servicing-roles-wizards-analysis-level-6",
+        "title":  "Enterprise - Servicing - Roles \u0026 Wizards (ANALYSIS) (Level 6)"
+    },
+    {
+        "id":  "enterprise-rules-config-level-4",
+        "title":  "Enterprise - Rules Config (Level 4)"
+    },
+    {
+        "id":  "enterprise-reference-data-portal-users-lookup-level-6",
+        "title":  "Enterprise - Reference Data - Portal Users, Lookup (Level 6)"
+    },
+    {
+        "id":  "enterprise-portal-configuration-level-6",
+        "title":  "Enterprise - Portal Configuration (Level 6)"
+    },
+    {
+        "id":  "enterprise-migration-level-5",
+        "title":  "Enterprise - Migration (Level 5)"
+    },
+    {
+        "id":  "enterprise-interfaces-cra-level-5",
+        "title":  "Enterprise - Interfaces: CRA (Level 5)"
+    },
+    {
+        "id":  "enterprise-fma-xml-level-6",
+        "title":  "Enterprise - FMA XML (Level 6)"
+    },
+    {
+        "id":  "enterprise-document-kfi-esis-config-level-6",
+        "title":  "Enterprise - Document KFI / ESIS Config (Level 6)"
+    },
+    {
+        "id":  "enterprise-common-lookup-lists-level-6",
+        "title":  "Enterprise - Common - Lookup Lists (Level 6)"
+    },
+    {
+        "id":  "enterprise-common-calculations-config-level-4",
+        "title":  "Enterprise - Common - Calculations (CONFIG) (Level 4)"
+    },
+    {
+        "id":  "enterprise-broker-structure-config-level-5",
+        "title":  "Enterprise - Broker Structure Config (Level 5)"
+    },
+    {
+        "id":  "enterprise-broker-structure-config-level-4",
+        "title":  "Enterprise - Broker Structure Config (Level 4)"
+    },
+    {
+        "id":  "enterprise-broker-portal-config-level-5",
+        "title":  "Enterprise - Broker Portal Config (Level 5)"
+    },
+    {
+        "id":  "enterprise-broker-portal-config-level-4",
+        "title":  "Enterprise - Broker Portal Config (Level 4)"
+    },
+    {
+        "id":  "enterprise-broker-portal-config-level-3",
+        "title":  "Enterprise - Broker Portal Config (Level 3)"
+    },
+    {
+        "id":  "enterprise-back-office-config-level-5-2",
+        "title":  "Enterprise - Back Office Config (Level 5)"
+    },
+    {
+        "id":  "enterprise-back-office-config-level-4-2",
+        "title":  "Enterprise - Back Office Config (Level 4)"
+    },
+    {
+        "id":  "enterprise-arrears-config-level-3",
+        "title":  "Enterprise - Arrears (CONFIG) (Level 3)"
+    },
+    {
+        "id":  "enterprise-app-forms-level6",
+        "title":  "Enterprise - App Forms (Level6)"
+    },
+    {
+        "id":  "enterprise-app-forms-level5",
+        "title":  "Enterprise - App Forms (Level5)"
+    },
+    {
+        "id":  "enterprise-api-mapping-level5",
+        "title":  "Enterprise - API Mapping (Level5)"
+    },
+    {
+        "id":  "enterprise-affordability-config-level-4-2",
+        "title":  "Enterprise - Affordability (CONFIG) (Level 4)"
+    },
+    {
+        "id":  "enterprise-affordability-config-level-3-2",
+        "title":  "Enterprise - Affordability (CONFIG) (Level 3)"
+    },
+    {
+        "id":  "emails-business-assessment-level-6",
+        "title":  "Emails Business Assessment (Level 6)"
+    },
+    {
+        "id":  "electronic-payment-functionality-servicing-level-4",
+        "title":  "Electronic Payment Functionality (servicing) - Level 4"
+    },
+    {
+        "id":  "documentation-business-assessment-level-6",
+        "title":  "Documentation Business Assessment (Level 6)"
+    },
+    {
+        "id":  "document-requirements-business-assessment-level-2",
+        "title":  "Document Requirements Business Assessment (Level 2)"
+    },
+    {
+        "id":  "cra-experian-delphi-consumer-level-5",
+        "title":  "CRA - Experian Delphi Consumer (Level 5)"
+    },
+    {
+        "id":  "cra-experian-delphi-commercial-level-5",
+        "title":  "CRA - Experian Delphi Commercial (Level 5)"
+    },
+    {
+        "id":  "cra-experian-delphi-commercial-level-4",
+        "title":  "CRA - Experian Delphi Commercial (Level 4)"
+    },
+    {
+        "id":  "cra-equifax-xml2-consumer-level-3",
+        "title":  "CRA - Equifax XML2 Consumer (Level 3)"
+    },
+    {
+        "id":  "cra-equifax-edi-commercial-level-3",
+        "title":  "CRA - Equifax EDI Commercial (Level 3)"
+    },
+    {
+        "id":  "consumer-delphi-select-crav2-testing-level-6",
+        "title":  "Consumer Delphi Select - CRAV2 Testing (Level 6)"
+    },
+    {
+        "id":  "completions-business-assessment-resi",
+        "title":  "Completions Business Assessment (Resi)"
+    },
+    {
+        "id":  "commercial-delphi-select-crav2-testing-level-6",
+        "title":  "Commercial Delphi Select - CRAV2 Testing (Level 6)"
+    },
+    {
+        "id":  "commercial-decision-crav2-testing-level-6",
+        "title":  "Commercial (Decision+) - CRAV2 Testing (Level 6)"
+    },
+    {
+        "id":  "client-meetings-level-2",
+        "title":  "Client Meetings (Level 2)"
+    },
+    {
+        "id":  "branding-business-assessment-level-3",
+        "title":  "Branding Business Assessment (Level 3)"
+    },
+    {
+        "id":  "behavior-driven-development-in-delivery-level-2",
+        "title":  "Behavior Driven Development in Delivery (Level 2)"
+    },
+    {
+        "id":  "bank-account-verification-non-standard-business-assessment-level-6",
+        "title":  "Bank Account Verification - Non Standard Business Assessment (Level 6)"
+    },
+    {
+        "id":  "bank-account-verification-non-standard-business-assessment-level-4",
+        "title":  "Bank Account Verification - Non Standard Business Assessment (Level 4)"
+    },
+    {
+        "id":  "avm-business-assessment-level-2",
+        "title":  "AVM Business Assessment (Level 2)"
+    },
+    {
+        "id":  "affordability-btl-business-assessment-level-3",
+        "title":  "Affordability (BTL) Business Assessment (Level 3)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-3-de",
+        "title":  "Adopt Model Assessment (Level 3) (De"
+    },
+    {
+        "id":  "transunion-business-assessment-level-6",
+        "title":  "TransUnion Business Assessment (Level 6)"
+    },
+    {
+        "id":  "technical-winforms-level-5",
+        "title":  "Technical - Winforms (Level 5)"
+    },
+    {
+        "id":  "technical-javascript-level-4",
+        "title":  "Technical - Javascript (Level 4)"
+    },
+    {
+        "id":  "technical-database-level-5",
+        "title":  "Technical - Database (Level 5)"
+    },
+    {
+        "id":  "technical-database-level-3-2",
+        "title":  "Technical - Database (Level 3)"
+    },
+    {
+        "id":  "technical-core-logging-level-6",
+        "title":  "Technical - Core Logging (Level 6)"
+    },
+    {
+        "id":  "technical-core-logging-level-5",
+        "title":  "Technical - Core Logging (Level 5)"
+    },
+    {
+        "id":  "technical-asp-net-mvc-level-4",
+        "title":  "Technical - ASP.NET MVC (Level 4)"
+    },
+    {
+        "id":  "solutionize-configuration-level-5",
+        "title":  "Solutionize Configuration (Level 5)"
+    },
+    {
+        "id":  "solicitor-integration-business-assessment-level-5",
+        "title":  "Solicitor Integration Business Assessment (Level 5)"
+    },
+    {
+        "id":  "selenium-level-5",
+        "title":  "Selenium (Level 5)"
+    },
+    {
+        "id":  "savings-origination-enterprise-an-introduction",
+        "title":  "Savings Origination Enterprise: An Introduction"
+    },
+    {
+        "id":  "savings-enterprise-portal-configuration",
+        "title":  "Savings Enterprise Portal Configuration"
+    },
+    {
+        "id":  "savings-business-assessment-level-6",
+        "title":  "Savings Business Assessment (Level 6)"
+    },
+    {
+        "id":  "risk-assessment-screen-business-assessment-level-5",
+        "title":  "Risk Assessment Screen Business Assessment (Level 5)"
+    },
+    {
+        "id":  "reporting-database-assessment-level-6",
+        "title":  "Reporting Database Assessment (Level 6)"
+    },
+    {
+        "id":  "quest-level-6",
+        "title":  "Quest (Level 6)"
+    },
+    {
+        "id":  "product-switch-business-assessment-level-6",
+        "title":  "Product Switch Business Assessment (Level 6)"
+    },
+    {
+        "id":  "product-switch-business-assessment-level-2",
+        "title":  "Product Switch Business Assessment (Level 2)"
+    },
+    {
+        "id":  "process-stages-assessment-level-5",
+        "title":  "Process Stages Assessment (Level 5)"
+    },
+    {
+        "id":  "pre-requisite-c-level-3",
+        "title":  "Pre-Requisite C# (Level 3)"
+    },
+    {
+        "id":  "peps-sanctions-business-assessment-level-4",
+        "title":  "PEPs \u0026 Sanctions Business Assessment (Level 4)"
+    },
+    {
+        "id":  "pcv-s-business-assessment-level-4",
+        "title":  "PCV\u0027s Business Assessment (Level 4)"
+    },
+    {
+        "id":  "payment-integration-bank-transfers-business-assessment-level-5",
+        "title":  "Payment Integration - Bank Transfers Business Assessment (Level 5)"
+    },
+    {
+        "id":  "payment-integration-bank-transfers-business-assessment-level-4",
+        "title":  "Payment Integration - Bank Transfers Business Assessment (Level 4)"
+    },
+    {
+        "id":  "payment-integration-bank-transfers-business-assessment-level-3",
+        "title":  "Payment Integration - Bank Transfers Business Assessment (Level 3)"
+    },
+    {
+        "id":  "optimo-business-assessment-level-6",
+        "title":  "Optimo Business Assessment (Level 6)"
+    },
+    {
+        "id":  "offer-conditions-business-assessment-level-2",
+        "title":  "Offer Conditions Business Assessment (Level 2)"
+    },
+    {
+        "id":  "multi-currency-testing-level-6",
+        "title":  "Multi-currency Testing (Level 6)"
+    },
+    {
+        "id":  "multi-currency-testing-level-4-2",
+        "title":  "Multi-currency Testing (Level 4)"
+    },
+    {
+        "id":  "multi-currency-assessment-level-6",
+        "title":  "Multi Currency Assessment (Level 6)"
+    },
+    {
+        "id":  "modular-pricing-testing-level-3",
+        "title":  "Modular Pricing Testing (Level 3)"
+    },
+    {
+        "id":  "modular-pricing-assessment-level-6",
+        "title":  "Modular Pricing Assessment (Level 6)"
+    },
+    {
+        "id":  "information-security-2025",
+        "title":  "Information_Security_2025"
+    },
+    {
+        "id":  "industry-knowledge-mcob-level-3",
+        "title":  "Industry Knowledge : MCOB (Level 3)"
+    },
+    {
+        "id":  "importing-planetpress-documents-into-the-workflow-new-templates",
+        "title":  "Importing PlanetPress Documents into the Workflow - New Templates"
+    },
+    {
+        "id":  "id-v-fraud-assessment-level-5",
+        "title":  "ID\u0026V + Fraud Assessment (Level 5)"
+    },
+    {
+        "id":  "fraud-prevention-2025",
+        "title":  "Fraud_Prevention_2025"
+    },
+    {
+        "id":  "experian-business-assessment-level-4",
+        "title":  "Experian Business Assessment (Level 4)"
+    },
+    {
+        "id":  "experian-business-assessment-level-2",
+        "title":  "Experian Business Assessment (Level 2)"
+    },
+    {
+        "id":  "equifax-business-assessment-level-4",
+        "title":  "Equifax Business Assessment (Level 4)"
+    },
+    {
+        "id":  "enterprise-origination-pcv-level-6",
+        "title":  "Enterprise Origination PCV (Level 6)"
+    },
+    {
+        "id":  "enterprise-servicing-products-level-6",
+        "title":  "Enterprise - Servicing Products (Level 6)"
+    },
+    {
+        "id":  "enterprise-servicing-thinking-office-config-level-4",
+        "title":  "Enterprise - Servicing - Thinking Office (CONFIG) (Level 4)"
+    },
+    {
+        "id":  "enterprise-servicing-thinking-office-config-level-3",
+        "title":  "Enterprise - Servicing - Thinking office (CONFIG) (Level 3)"
+    },
+    {
+        "id":  "enterprise-servicing-roles-wizards-config-level-3",
+        "title":  "Enterprise - Servicing - Roles \u0026 Wizards (CONFIG) (Level 3)"
+    },
+    {
+        "id":  "enterprise-score-card-config-level-3",
+        "title":  "Enterprise - Score Card (CONFIG) (Level 3)"
+    },
+    {
+        "id":  "enterprise-rules-config-level-3",
+        "title":  "Enterprise - Rules Config (Level 3)"
+    },
+    {
+        "id":  "enterprise-product-config-level-4",
+        "title":  "Enterprise - Product Config (Level 4)"
+    },
+    {
+        "id":  "enterprise-product-config-level-3",
+        "title":  "Enterprise - Product Config (Level 3)"
+    },
+    {
+        "id":  "enterprise-portal-analysis-level-6",
+        "title":  "Enterprise - Portal ANALYSIS (Level 6)"
+    },
+    {
+        "id":  "enterprise-pas-config-level-4",
+        "title":  "Enterprise - PAS (CONFIG) (Level 4)"
+    },
+    {
+        "id":  "enterprise-pas-config-level-3",
+        "title":  "Enterprise - PAS (CONFIG) (Level 3)"
+    },
+    {
+        "id":  "enterprise-interfaces-valuation-config-level-5",
+        "title":  "Enterprise - Interfaces: Valuation Config (Level 5)"
+    },
+    {
+        "id":  "enterprise-interfaces-valuation-config-level-4",
+        "title":  "Enterprise - Interfaces: Valuation Config (Level 4)"
+    },
+    {
+        "id":  "enterprise-interfaces-valuation-config-level-3",
+        "title":  "Enterprise - Interfaces: Valuation Config (Level 3)"
+    },
+    {
+        "id":  "enterprise-interfaces-valuation-level-5",
+        "title":  "Enterprise - Interfaces: Valuation (Level 5)"
+    },
+    {
+        "id":  "enterprise-interface-fraud-config-level-3",
+        "title":  "Enterprise - Interface: Fraud (CONFIG) (Level 3)"
+    },
+    {
+        "id":  "enterprise-gl-config-level-4",
+        "title":  "Enterprise - GL (CONFIG) (Level 4)"
+    },
+    {
+        "id":  "enterprise-gl-config-level-3",
+        "title":  "Enterprise - GL (CONFIG) (Level 3)"
+    },
+    {
+        "id":  "enterprise-finance-config-level-4",
+        "title":  "Enterprise - Finance (CONFIG) (Level 4)"
+    },
+    {
+        "id":  "enterprise-finance-config-level-3",
+        "title":  "Enterprise - Finance (CONFIG) (Level 3)"
+    },
+    {
+        "id":  "enterprise-document-config-level-5",
+        "title":  "Enterprise - Document Config (Level 5)"
+    },
+    {
+        "id":  "enterprise-document-config-level-4",
+        "title":  "Enterprise - Document Config (Level 4)"
+    },
+    {
+        "id":  "enterprise-document-config-level-3",
+        "title":  "Enterprise - Document Config (Level 3)"
+    },
+    {
+        "id":  "enterprise-cra-config-level-3",
+        "title":  "Enterprise - CRA Config (Level 3)"
+    },
+    {
+        "id":  "enterprise-core-logging-level-6",
+        "title":  "Enterprise - Core Logging (Level 6)"
+    },
+    {
+        "id":  "enterprise-common-tasks-config-level-4",
+        "title":  "Enterprise - Common - Tasks Config (Level 4)"
+    },
+    {
+        "id":  "enterprise-common-task-config-level-5",
+        "title":  "Enterprise - Common - Task Config (Level 5)"
+    },
+    {
+        "id":  "enterprise-common-task-config-level-3",
+        "title":  "Enterprise - Common - Task Config (Level 3)"
+    },
+    {
+        "id":  "enterprise-common-fees-level-5",
+        "title":  "Enterprise - Common - Fees (Level 5)"
+    },
+    {
+        "id":  "enterprise-common-calculations-config-level-5",
+        "title":  "Enterprise - Common - Calculations (CONFIG) (Level 5)"
+    },
+    {
+        "id":  "enterprise-common-calculations-config-level-3",
+        "title":  "Enterprise - Common - Calculations (CONFIG) (Level 3)"
+    },
+    {
+        "id":  "enterprise-broker-structure-config-level-3",
+        "title":  "Enterprise - Broker Structure Config (Level 3)"
+    },
+    {
+        "id":  "enterprise-broker-portal-config-level-6",
+        "title":  "Enterprise - Broker Portal Config (Level 6)"
+    },
+    {
+        "id":  "enterprise-breathing-space-level-6",
+        "title":  "Enterprise - Breathing space (Level 6)"
+    },
+    {
+        "id":  "enterprise-batch-processing-serv-config-level-6",
+        "title":  "Enterprise - Batch Processing - Serv. Config. (Level 6)"
+    },
+    {
+        "id":  "enterprise-back-office-config-level-6-2",
+        "title":  "Enterprise - Back Office Config (Level 6)"
+    },
+    {
+        "id":  "enterprise-arrears-config-level-4",
+        "title":  "Enterprise - Arrears (CONFIG) (Level 4)"
+    },
+    {
+        "id":  "enterprise-affordability-config-level-6-2",
+        "title":  "Enterprise - Affordability (CONFIG) (Level 6)"
+    },
+    {
+        "id":  "enterprise-affordability-config-level-5-2",
+        "title":  "Enterprise - Affordability (CONFIG) (Level 5)"
+    },
+    {
+        "id":  "emails-business-assessment-level-5",
+        "title":  "Emails Business Assessment (Level 5)"
+    },
+    {
+        "id":  "documentation-business-assessment-level-5",
+        "title":  "Documentation Business Assessment (Level 5)"
+    },
+    {
+        "id":  "cra-experian-delphi-consumer-level-6",
+        "title":  "CRA - Experian Delphi Consumer (Level 6)"
+    },
+    {
+        "id":  "cra-equifax-xml2-consumer-level-4",
+        "title":  "CRA - Equifax XML2 Consumer (Level 4)"
+    },
+    {
+        "id":  "cra-equifax-edi-commercial-level-4",
+        "title":  "CRA - Equifax EDI Commercial (Level 4)"
+    },
+    {
+        "id":  "consumer-delphi-select-crav2-testing-level-4",
+        "title":  "Consumer Delphi Select - CRAV2 Testing (Level 4)"
+    },
+    {
+        "id":  "confluence-level-5",
+        "title":  "Confluence (Level 5)"
+    },
+    {
+        "id":  "completions-file-testing-level-6",
+        "title":  "Completions file Testing (Level 6)"
+    },
+    {
+        "id":  "completions-file-business-assessment-level-6",
+        "title":  "Completions File Business Assessment (Level 6)"
+    },
+    {
+        "id":  "commercial-decision-crav2-testing-level-4",
+        "title":  "Commercial (Decision+) - CRAV2 Testing (Level 4)"
+    },
+    {
+        "id":  "bug-bash-pro-level-4",
+        "title":  "Bug Bash Pro (Level 4)"
+    },
+    {
+        "id":  "broker-hierarchy-business-assessment-level-5",
+        "title":  "Broker Hierarchy Business Assessment (Level 5)"
+    },
+    {
+        "id":  "broker-hierarchy-business-assessment-level-3",
+        "title":  "Broker Hierarchy Business Assessment (Level 3)"
+    },
+    {
+        "id":  "broker-hierarchy-assessment-level-6",
+        "title":  "Broker Hierarchy Assessment (Level 6)"
+    },
+    {
+        "id":  "branding-business-assessment-level-6",
+        "title":  "Branding Business Assessment (Level 6)"
+    },
+    {
+        "id":  "bank-account-verification-non-standard-business-assessment-level-3",
+        "title":  "Bank Account Verification - Non Standard Business Assessment (Level 3)"
+    },
+    {
+        "id":  "automation-testing-level-5",
+        "title":  "Automation Testing (Level 5)"
+    },
+    {
+        "id":  "automated-testing-configuration-level-5",
+        "title":  "Automated testing - Configuration (Level 5)"
+    },
+    {
+        "id":  "automated-testing-coding-level-5",
+        "title":  "Automated testing - Coding (Level 5)"
+    },
+    {
+        "id":  "aml-business-assessment-level-3",
+        "title":  "AML Business Assessment (Level 3)"
+    },
+    {
+        "id":  "affordability-resi-business-assessment-level-3",
+        "title":  "Affordability (RESI) Business Assessment (Level 3)"
+    },
+    {
+        "id":  "understanding-environments-level-2",
+        "title":  "Understanding Environments (Level 2)"
+    },
+    {
+        "id":  "transunion-business-assessment-level-3",
+        "title":  "TransUnion Business Assessment (Level 3)"
+    },
+    {
+        "id":  "transunion-business-assessment-level-2",
+        "title":  "TransUnion Business Assessment (Level 2)"
+    },
+    {
+        "id":  "ticket-triage-level-2",
+        "title":  "Ticket Triage (Level 2)"
+    },
+    {
+        "id":  "testing-strategy-level-6",
+        "title":  "Testing Strategy (Level 6)"
+    },
+    {
+        "id":  "test-reporting-and-metrics-level-6",
+        "title":  "Test Reporting and Metrics (Level 6)"
+    },
+    {
+        "id":  "test-course",
+        "title":  "Test course"
+    },
+    {
+        "id":  "test-approach-for-completions-files-recipe",
+        "title":  "Test Approach for Completions Files - Recipe"
+    },
+    {
+        "id":  "technical-xamarin-level-3",
+        "title":  "Technical - XAMARIN (Level 3)"
+    },
+    {
+        "id":  "technical-bootstrap-level-6",
+        "title":  "Technical - Bootstrap (Level 6)"
+    },
+    {
+        "id":  "technical-bootstrap-level-5",
+        "title":  "Technical - Bootstrap (Level 5)"
+    },
+    {
+        "id":  "technical-bootstrap-level-4",
+        "title":  "Technical - Bootstrap (Level 4)"
+    },
+    {
+        "id":  "technical-bootstrap-level-3-2",
+        "title":  "Technical - Bootstrap (Level 3)"
+    },
+    {
+        "id":  "solicitor-integration-business-assessment-level-6",
+        "title":  "Solicitor Integration Business Assessment (Level 6)"
+    },
+    {
+        "id":  "solicitor-integration-business-assessment-level-4",
+        "title":  "Solicitor Integration Business Assessment (Level 4)"
+    },
+    {
+        "id":  "solar-winds-level-2",
+        "title":  "Solar Winds (Level 2)"
+    },
+    {
+        "id":  "sira-business-assessment-level-6",
+        "title":  "SIRA Business Assessment (Level 6)"
+    },
+    {
+        "id":  "roles-business-assessment-level-2",
+        "title":  "Roles Business Assessment (Level 2)"
+    },
+    {
+        "id":  "retentions-business-assessment-level-6",
+        "title":  "Retentions Business Assessment (Level 6)"
+    },
+    {
+        "id":  "responsible-use-of-social-media-2025",
+        "title":  "Responsible_Use_of_Social_Media_2025"
+    },
+    {
+        "id":  "quest-business-assessment-level-5",
+        "title":  "Quest Business Assessment (Level 5)"
+    },
+    {
+        "id":  "project-control-and-monitoring",
+        "title":  "Project Control and Monitoring"
+    },
+    {
+        "id":  "product-switch-business-assessment-level-5",
+        "title":  "Product Switch Business Assessment (Level 5)"
+    },
+    {
+        "id":  "product-switch-business-assessment-level-3",
+        "title":  "Product Switch Business Assessment (Level 3)"
+    },
+    {
+        "id":  "peps-sanctions-business-assessment-level-6",
+        "title":  "PEPs \u0026 Sanctions Business Assessment (Level 6)"
+    },
+    {
+        "id":  "pcv-s-business-assessment-level-3",
+        "title":  "PCV\u0027s Business Assessment (Level 3)"
+    },
+    {
+        "id":  "pcv-s-business-assessment-level-2",
+        "title":  "PCV\u0027s Business Assessment (Level 2)"
+    },
+    {
+        "id":  "payment-integration-bank-transfers-business-assessment-level-2",
+        "title":  "Payment Integration - Bank Transfers Business Assessment (Level 2)"
+    },
+    {
+        "id":  "optimo-business-assessment-level-5",
+        "title":  "Optimo Business Assessment (Level 5)"
+    },
+    {
+        "id":  "open-banking-business-assessment-level-6",
+        "title":  "Open Banking Business Assessment (Level 6)"
+    },
+    {
+        "id":  "open-banking-business-assessment-level-5",
+        "title":  "Open Banking Business Assessment (Level 5)"
+    },
+    {
+        "id":  "offer-conditions-business-assessment-level-6",
+        "title":  "Offer Conditions Business Assessment (Level 6)"
+    },
+    {
+        "id":  "offer-conditions-business-assessment-level-5",
+        "title":  "Offer Conditions Business Assessment (Level 5)"
+    },
+    {
+        "id":  "multiple-securities-business-assessment-level-3",
+        "title":  "Multiple Securities Business Assessment (Level 3)"
+    },
+    {
+        "id":  "multi-part-loan-business-assessment-level-6",
+        "title":  "Multi Part Loan Business Assessment (Level 6)"
+    },
+    {
+        "id":  "multi-part-loan-business-assessment-level-5",
+        "title":  "Multi Part Loan Business Assessment (Level 5)"
+    },
+    {
+        "id":  "multi-currency-testing-level-6-2",
+        "title":  "Multi Currency Testing (Level 6)"
+    },
+    {
+        "id":  "modular-pricing-testing-level-6",
+        "title":  "Modular Pricing Testing (Level 6)"
+    },
+    {
+        "id":  "modular-pricing-testing-level-5",
+        "title":  "Modular Pricing Testing (Level 5)"
+    },
+    {
+        "id":  "modular-pricing-testing-level-4",
+        "title":  "Modular Pricing Testing (Level 4)"
+    },
+    {
+        "id":  "modular-pricing-assessment-level-4",
+        "title":  "Modular Pricing Assessment (Level 4)"
+    },
+    {
+        "id":  "modular-pricing-assessment-level-3",
+        "title":  "Modular Pricing Assessment (Level 3)"
+    },
+    {
+        "id":  "industry-knowledge-mcob-level-4",
+        "title":  "Industry Knowledge : MCOB (Level 4)"
+    },
+    {
+        "id":  "further-advance-business-assessment-level-4",
+        "title":  "Further Advance Business Assessment (Level 4)"
+    },
+    {
+        "id":  "further-advance-business-assessment-level-2",
+        "title":  "Further Advance Business Assessment (Level 2)"
+    },
+    {
+        "id":  "explorer-report-level-6",
+        "title":  "Explorer Report (Level 6)"
+    },
+    {
+        "id":  "experian-business-assessment-level-5",
+        "title":  "Experian Business Assessment (Level 5)"
+    },
+    {
+        "id":  "experian-business-assessment-level-3",
+        "title":  "Experian Business Assessment (Level 3)"
+    },
+    {
+        "id":  "equifax-business-assessment-level-6",
+        "title":  "Equifax Business Assessment (Level 6)"
+    },
+    {
+        "id":  "enterprise-thinking-office-broker-structure-level-6",
+        "title":  "Enterprise - Thinking Office: Broker Structure (Level 6)"
+    },
+    {
+        "id":  "enterprise-thinking-office-broker-structure-level-5",
+        "title":  "Enterprise - Thinking Office: Broker Structure (Level 5)"
+    },
+    {
+        "id":  "enterprise-servicing-thinking-office-config-level-5",
+        "title":  "Enterprise - Servicing - Thinking Office (CONFIG) (Level 5)"
+    },
+    {
+        "id":  "enterprise-servicing-roles-wizards-config-level-5",
+        "title":  "Enterprise - Servicing - Roles \u0026 Wizards (CONFIG) (Level 5)"
+    },
+    {
+        "id":  "enterprise-servicing-arrears-analysis-level-6",
+        "title":  "Enterprise - Servicing - Arrears (ANALYSIS) (Level 6)"
+    },
+    {
+        "id":  "enterprise-score-card-config-level-4",
+        "title":  "Enterprise - Score Card (CONFIG) (Level 4)"
+    },
+    {
+        "id":  "enterprise-rules-configuration-level-5",
+        "title":  "Enterprise - Rules Configuration (Level 5)"
+    },
+    {
+        "id":  "enterprise-rules-config-level-6",
+        "title":  "Enterprise - Rules Config (Level 6)"
+    },
+    {
+        "id":  "enterprise-rules-config-level-5",
+        "title":  "Enterprise - Rules Config (Level 5)"
+    },
+    {
+        "id":  "enterprise-product-setup-level-6",
+        "title":  "Enterprise - Product Setup (Level 6)"
+    },
+    {
+        "id":  "enterprise-product-config-level-5",
+        "title":  "Enterprise - Product Config (Level 5)"
+    },
+    {
+        "id":  "enterprise-portal-analysis-level-5",
+        "title":  "Enterprise - Portal ANALYSIS (Level 5)"
+    },
+    {
+        "id":  "enterprise-pas-config-level-5",
+        "title":  "Enterprise - PAS (CONFIG) (Level 5)"
+    },
+    {
+        "id":  "enterprise-interfaces-cra-level-6",
+        "title":  "Enterprise - Interfaces: CRA (Level 6)"
+    },
+    {
+        "id":  "enterprise-interface-fraud-config-level-4",
+        "title":  "Enterprise - Interface: Fraud (CONFIG) (Level 4)"
+    },
+    {
+        "id":  "enterprise-finance-application-level-6",
+        "title":  "Enterprise - Finance Application (Level 6)"
+    },
+    {
+        "id":  "enterprise-finance-config-level-6",
+        "title":  "Enterprise - Finance (CONFIG) (Level 6)"
+    },
+    {
+        "id":  "enterprise-equity-release-servicing-level-6",
+        "title":  "Enterprise - Equity Release- Servicing (Level 6)"
+    },
+    {
+        "id":  "enterprise-e-banking-level-6",
+        "title":  "Enterprise - E-Banking (Level 6)"
+    },
+    {
+        "id":  "enterprise-document-configuration-level-6",
+        "title":  "Enterprise - Document Configuration (Level 6)"
+    },
+    {
+        "id":  "enterprise-common-tasks-config-level-6",
+        "title":  "Enterprise - Common - Tasks Config (Level 6)"
+    },
+    {
+        "id":  "enterprise-common-calculations-config-level-6",
+        "title":  "Enterprise - Common - Calculations (CONFIG) (Level 6)"
+    },
+    {
+        "id":  "enterprise-broker-structure-config-level-6",
+        "title":  "Enterprise - Broker Structure Config (Level 6)"
+    },
+    {
+        "id":  "enterprise-back-office-analysis-level-6",
+        "title":  "Enterprise - Back Office (ANALYSIS) (Level 6)"
+    },
+    {
+        "id":  "enterprise-back-office-analysis-level-4",
+        "title":  "Enterprise - Back Office (ANALYSIS) (Level 4)"
+    },
+    {
+        "id":  "enterprise-arrears-config-level-6",
+        "title":  "Enterprise - Arrears (CONFIG) (Level 6)"
+    },
+    {
+        "id":  "enterprise-arrears-config-level-5",
+        "title":  "Enterprise - Arrears (CONFIG) (Level 5)"
+    },
+    {
+        "id":  "enterprise-arrangements-level-6",
+        "title":  "Enterprise - Arrangements (Level 6)"
+    },
+    {
+        "id":  "enterprise-affordability-analysis-level-3",
+        "title":  "Enterprise - Affordability ANALYSIS (Level 3)"
+    },
+    {
+        "id":  "enterprise-advice-journeys-level-6",
+        "title":  "Enterprise - Advice Journeys (Level 6)"
+    },
+    {
+        "id":  "emails-business-assessment-level-2",
+        "title":  "Emails Business Assessment (Level 2)"
+    },
+    {
+        "id":  "eid-v-anti-impersonation-business-assessment-level-6",
+        "title":  "eID\u0026V - Anti Impersonation Business Assessment (Level 6)"
+    },
+    {
+        "id":  "eid-v-anti-impersonation-business-assessment-level-3",
+        "title":  "eID\u0026V - Anti Impersonation Business Assessment (Level 3)"
+    },
+    {
+        "id":  "distribution-hub-business-assessment-level-5",
+        "title":  "Distribution Hub Business Assessment (Level 5)"
+    },
+    {
+        "id":  "display-screen-equipment-2025",
+        "title":  "Display_Screen_Equipment_2025"
+    },
+    {
+        "id":  "demo-apprivo-level-4",
+        "title":  "Demo Apprivo (Level 4)"
+    },
+    {
+        "id":  "data-protection-2025",
+        "title":  "Data_Protection_2025"
+    },
+    {
+        "id":  "cra-experian-delphi-commercial-level-6",
+        "title":  "CRA - Experian Delphi Commercial (Level 6)"
+    },
+    {
+        "id":  "cra-equifax-consumer-xml-level-5",
+        "title":  "CRA - Equifax Consumer XML (Level 5)"
+    },
+    {
+        "id":  "client-training-gl-extract-level-6",
+        "title":  "Client Training - GL Extract (Level 6)"
+    },
+    {
+        "id":  "client-meetings-level-5",
+        "title":  "Client Meetings (Level 5)"
+    },
+    {
+        "id":  "client-meetings-level-4",
+        "title":  "Client Meetings (Level 4)"
+    },
+    {
+        "id":  "client-meetings-level-3",
+        "title":  "Client Meetings (Level 3)"
+    },
+    {
+        "id":  "bribery-prevention-refresher-2025",
+        "title":  "Bribery_Prevention_Refresher_2025"
+    },
+    {
+        "id":  "bribery-prevention-2025",
+        "title":  "Bribery_Prevention_2025"
+    },
+    {
+        "id":  "behavior-driven-development-in-delivery-level-5",
+        "title":  "Behavior Driven Development in Delivery (Level 5)"
+    },
+    {
+        "id":  "behavior-driven-development-in-delivery-level-3",
+        "title":  "Behavior Driven Development in Delivery (Level 3)"
+    },
+    {
+        "id":  "bank-account-verification-non-standard-business-assessment-level-2",
+        "title":  "Bank Account Verification - Non Standard Business Assessment (Level 2)"
+    },
+    {
+        "id":  "avm-business-assessment-level-6",
+        "title":  "AVM Business Assessment (Level 6)"
+    },
+    {
+        "id":  "avm-business-assessment-level-4",
+        "title":  "AVM Business Assessment (Level 4)"
+    },
+    {
+        "id":  "avm-business-assessment-level-3",
+        "title":  "AVM Business Assessment (Level 3)"
+    },
+    {
+        "id":  "automated-testing-configuration-level-6",
+        "title":  "Automated testing - Configuration (Level 6)"
+    },
+    {
+        "id":  "automated-testing-coding-level-6",
+        "title":  "Automated testing - Coding (Level 6)"
+    },
+    {
+        "id":  "aml-business-assessment-level-6",
+        "title":  "AML Business Assessment (Level 6)"
+    },
+    {
+        "id":  "affordability-resi-business-assessment-level-6",
+        "title":  "Affordability (RESI) Business Assessment (Level 6)"
+    },
+    {
+        "id":  "affordability-resi-business-assessment-level-5",
+        "title":  "Affordability (RESI) Business Assessment (Level 5)"
+    },
+    {
+        "id":  "affordability-btl-business-assessment-level-5",
+        "title":  "Affordability (BTL) Business Assessment (Level 5)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-5-tester",
+        "title":  "Adopt Model Assessment (Level 5) (Tester)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-4-ba",
+        "title":  "Adopt Model Assessment (Level 4) (BA)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-3-pm",
+        "title":  "Adopt Model Assessment (Level 3) (PM)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-2-ba",
+        "title":  "Adopt Model Assessment (Level 2) (BA)"
+    },
+    {
+        "id":  "workshops-level-6",
+        "title":  "Workshops (Level 6)"
+    },
+    {
+        "id":  "workshops-level-5",
+        "title":  "Workshops (Level 5)"
+    },
+    {
+        "id":  "workshops-level-4",
+        "title":  "Workshops (Level 4)"
+    },
+    {
+        "id":  "workshops-level-3",
+        "title":  "Workshops (Level 3)"
+    },
+    {
+        "id":  "understanding-environments-level-6",
+        "title":  "Understanding Environments (Level 6)"
+    },
+    {
+        "id":  "understanding-environments-level-5",
+        "title":  "Understanding Environments (Level 5)"
+    },
+    {
+        "id":  "understanding-environments-level-4",
+        "title":  "Understanding Environments (Level 4)"
+    },
+    {
+        "id":  "understanding-environments-level-3",
+        "title":  "Understanding Environments (Level 3)"
+    },
+    {
+        "id":  "transunion-business-assessment-level-5",
+        "title":  "TransUnion Business Assessment (Level 5)"
+    },
+    {
+        "id":  "transunion-business-assessment-level-4",
+        "title":  "TransUnion Business Assessment (Level 4)"
+    },
+    {
+        "id":  "ticket-triage-level-6",
+        "title":  "Ticket Triage (Level 6)"
+    },
+    {
+        "id":  "ticket-triage-level-5",
+        "title":  "Ticket Triage (Level 5)"
+    },
+    {
+        "id":  "ticket-triage-level-4",
+        "title":  "Ticket Triage (Level 4)"
+    },
+    {
+        "id":  "ticket-triage-level-3",
+        "title":  "Ticket Triage (Level 3)"
+    },
+    {
+        "id":  "test-planning-and-estimation-level-6",
+        "title":  "Test Planning and Estimation (Level 6)"
+    },
+    {
+        "id":  "test-course-clone",
+        "title":  "test course (clone)"
+    },
+    {
+        "id":  "technical-xamarin-level-6",
+        "title":  "Technical - XAMARIN (Level 6)"
+    },
+    {
+        "id":  "technical-xamarin-level-5",
+        "title":  "Technical - XAMARIN (Level 5)"
+    },
+    {
+        "id":  "technical-xamarin-level-4",
+        "title":  "Technical - XAMARIN (Level 4)"
+    },
+    {
+        "id":  "submission-checklist-business-assessment-level-3",
+        "title":  "Submission Checklist Business Assessment (Level 3)"
+    },
+    {
+        "id":  "submission-checklist-business-assessment-level-2",
+        "title":  "Submission Checklist Business Assessment (Level 2)"
+    },
+    {
+        "id":  "specflow-level-6",
+        "title":  "SpecFlow (Level 6)"
+    },
+    {
+        "id":  "specflow-level-5",
+        "title":  "SpecFlow (Level 5)"
+    },
+    {
+        "id":  "solicitor-process-business-assessment-level-6",
+        "title":  "Solicitor Process Business Assessment (Level 6)"
+    },
+    {
+        "id":  "solicitor-process-business-assessment-level-5",
+        "title":  "Solicitor Process Business Assessment (Level 5)"
+    },
+    {
+        "id":  "solicitor-process-business-assessment-level-4",
+        "title":  "Solicitor Process Business Assessment (Level 4)"
+    },
+    {
+        "id":  "solicitor-process-business-assessment-level-3",
+        "title":  "Solicitor Process Business Assessment (Level 3)"
+    },
+    {
+        "id":  "solicitor-process-business-assessment-level-2",
+        "title":  "Solicitor Process Business Assessment (Level 2)"
+    },
+    {
+        "id":  "solicitor-integration-business-assessment-level-3",
+        "title":  "Solicitor Integration Business Assessment (Level 3)"
+    },
+    {
+        "id":  "solar-winds-level-4",
+        "title":  "Solar Winds (Level 4)"
+    },
+    {
+        "id":  "solar-winds-level-3",
+        "title":  "Solar Winds (Level 3)"
+    },
+    {
+        "id":  "soft-skills-ba-time-management-level-6",
+        "title":  "Soft Skills BA : Time Management (Level 6)"
+    },
+    {
+        "id":  "soft-skills-ba-time-management-level-5",
+        "title":  "Soft Skills BA : Time Management (Level 5)"
+    },
+    {
+        "id":  "soft-skills-ba-time-management-level-4",
+        "title":  "Soft Skills BA : Time Management (Level 4)"
+    },
+    {
+        "id":  "soft-skills-ba-time-management-level-3",
+        "title":  "Soft Skills BA : Time Management (Level 3)"
+    },
+    {
+        "id":  "soft-skills-ba-leadership-level-6",
+        "title":  "Soft Skills BA : Leadership (Level 6)"
+    },
+    {
+        "id":  "soft-skills-ba-leadership-level-5",
+        "title":  "Soft Skills BA : Leadership (Level 5)"
+    },
+    {
+        "id":  "soft-skills-ba-leadership-level-4",
+        "title":  "Soft Skills BA : Leadership (Level 4)"
+    },
+    {
+        "id":  "soft-skills-ba-leadership-level-3",
+        "title":  "Soft Skills BA : Leadership (Level 3)"
+    },
+    {
+        "id":  "soft-skills-ba-communication-level-6",
+        "title":  "Soft Skills BA : Communication (Level 6)"
+    },
+    {
+        "id":  "soft-skills-ba-communication-level-5",
+        "title":  "Soft Skills BA : Communication (Level 5)"
+    },
+    {
+        "id":  "soft-skills-ba-communication-level-4",
+        "title":  "Soft Skills BA : Communication (Level 4)"
+    },
+    {
+        "id":  "soft-skills-ba-communication-level-3",
+        "title":  "Soft Skills BA : Communication (Level 3)"
+    },
+    {
+        "id":  "sira-business-assessment-level-5",
+        "title":  "SIRA Business Assessment (Level 5)"
+    },
+    {
+        "id":  "sira-business-assessment-level-4",
+        "title":  "SIRA Business Assessment (Level 4)"
+    },
+    {
+        "id":  "sira-business-assessment-level-3",
+        "title":  "SIRA Business Assessment (Level 3)"
+    },
+    {
+        "id":  "sira-business-assessment-level-2",
+        "title":  "SIRA Business Assessment (Level 2)"
+    },
+    {
+        "id":  "selenium-level-6",
+        "title":  "Selenium (Level 6)"
+    },
+    {
+        "id":  "section-3-ensuring-quality-in-ai-integrated-products-ai-qa-s3",
+        "title":  "Section 3: Ensuring Quality in AI-Integrated Products (AI-QA-S3)"
+    },
+    {
+        "id":  "section-2-using-ai-tools-to-enhance-traditional-qa-ai-qa-s2",
+        "title":  "Section 2: Using AI Tools to Enhance Traditional QA (AI-QA-S2)"
+    },
+    {
+        "id":  "savings-business-assessment-level-5",
+        "title":  "Savings Business Assessment (Level 5)"
+    },
+    {
+        "id":  "savings-business-assessment-level-4",
+        "title":  "Savings Business Assessment (Level 4)"
+    },
+    {
+        "id":  "savings-business-assessment-level-3",
+        "title":  "Savings Business Assessment (Level 3)"
+    },
+    {
+        "id":  "savings-business-assessment-level-2",
+        "title":  "Savings Business Assessment (Level 2)"
+    },
+    {
+        "id":  "routing-questions-business-assessment-level-3",
+        "title":  "Routing Questions Business Assessment (Level 3)"
+    },
+    {
+        "id":  "roles-business-assessment-level-3",
+        "title":  "Roles Business Assessment (Level 3)"
+    },
+    {
+        "id":  "risk-assessment-screen-business-assessment-level-3",
+        "title":  "Risk Assessment Screen Business Assessment (Level 3)"
+    },
+    {
+        "id":  "risk-assessment-screen-business-assessment-level-2",
+        "title":  "Risk Assessment Screen Business Assessment (Level 2)"
+    },
+    {
+        "id":  "risk-assessment-screen-assessment-level-2",
+        "title":  "Risk Assessment Screen Assessment (Level 2)"
+    },
+    {
+        "id":  "risk-assesment-screen-business-assessment-level-2",
+        "title":  "Risk Assesment Screen Business Assessment (Level 2)"
+    },
+    {
+        "id":  "requirements-user-story-apprivo-level-6",
+        "title":  "Requirements \u0026 User Story Apprivo (Level 6)"
+    },
+    {
+        "id":  "requirements-user-story-apprivo-level-5",
+        "title":  "Requirements \u0026 User Story Apprivo (Level 5)"
+    },
+    {
+        "id":  "requirements-user-story-apprivo-level-4",
+        "title":  "Requirements \u0026 User Story Apprivo (Level 4)"
+    },
+    {
+        "id":  "requirements-user-story-apprivo-level-3",
+        "title":  "Requirements \u0026 User Story Apprivo (Level 3)"
+    },
+    {
+        "id":  "react-level-3",
+        "title":  "React (Level 3)"
+    },
+    {
+        "id":  "quest-business-assessment-level-3",
+        "title":  "Quest Business Assessment (Level 3)"
+    },
+    {
+        "id":  "quest-business-assessment-level-2",
+        "title":  "Quest Business Assessment (Level 2)"
+    },
+    {
+        "id":  "product-catalogue-business-assessment-level-3",
+        "title":  "Product Catalogue Business Assessment (Level 3)"
+    },
+    {
+        "id":  "process-stages-business-assessment-level-3",
+        "title":  "Process Stages Business Assessment (Level 3)"
+    },
+    {
+        "id":  "peps-sanctions-business-assessment-level-5",
+        "title":  "PEPs \u0026 Sanctions Business Assessment (Level 5)"
+    },
+    {
+        "id":  "peps-sanctions-business-assessment-level-3",
+        "title":  "PEPs \u0026 Sanctions Business Assessment (Level 3)"
+    },
+    {
+        "id":  "peps-sanctions-business-assessment-level-2",
+        "title":  "PEPs \u0026 Sanctions Business Assessment (Level 2)"
+    },
+    {
+        "id":  "pcv-s-business-assessment-level-6",
+        "title":  "PCV\u0027s Business Assessment (Level 6)"
+    },
+    {
+        "id":  "pcv-s-business-assessment-level-5",
+        "title":  "PCV\u0027s Business Assessment (Level 5)"
+    },
+    {
+        "id":  "payments-business-assessment-level-3",
+        "title":  "Payments Business Assessment (Level 3)"
+    },
+    {
+        "id":  "payment-integration-bank-transfers-business-assessment-level-6",
+        "title":  "Payment Integration - Bank Transfers Business Assessment (Level 6)"
+    },
+    {
+        "id":  "optimo-business-assessment-level-4",
+        "title":  "Optimo Business Assessment (Level 4)"
+    },
+    {
+        "id":  "optimo-business-assessment-level-3",
+        "title":  "Optimo Business Assessment (Level 3)"
+    },
+    {
+        "id":  "optimo-business-assessment-level-2",
+        "title":  "Optimo Business Assessment (Level 2)"
+    },
+    {
+        "id":  "open-banking-business-assessment-level-4",
+        "title":  "Open Banking Business Assessment (Level 4)"
+    },
+    {
+        "id":  "open-banking-business-assessment-level-3",
+        "title":  "Open Banking Business Assessment (Level 3)"
+    },
+    {
+        "id":  "notes-diaries-business-assessment-level-6",
+        "title":  "Notes \u0026 Diaries Business Assessment (Level 6)"
+    },
+    {
+        "id":  "notes-diaries-business-assessment-level-5",
+        "title":  "Notes \u0026 Diaries Business Assessment (Level 5)"
+    },
+    {
+        "id":  "notes-diaries-business-assessment-level-4",
+        "title":  "Notes \u0026 Diaries Business Assessment (Level 4)"
+    },
+    {
+        "id":  "notes-diaries-business-assessment-level-3",
+        "title":  "Notes \u0026 Diaries Business Assessment (Level 3)"
+    },
+    {
+        "id":  "notes-diaries-business-assessment-level-2",
+        "title":  "Notes \u0026 Diaries Business Assessment (Level 2)"
+    },
+    {
+        "id":  "new-course",
+        "title":  "New course"
+    },
+    {
+        "id":  "new-accrediation-level-3",
+        "title":  "New accrediation (Level 3)"
+    },
+    {
+        "id":  "multiple-securities-business-assessment-level-6",
+        "title":  "Multiple Securities Business Assessment (Level 6)"
+    },
+    {
+        "id":  "multiple-securities-business-assessment-level-5",
+        "title":  "Multiple Securities Business Assessment (Level 5)"
+    },
+    {
+        "id":  "multiple-securities-business-assessment-level-4",
+        "title":  "Multiple Securities Business Assessment (Level 4)"
+    },
+    {
+        "id":  "multiple-securities-business-assessment-level-2",
+        "title":  "Multiple Securities Business Assessment (Level 2)"
+    },
+    {
+        "id":  "multi-part-loan-business-assessment-level-4",
+        "title":  "Multi Part Loan Business Assessment (Level 4)"
+    },
+    {
+        "id":  "multi-part-loan-business-assessment-level-3",
+        "title":  "Multi Part Loan Business Assessment (Level 3)"
+    },
+    {
+        "id":  "modular-pricing-assessment-level-5",
+        "title":  "Modular Pricing Assessment (Level 5)"
+    },
+    {
+        "id":  "lending-policy-including-policy-shields-business-assessment-level-3",
+        "title":  "Lending Policy including policy shields Business Assessment (Level 3)"
+    },
+    {
+        "id":  "kick-tires-new-course",
+        "title":  "Kick tires New course"
+    },
+    {
+        "id":  "kanban-case-management-and-risk-assessment-level-3",
+        "title":  "Kanban, Case Management and Risk Assessment - Level 3"
+    },
+    {
+        "id":  "kanban-cards-checklist-items-business-assessment-level-3",
+        "title":  "Kanban Cards / Checklist Items Business Assessment (Level 3)"
+    },
+    {
+        "id":  "kanban-cards-checklist-items-business-assessment-level-2",
+        "title":  "Kanban Cards / Checklist Items Business Assessment (Level 2)"
+    },
+    {
+        "id":  "introduction-to-talentlms",
+        "title":  "Introduction to TalentLMS"
+    },
+    {
+        "id":  "introduction-to-performance-management",
+        "title":  "Introduction to Performance Management"
+    },
+    {
+        "id":  "information-security-refresher-2025",
+        "title":  "Information_Security__Refresher_2025"
+    },
+    {
+        "id":  "industry-knowledge-residential-level-6",
+        "title":  "Industry Knowledge : Residential (Level 6)"
+    },
+    {
+        "id":  "industry-knowledge-residential-level-5",
+        "title":  "Industry Knowledge : Residential (Level 5)"
+    },
+    {
+        "id":  "industry-knowledge-residential-level-4",
+        "title":  "Industry Knowledge : Residential (Level 4)"
+    },
+    {
+        "id":  "industry-knowledge-residential-level-3",
+        "title":  "Industry Knowledge : Residential (Level 3)"
+    },
+    {
+        "id":  "industry-knowledge-real-life-experience-level-6",
+        "title":  "Industry Knowledge : Real Life Experience (Level 6)"
+    },
+    {
+        "id":  "industry-knowledge-real-life-experience-level-5",
+        "title":  "Industry Knowledge : Real Life Experience (Level 5)"
+    },
+    {
+        "id":  "industry-knowledge-real-life-experience-level-4",
+        "title":  "Industry Knowledge : Real Life Experience (Level 4)"
+    },
+    {
+        "id":  "industry-knowledge-real-life-experience-level-3",
+        "title":  "Industry Knowledge : Real Life Experience (Level 3)"
+    },
+    {
+        "id":  "industry-knowledge-mcob-level-6",
+        "title":  "Industry Knowledge : MCOB (Level 6)"
+    },
+    {
+        "id":  "industry-knowledge-mcob-level-5",
+        "title":  "Industry Knowledge : MCOB (Level 5)"
+    },
+    {
+        "id":  "industry-knowledge-buy-to-let-level-6",
+        "title":  "Industry Knowledge : Buy-To-Let (Level 6)"
+    },
+    {
+        "id":  "industry-knowledge-buy-to-let-level-5",
+        "title":  "Industry Knowledge : Buy-To-Let (Level 5)"
+    },
+    {
+        "id":  "industry-knowledge-buy-to-let-level-4",
+        "title":  "Industry Knowledge : Buy-To-Let (Level 4)"
+    },
+    {
+        "id":  "industry-knowledge-buy-to-let-level-3",
+        "title":  "Industry Knowledge : Buy-To-Let (Level 3)"
+    },
+    {
+        "id":  "id-v-fraud-assessment-level-6",
+        "title":  "ID\u0026V + Fraud Assessment (Level 6)"
+    },
+    {
+        "id":  "hands-on-training-accreditation-for-business-analysts-top-5",
+        "title":  "Hands-on Training Accreditation for Business Analysts (Top 5)"
+    },
+    {
+        "id":  "further-advance-business-assessment-level-6",
+        "title":  "Further Advance Business Assessment (Level 6)"
+    },
+    {
+        "id":  "further-advance-business-assessment-level-5",
+        "title":  "Further Advance Business Assessment (Level 5)"
+    },
+    {
+        "id":  "further-advance-business-assessment-level-3",
+        "title":  "Further Advance Business Assessment (Level 3)"
+    },
+    {
+        "id":  "fraud-prevention-refresher-2025",
+        "title":  "Fraud_Prevention__Refresher_2025"
+    },
+    {
+        "id":  "fraud-business-assessment-level-3",
+        "title":  "Fraud Business Assessment (Level 3)"
+    },
+    {
+        "id":  "experian-business-assessment-level-6",
+        "title":  "Experian Business Assessment (Level 6)"
+    },
+    {
+        "id":  "equifax-business-assessment-level-5",
+        "title":  "Equifax Business Assessment (Level 5)"
+    },
+    {
+        "id":  "equifax-business-assessment-level-3",
+        "title":  "Equifax Business Assessment (Level 3)"
+    },
+    {
+        "id":  "equifax-business-assessment-level-2",
+        "title":  "Equifax Business Assessment (Level 2)"
+    },
+    {
+        "id":  "enterprise-thinking-office-broker-structure-level-4",
+        "title":  "Enterprise - Thinking Office: Broker Structure (Level 4)"
+    },
+    {
+        "id":  "enterprise-thinking-office-broker-structure-level-3",
+        "title":  "Enterprise - Thinking Office: Broker Structure (Level 3)"
+    },
+    {
+        "id":  "enterprise-servicing-thinking-office-config-level-6",
+        "title":  "Enterprise - Servicing - Thinking Office (CONFIG) (Level 6)"
+    },
+    {
+        "id":  "enterprise-servicing-roles-wizards-config-level-6",
+        "title":  "Enterprise - Servicing - Roles \u0026 Wizards (CONFIG) (Level 6)"
+    },
+    {
+        "id":  "enterprise-servicing-gl-level-6",
+        "title":  "Enterprise - Servicing - GL (Level 6)"
+    },
+    {
+        "id":  "enterprise-servicing-gl-level-5",
+        "title":  "Enterprise - Servicing - GL (Level 5)"
+    },
+    {
+        "id":  "enterprise-servicing-gl-level-4",
+        "title":  "Enterprise - Servicing - GL (Level 4)"
+    },
+    {
+        "id":  "enterprise-servicing-gl-level-3",
+        "title":  "Enterprise - Servicing - GL (Level 3)"
+    },
+    {
+        "id":  "enterprise-servicing-finance-level-6",
+        "title":  "Enterprise - Servicing - Finance (Level 6)"
+    },
+    {
+        "id":  "enterprise-servicing-finance-level-5",
+        "title":  "Enterprise - Servicing - Finance (Level 5)"
+    },
+    {
+        "id":  "enterprise-servicing-finance-level-4",
+        "title":  "Enterprise - Servicing - Finance (Level 4)"
+    },
+    {
+        "id":  "enterprise-servicing-finance-level-3",
+        "title":  "Enterprise - Servicing - Finance (Level 3)"
+    },
+    {
+        "id":  "enterprise-second-charge-level-6",
+        "title":  "Enterprise - Second Charge (Level 6)"
+    },
+    {
+        "id":  "enterprise-score-card-config-level-6",
+        "title":  "Enterprise - Score Card (CONFIG) (Level 6)"
+    },
+    {
+        "id":  "enterprise-score-card-config-level-5",
+        "title":  "Enterprise - Score Card (CONFIG) (Level 5)"
+    },
+    {
+        "id":  "enterprise-rules-configuration-level-6",
+        "title":  "Enterprise - Rules Configuration (Level 6)"
+    },
+    {
+        "id":  "enterprise-rules-configuration-level-4",
+        "title":  "Enterprise - Rules Configuration (Level 4)"
+    },
+    {
+        "id":  "enterprise-rules-configuration-level-3",
+        "title":  "Enterprise - Rules Configuration (Level 3)"
+    },
+    {
+        "id":  "enterprise-rules-level-6",
+        "title":  "Enterprise - Rules (Level 6)"
+    },
+    {
+        "id":  "enterprise-product-configuration-level-6",
+        "title":  "Enterprise - Product Configuration (Level 6)"
+    },
+    {
+        "id":  "enterprise-product-configuration-level-5",
+        "title":  "Enterprise - Product Configuration (Level 5)"
+    },
+    {
+        "id":  "enterprise-product-configuration-level-4",
+        "title":  "Enterprise - Product Configuration (Level 4)"
+    },
+    {
+        "id":  "enterprise-product-configuration-level-3",
+        "title":  "Enterprise - Product Configuration (Level 3)"
+    },
+    {
+        "id":  "enterprise-product-config-level-6",
+        "title":  "Enterprise - Product Config (Level 6)"
+    },
+    {
+        "id":  "enterprise-portal-analysis-level-4",
+        "title":  "Enterprise - Portal ANALYSIS (Level 4)"
+    },
+    {
+        "id":  "enterprise-portal-analysis-level-3",
+        "title":  "Enterprise - Portal ANALYSIS (Level 3)"
+    },
+    {
+        "id":  "enterprise-pas-level-6",
+        "title":  "Enterprise - PAS (Level 6)"
+    },
+    {
+        "id":  "enterprise-pas-level-5",
+        "title":  "Enterprise - PAS (Level 5)"
+    },
+    {
+        "id":  "enterprise-pas-level-4",
+        "title":  "Enterprise - PAS (Level 4)"
+    },
+    {
+        "id":  "enterprise-pas-level-3",
+        "title":  "Enterprise - PAS (Level 3)"
+    },
+    {
+        "id":  "enterprise-pas-config-level-6",
+        "title":  "Enterprise - PAS (CONFIG) (Level 6)"
+    },
+    {
+        "id":  "enterprise-origination-stl-level-6",
+        "title":  "Enterprise - Origination - STL (Level 6)"
+    },
+    {
+        "id":  "enterprise-migration-level-6",
+        "title":  "Enterprise - Migration (Level 6)"
+    },
+    {
+        "id":  "enterprise-interfaces-valuation-config-level-6",
+        "title":  "Enterprise - Interfaces: Valuation Config (Level 6)"
+    },
+    {
+        "id":  "enterprise-interfaces-valuation-level-6",
+        "title":  "Enterprise - Interfaces: Valuation (Level 6)"
+    },
+    {
+        "id":  "enterprise-interface-fraud-config-level-6",
+        "title":  "Enterprise - Interface: Fraud (CONFIG) (Level 6)"
+    },
+    {
+        "id":  "enterprise-interface-fraud-config-level-5",
+        "title":  "Enterprise - Interface: Fraud (CONFIG) (Level 5)"
+    },
+    {
+        "id":  "enterprise-interface-fraud-analysis-level-6",
+        "title":  "Enterprise - Interface: Fraud (ANALYSIS) (Level 6)"
+    },
+    {
+        "id":  "enterprise-interface-fraud-analysis-level-5",
+        "title":  "Enterprise - Interface: Fraud (ANALYSIS) (Level 5)"
+    },
+    {
+        "id":  "enterprise-interface-fraud-analysis-level-4",
+        "title":  "Enterprise - Interface: Fraud (ANALYSIS) (Level 4)"
+    },
+    {
+        "id":  "enterprise-interface-fraud-analysis-level-3",
+        "title":  "Enterprise - Interface: Fraud (ANALYSIS) (Level 3)"
+    },
+    {
+        "id":  "enterprise-gl-config-level-6",
+        "title":  "Enterprise - GL (CONFIG) (Level 6)"
+    },
+    {
+        "id":  "enterprise-gl-config-level-5",
+        "title":  "Enterprise - GL (CONFIG) (Level 5)"
+    },
+    {
+        "id":  "enterprise-finance-config-level-5",
+        "title":  "Enterprise - Finance (CONFIG) (Level 5)"
+    },
+    {
+        "id":  "enterprise-document-config-level-6",
+        "title":  "Enterprise - Document Config (Level 6)"
+    },
+    {
+        "id":  "enterprise-cra-config-level-6",
+        "title":  "Enterprise - CRA Config (Level 6)"
+    },
+    {
+        "id":  "enterprise-cra-config-level-5",
+        "title":  "Enterprise - CRA Config (Level 5)"
+    },
+    {
+        "id":  "enterprise-cra-config-level-4",
+        "title":  "Enterprise - CRA Config (Level 4)"
+    },
+    {
+        "id":  "enterprise-common-fees-level-6",
+        "title":  "Enterprise - Common - Fees (Level 6)"
+    },
+    {
+        "id":  "enterprise-calculations-level-6",
+        "title":  "Enterprise - Calculations (Level 6)"
+    },
+    {
+        "id":  "enterprise-branch-till-level-6",
+        "title":  "Enterprise - Branch Till (Level 6)"
+    },
+    {
+        "id":  "enterprise-back-office-analysis-level-3",
+        "title":  "Enterprise - Back Office (ANALYSIS) (Level 3)"
+    },
+    {
+        "id":  "enterprise-api-mapping-level6",
+        "title":  "Enterprise - API Mapping (Level6)"
+    },
+    {
+        "id":  "enhanced-tasks-business-assessment-level-6",
+        "title":  "Enhanced Tasks Business Assessment (Level 6)"
+    },
+    {
+        "id":  "enhanced-tasks-business-assessment-level-5",
+        "title":  "Enhanced Tasks Business Assessment (Level 5)"
+    },
+    {
+        "id":  "enhanced-tasks-business-assessment-level-4",
+        "title":  "Enhanced Tasks Business Assessment (Level 4)"
+    },
+    {
+        "id":  "enhanced-tasks-business-assessment-level-3",
+        "title":  "Enhanced Tasks Business Assessment (Level 3)"
+    },
+    {
+        "id":  "enhanced-tasks-business-assessment-level-2",
+        "title":  "Enhanced Tasks Business Assessment (Level 2)"
+    },
+    {
+        "id":  "elaboration-workshop-level-6",
+        "title":  "Elaboration - Workshop (Level 6)"
+    },
+    {
+        "id":  "elaboration-workshop-level-5",
+        "title":  "Elaboration - Workshop (Level 5)"
+    },
+    {
+        "id":  "elaboration-workshop-level-4",
+        "title":  "Elaboration - Workshop (Level 4)"
+    },
+    {
+        "id":  "elaboration-workshop-level-3",
+        "title":  "Elaboration - Workshop (Level 3)"
+    },
+    {
+        "id":  "elaboration-requirements-user-story-level-6",
+        "title":  "Elaboration - Requirements \u0026 User Story (Level 6)"
+    },
+    {
+        "id":  "elaboration-requirements-user-story-level-5",
+        "title":  "Elaboration - Requirements \u0026 User Story (Level 5)"
+    },
+    {
+        "id":  "elaboration-requirements-user-story-level-4",
+        "title":  "Elaboration - Requirements \u0026 User Story (Level 4)"
+    },
+    {
+        "id":  "elaboration-requirements-user-story-level-3",
+        "title":  "Elaboration - Requirements \u0026 User Story (Level 3)"
+    },
+    {
+        "id":  "eid-v-business-assessment-level-2",
+        "title":  "eID\u0026V - Business Assessment (Level 2)"
+    },
+    {
+        "id":  "eid-v-anti-impersonation-business-assessment-level-5",
+        "title":  "eID\u0026V - Anti Impersonation Business Assessment (Level 5)"
+    },
+    {
+        "id":  "eid-v-anti-impersonation-business-assessment-level-4",
+        "title":  "eID\u0026V - Anti Impersonation Business Assessment (Level 4)"
+    },
+    {
+        "id":  "eid-v-anti-impersonation-business-assessment-level-2",
+        "title":  "eID\u0026V - Anti Impersonation Business Assessment (Level 2)"
+    },
+    {
+        "id":  "documentation-business-assessment-level-3",
+        "title":  "Documentation Business Assessment (Level 3)"
+    },
+    {
+        "id":  "documentation-business-assessment-level-2",
+        "title":  "Documentation Business Assessment (Level 2)"
+    },
+    {
+        "id":  "distribution-hub-business-assessment-level-6",
+        "title":  "Distribution Hub Business Assessment (Level 6)"
+    },
+    {
+        "id":  "distribution-hub-business-assessment-level-4",
+        "title":  "Distribution Hub Business Assessment (Level 4)"
+    },
+    {
+        "id":  "distribution-hub-business-assessment-level-3",
+        "title":  "Distribution Hub Business Assessment (Level 3)"
+    },
+    {
+        "id":  "distribution-hub-business-assessment-level-2",
+        "title":  "Distribution Hub Business Assessment (Level 2)"
+    },
+    {
+        "id":  "discovery-scope-level-6",
+        "title":  "Discovery - Scope (Level 6)"
+    },
+    {
+        "id":  "discovery-scope-level-5",
+        "title":  "Discovery - Scope (Level 5)"
+    },
+    {
+        "id":  "discovery-scope-level-4",
+        "title":  "Discovery - Scope (Level 4)"
+    },
+    {
+        "id":  "discovery-scope-level-3",
+        "title":  "Discovery - Scope (Level 3)"
+    },
+    {
+        "id":  "discovery-demonstration-level-6",
+        "title":  "Discovery - Demonstration (Level 6)"
+    },
+    {
+        "id":  "discovery-demonstration-level-5",
+        "title":  "Discovery - Demonstration (Level 5)"
+    },
+    {
+        "id":  "discovery-demonstration-level-4",
+        "title":  "Discovery - Demonstration (Level 4)"
+    },
+    {
+        "id":  "discovery-demonstration-level-3",
+        "title":  "Discovery - Demonstration (Level 3)"
+    },
+    {
+        "id":  "demo-apprivo-level-6",
+        "title":  "Demo Apprivo (Level 6)"
+    },
+    {
+        "id":  "demo-apprivo-level-5",
+        "title":  "Demo Apprivo (Level 5)"
+    },
+    {
+        "id":  "demo-apprivo-level-3",
+        "title":  "Demo Apprivo (Level 3)"
+    },
+    {
+        "id":  "delivery-model-apprivo-level-6",
+        "title":  "Delivery Model Apprivo (Level 6)"
+    },
+    {
+        "id":  "delivery-model-apprivo-level-5",
+        "title":  "Delivery Model Apprivo (Level 5)"
+    },
+    {
+        "id":  "delivery-model-apprivo-level-4",
+        "title":  "Delivery Model Apprivo (Level 4)"
+    },
+    {
+        "id":  "delivery-model-apprivo-level-3",
+        "title":  "Delivery Model Apprivo (Level 3)"
+    },
+    {
+        "id":  "delivery-triage-level-6",
+        "title":  "Delivery - Triage (Level 6)"
+    },
+    {
+        "id":  "delivery-triage-level-5",
+        "title":  "Delivery - Triage (Level 5)"
+    },
+    {
+        "id":  "delivery-triage-level-4",
+        "title":  "Delivery - Triage (Level 4)"
+    },
+    {
+        "id":  "delivery-triage-level-3",
+        "title":  "Delivery - Triage (Level 3)"
+    },
+    {
+        "id":  "delivery-client-show-tell-level-6",
+        "title":  "Delivery - Client Show \u0026 Tell (Level 6)"
+    },
+    {
+        "id":  "delivery-client-show-tell-level-5",
+        "title":  "Delivery - Client Show \u0026 Tell (Level 5)"
+    },
+    {
+        "id":  "delivery-client-show-tell-level-4",
+        "title":  "Delivery - Client Show \u0026 Tell (Level 4)"
+    },
+    {
+        "id":  "delivery-client-show-tell-level-3",
+        "title":  "Delivery - Client Show \u0026 Tell (Level 3)"
+    },
+    {
+        "id":  "data-protection-refresher-2025",
+        "title":  "Data_Protection_Refresher_2025"
+    },
+    {
+        "id":  "customer-facing-test-support-level-6",
+        "title":  "Customer facing test support (Level 6)"
+    },
+    {
+        "id":  "cra-business-assessment-level-3",
+        "title":  "CRA Business Assessment (Level 3)"
+    },
+    {
+        "id":  "cra-business-assessment-level-2",
+        "title":  "CRA Business Assessment (Level 2)"
+    },
+    {
+        "id":  "cra-experian-delphi-consumer-level-4",
+        "title":  "CRA - Experian Delphi Consumer (Level 4)"
+    },
+    {
+        "id":  "cra-equifax-xml2-consumer-level-6",
+        "title":  "CRA - Equifax XML2 Consumer (Level 6)"
+    },
+    {
+        "id":  "cra-equifax-edi-commercial-level-6",
+        "title":  "CRA - Equifax EDI Commercial (Level 6)"
+    },
+    {
+        "id":  "cra-equifax-commercial-edi-level-5",
+        "title":  "CRA - Equifax Commercial EDI (Level 5)"
+    },
+    {
+        "id":  "confluence-level-6",
+        "title":  "Confluence (Level 6)"
+    },
+    {
+        "id":  "config-apprivo-level-6",
+        "title":  "Config Apprivo (Level 6)"
+    },
+    {
+        "id":  "config-apprivo-level-5",
+        "title":  "Config Apprivo (Level 5)"
+    },
+    {
+        "id":  "config-apprivo-level-4",
+        "title":  "Config Apprivo (Level 4)"
+    },
+    {
+        "id":  "completions-file-business-assessment-level-3",
+        "title":  "Completions File Business Assessment (Level 3)"
+    },
+    {
+        "id":  "communicating-effectively-with-llms",
+        "title":  "Communicating Effectively with LLMs"
+    },
+    {
+        "id":  "client-training-electronic-payments-pas-savings",
+        "title":  "Client Training - Electronic Payments \u0026 PAS (Savings)"
+    },
+    {
+        "id":  "client-requirements-14",
+        "title":  "Client Requirements (14)"
+    },
+    {
+        "id":  "client-meetings-level-6",
+        "title":  "Client Meetings (Level 6)"
+    },
+    {
+        "id":  "checkflows-recipe",
+        "title":  "Checkflows Recipe"
+    },
+    {
+        "id":  "bug-bash-pro-level-6",
+        "title":  "Bug Bash Pro (Level 6)"
+    },
+    {
+        "id":  "bug-bash-pro-level-5",
+        "title":  "Bug Bash Pro (Level 5)"
+    },
+    {
+        "id":  "branding-business-assessment-level-5",
+        "title":  "Branding Business Assessment (Level 5)"
+    },
+    {
+        "id":  "branding-business-assessment-level-2",
+        "title":  "Branding Business Assessment (Level 2)"
+    },
+    {
+        "id":  "behavior-driven-development-in-delivery-level-6",
+        "title":  "Behavior Driven Development in Delivery (Level 6)"
+    },
+    {
+        "id":  "behavior-driven-development-in-delivery-level-4",
+        "title":  "Behavior Driven Development in Delivery (Level 4)"
+    },
+    {
+        "id":  "bank-account-verification-non-standard-business-assessment-level-5",
+        "title":  "Bank Account Verification - Non Standard Business Assessment (Level 5)"
+    },
+    {
+        "id":  "bank-account-validation-business-assessment-level-6",
+        "title":  "Bank Account Validation Business Assessment (Level 6)"
+    },
+    {
+        "id":  "bank-account-validation-business-assessment-level-5",
+        "title":  "Bank Account Validation Business Assessment (Level 5)"
+    },
+    {
+        "id":  "bank-account-validation-business-assessment-level-4",
+        "title":  "Bank Account Validation Business Assessment (Level 4)"
+    },
+    {
+        "id":  "bank-account-validation-business-assessment-level-3",
+        "title":  "Bank Account Validation Business Assessment (Level 3)"
+    },
+    {
+        "id":  "bank-account-validation-business-assessment-level-2",
+        "title":  "Bank Account Validation Business Assessment (Level 2)"
+    },
+    {
+        "id":  "avm-business-assessment-level-5",
+        "title":  "AVM Business Assessment (Level 5)"
+    },
+    {
+        "id":  "automation-testing-level-6",
+        "title":  "Automation Testing (Level 6)"
+    },
+    {
+        "id":  "apprivo-functional-overview-demo-apr-00",
+        "title":  "Apprivo Functional Overview Demo (APR_00)"
+    },
+    {
+        "id":  "aml-business-assessment-level-5",
+        "title":  "AML Business Assessment (Level 5)"
+    },
+    {
+        "id":  "aml-business-assessment-level-4",
+        "title":  "AML Business Assessment (Level 4)"
+    },
+    {
+        "id":  "aml-business-assessment-level-2",
+        "title":  "AML Business Assessment (Level 2)"
+    },
+    {
+        "id":  "ai-for-quality-assurance-ai-qa",
+        "title":  "AI for Quality Assurance (AI-QA)"
+    },
+    {
+        "id":  "affordability-resi-business-assessment-level-2",
+        "title":  "Affordability (RESI) Business Assessment (Level 2)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-6-tester",
+        "title":  "Adopt Model Assessment (Level 6) (Tester)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-6-support",
+        "title":  "Adopt Model Assessment (Level 6) (Support)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-6-pm",
+        "title":  "Adopt Model Assessment (Level 6) (PM)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-6-dev",
+        "title":  "Adopt Model Assessment (Level 6) (Dev)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-6-ba",
+        "title":  "Adopt Model Assessment (Level 6) (BA)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-5-support",
+        "title":  "Adopt Model Assessment (Level 5) (Support)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-5-pm",
+        "title":  "Adopt Model Assessment (Level 5) (PM)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-5-dev",
+        "title":  "Adopt Model Assessment (Level 5) (Dev)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-5-ba",
+        "title":  "Adopt Model Assessment (Level 5) (BA)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-4-tester",
+        "title":  "Adopt Model Assessment (Level 4) (Tester)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-4-support",
+        "title":  "Adopt Model Assessment (Level 4) (Support)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-4-pm",
+        "title":  "Adopt Model Assessment (Level 4) (PM)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-4-dev",
+        "title":  "Adopt Model Assessment (Level 4) (Dev)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-3-tester",
+        "title":  "Adopt Model Assessment (Level 3) (Tester)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-3-support",
+        "title":  "Adopt Model Assessment (Level 3) (Support)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-3-ba",
+        "title":  "Adopt Model Assessment (Level 3) (BA)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-2-tester",
+        "title":  "Adopt Model Assessment (Level 2) (Tester)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-2-support",
+        "title":  "Adopt Model Assessment (Level 2) (Support)"
+    },
+    {
+        "id":  "adopt-model-assessment-level-2-pm",
+        "title":  "Adopt Model Assessment (Level 2) (PM)"
+    },
+    {
+        "id":  "accrediting-skills",
+        "title":  "Accrediting Skills"
+    },
+    {
+        "id":  "7-document-template-accreditation",
+        "title":  "7. Document Template Accreditation"
+    },
+    {
+        "id":  "6-what-to-do-when-help-with-planet-press-is-needed",
+        "title":  "6. What to do when help with Planet Press is needed"
+    },
+    {
+        "id":  "5-how-your-changes-are-moved-to-live",
+        "title":  "5. How your changes are moved to \"Live\""
+    },
+    {
+        "id":  "4-how-to-make-changes-using-planet-press",
+        "title":  "4. How to make changes using Planet Press"
+    },
+    {
+        "id":  "3-how-to-record-document-template-requirements",
+        "title":  "3. How to record Document Template requirements"
+    },
+    {
+        "id":  "2-how-to-install-planet-press",
+        "title":  "2. How to install Planet Press"
+    },
+    {
+        "id":  "1-apprivo-document-template-overview",
+        "title":  "1. Apprivo Document Template Overview"
+    }
+]

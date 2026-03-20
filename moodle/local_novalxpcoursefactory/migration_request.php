@@ -6,12 +6,13 @@ ob_start();
 
 require_once(__DIR__ . '/../../config.php');
 
-$PAGE->set_url(new moodle_url('/local/novalxpcoursefactory/course_factory.php'));
+$PAGE->set_url(new moodle_url('/local/novalxpcoursefactory/migration_request.php'));
 
 require_login();
 require_sesskey();
 
-$brief = trim((string)optional_param('brief', '', PARAM_RAW_TRIMMED));
+$sourcecourseid = trim((string)optional_param('sourcecourseid', '', PARAM_ALPHANUMEXT));
+$reason = trim((string)optional_param('reason', '', PARAM_RAW_TRIMMED));
 
 /**
  * Emit a clean JSON response even if upstream code wrote debug text.
@@ -20,7 +21,7 @@ $brief = trim((string)optional_param('brief', '', PARAM_RAW_TRIMMED));
  * @param int $statuscode
  * @return void
  */
-function local_novalxpcoursefactory_emit_json(array $payload, int $statuscode = 200): void {
+function local_novalxpcoursefactory_emit_migration_json(array $payload, int $statuscode = 200): void {
     $buffer = '';
     while (ob_get_level() > 0) {
         $chunk = ob_get_contents();
@@ -40,25 +41,25 @@ function local_novalxpcoursefactory_emit_json(array $payload, int $statuscode = 
     exit;
 }
 
-if ($brief === '') {
-    local_novalxpcoursefactory_emit_json([
+if ($sourcecourseid === '' || $reason === '') {
+    local_novalxpcoursefactory_emit_migration_json([
         'status' => false,
-        'message' => get_string('invalidrequest', 'local_novalxpcoursefactory'),
+        'message' => get_string('invalidmigrationrequest', 'local_novalxpcoursefactory'),
     ], 400);
 }
 
-$result = \local_novalxpcoursefactory\service::queue_course($brief);
+$result = \local_novalxpcoursefactory\service::queue_migration_request($sourcecourseid, $reason);
 
 if (empty($result['ok'])) {
-    local_novalxpcoursefactory_emit_json([
+    local_novalxpcoursefactory_emit_migration_json([
         'status' => false,
         'message' => (string)($result['error'] ?? get_string('serviceerror', 'local_novalxpcoursefactory')),
     ], 500);
 }
 
-local_novalxpcoursefactory_emit_json([
+local_novalxpcoursefactory_emit_migration_json([
     'status' => true,
-    'requesttype' => 'ai_course_factory',
+    'requesttype' => 'talentlms_migration',
     'requestid' => (string)$result['request_id'],
     'message' => (string)$result['summary'],
 ]);

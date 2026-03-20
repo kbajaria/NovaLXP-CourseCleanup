@@ -46,8 +46,8 @@ if ($hassiteconfig) {
 
     $settings->add(new admin_setting_configtext(
         'local_novalxpcoursefactory/placeholdertext',
-        get_string('placeholdertext', 'local_novalxpcoursefactory'),
-        get_string('placeholdertext_desc', 'local_novalxpcoursefactory'),
+        get_string('reasonplaceholdertext', 'local_novalxpcoursefactory'),
+        get_string('reasonplaceholdertext_desc', 'local_novalxpcoursefactory'),
         get_string('placeholderdefault', 'local_novalxpcoursefactory'),
         PARAM_TEXT
     ));
@@ -58,6 +58,16 @@ if ($hassiteconfig) {
         get_string('buttontext_desc', 'local_novalxpcoursefactory'),
         get_string('buttondefault', 'local_novalxpcoursefactory'),
         PARAM_TEXT
+    ));
+
+    $settings->add(new admin_setting_configtextarea(
+        'local_novalxpcoursefactory/talentlmscatalogjson',
+        get_string('talentlmscatalogjson', 'local_novalxpcoursefactory'),
+        get_string('talentlmscatalogjson_desc', 'local_novalxpcoursefactory'),
+        '',
+        PARAM_RAW,
+        20,
+        100
     ));
 
     $ADMIN->add('localplugins', $settings);

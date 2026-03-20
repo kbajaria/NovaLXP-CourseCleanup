@@ -1,0 +1,9 @@
+{
+  "title": "Knowledge check",
+  "pass_mark": 80,
+  "moodle_guardrails": {
+    "quiz_completion_requires_pass": true,
+    "course_completion_requires_quiz": true,
+    "shuffle_answers": true
+  }
+}

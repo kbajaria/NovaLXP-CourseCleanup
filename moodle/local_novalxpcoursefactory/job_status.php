@@ -44,9 +44,12 @@ if ($record === null || (int)($record['userid'] ?? 0) !== (int)$USER->id) {
 
 local_novalxpcoursefactory_emit_status_json([
     'status' => true,
+    'requesttype' => (string)($record['requesttype'] ?? ''),
     'state' => (string)($record['state'] ?? 'queued'),
     'message' => (string)($record['message'] ?? ''),
     'courseid' => (int)($record['courseid'] ?? 0),
     'coursetitle' => (string)($record['coursetitle'] ?? ''),
     'courseurl' => (string)($record['courseurl'] ?? ''),
+    'sourcecourseid' => (string)($record['sourcecourseid'] ?? ''),
+    'sourcecoursetitle' => (string)($record['sourcecoursetitle'] ?? ''),
 ]);

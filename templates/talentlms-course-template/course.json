@@ -1,0 +1,18 @@
+{
+  "course": {
+    "shortname": "replace-with-shortname",
+    "fullname": "Replace With Course Title",
+    "summary": "Replace with a short learner-facing summary of the migrated course.",
+    "estimated_minutes": 45
+  },
+  "sections": [
+    {"id": "00", "title": "Welcome", "source": "content/section-00-welcome.md"},
+    {"id": "01", "title": "Core concepts", "source": "content/section-01-core-concepts.md"},
+    {"id": "02", "title": "How to apply this", "source": "content/section-02-apply.md"},
+    {"id": "03", "title": "Wrap-up", "source": "content/section-03-wrap-up.md"}
+  ],
+  "quiz": {
+    "questionbank_gift": "quiz/questionbank.gift",
+    "config": "quiz/quiz-config.json"
+  }
+}
