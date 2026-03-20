@@ -1,0 +1,91 @@
+// Data and Integration Foundations - Question Bank (GIFT)
+
+::DI01_BigQueryDefinition::
+What is BigQuery mainly used for?
+{
+=Storing and querying large structured datasets
+~Designing browser tabs
+~Replacing GitHub repositories
+~Editing markdown files
+}
+
+::DI02_AgentVsDatabase::
+Which statement is most accurate?
+{
+=The agent is not the database; it may use a tool to query the database
+~The agent and the database are always the same thing
+~The database writes prompts automatically
+~The database replaces the cloud project
+}
+
+::DI03_ResultSetMeaning::
+In data work, a result set is:
+{
+=The rows returned by a query
+~A list of browser bookmarks
+~A secret environment file
+~A sub-agent prompt
+}
+
+::DI04_RAGMeaning::
+What does RAG stand for?
+{
+=Retrieval-Augmented Generation
+~Runtime Agent Gateway
+~Remote Application Graph
+~Rapid API Group
+}
+
+::DI05_RAGPurpose::
+Why use RAG for policy questions?
+{
+=To ground answers in retrieved policy content
+~To avoid reading documents at all
+~To remove the need for tools
+~To guarantee every answer is correct
+}
+
+::DI06_RAGFailureCheck::
+If a policy answer seems wrong, what is a sensible first check?
+{
+=Whether the right documents were retrieved
+~Whether the browser theme changed
+~Whether GitHub has new stars
+~Whether the learner closed a tab
+}
+
+::DI07_MCPMeaning::
+What is the beginner-friendly idea behind MCP?
+{
+=A structured standard for connecting models to tools and external services
+~A replacement for all databases
+~A type of cloud region
+~A file format for quiz questions
+}
+
+::DI08_MapsUseCase::
+Why might an agent use Maps in this track?
+{
+=To get location-related information from an external service
+~To replace the main repo
+~To store environment variables
+~To render markdown headings
+}
+
+::DI09_Day1Focus::
+Which item belongs to Day 1 in the track rehearsal?
+{
+=Agent bootstrapping
+~Following Policies with RAG only
+~Publishing the final production release
+~Disabling all cloud permissions
+}
+
+::DI10_BeforeHackathon::
+Which item is part of the rehearsal checklist before the hackathon starts?
+{
+=Confirm you can sign into every required tool
+~Memorize every line of source code
+~Delete all starter files to avoid confusion
+~Skip the README to save time
+}

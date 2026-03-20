@@ -1,0 +1,91 @@
+// AI Agent Foundations for Hackathons - Question Bank (GIFT)
+
+::AG01_AgentDefinition::
+An AI agent is best described as software that:
+{
+=Receives input, follows instructions, may use tools, and returns output
+~Stores files only and never produces responses
+~Replaces every cloud service in the system
+~Is always correct if it uses a large model
+}
+
+::AG02_InputInstructionToolOutput::
+Which set names the most useful beginner mental model for an agent?
+{
+=Input, instructions, tools, output
+~Desktop, browser, wallpaper, battery
+~Tickets, sprint, epic, release
+~Tab, window, bookmark, URL
+}
+
+::AG03_NotMagic::
+Why is it useful to remember that an agent is not magic?
+{
+=Because errors can come from prompts, tools, data, or setup
+~Because it means the app never needs testing
+~Because it proves the agent should work offline
+~Because it removes the need for instructions
+}
+
+::AG04_ReadmeFirst::
+Before editing a starter agent project, what is the best first step?
+{
+=Read the README and understand setup requirements
+~Rename all source files
+~Delete unused folders immediately
+~Open random files until something looks familiar
+}
+
+::AG05_RunBeforeChange::
+Why should beginners try to run the starter project before changing it?
+{
+=It helps isolate later failures caused by your edits
+~It guarantees there will never be bugs
+~It automatically writes documentation
+~It creates cloud credentials for you
+}
+
+::AG06_BootstrappingMeaning::
+In this course, "bootstrapping" mainly means:
+{
+=Getting the first working version of the agent running
+~Adding every advanced feature before testing
+~Publishing the project to production
+~Deleting old branches
+}
+
+::AG07_SubagentPurpose::
+Why add a complaints sub-agent?
+{
+=To handle complaint-specific logic in a focused way
+~To remove the need for a main agent
+~To store screenshots in the browser
+~To replace the database
+}
+
+::AG08_MainVsSubagent::
+What is the main agent usually responsible for?
+{
+=Receiving the overall request and routing work appropriately
+~Only formatting spreadsheets
+~Only holding API keys
+~Only drawing maps
+}
+
+::AG09_TestingPattern::
+Which is a sensible beginner testing pattern after a major change?
+{
+=Test a normal input, a messy input, and a routing case
+~Test only once at the end of the hackathon
+~Skip testing if the code looks clean
+~Only test with screenshots
+}
+
+::AG10_GenericResponse::
+If the sub-agent should have handled a request but the answer is generic, what is a likely issue?
+{
+=The routing or prompt logic did not trigger correctly
+~The browser forgot the page color
+~The file explorer is empty
+~The learner used too many tabs
+}

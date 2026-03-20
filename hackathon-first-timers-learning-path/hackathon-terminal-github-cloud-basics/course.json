@@ -1,0 +1,20 @@
+{
+  "course": {
+    "shortname": "hackathon-terminal-github-cloud-basics",
+    "fullname": "Hackathon Pathway 2 of 4: GCP Cloud Workstations Basics",
+    "summary": "Course 2 of 4 in the First-Time Hackathon Pathway. Covers Google Cloud Console, Cloud Workstations, browser-based terminal basics, and the GCP sign-ins and project context that usually block first-time learners.",
+    "estimated_minutes": 65
+  },
+  "sections": [
+    {"id": "00", "title": "Welcome", "source": "content/section-00-welcome.md"},
+    {"id": "01", "title": "Terminal basics you actually need", "source": "content/section-01-terminal-basics.md"},
+    {"id": "02", "title": "Cloud Workstations and project folders", "source": "content/section-02-vscode-and-folders.md"},
+    {"id": "03", "title": "Repos, README-driven work, and staying inside the workstation", "source": "content/section-03-github-and-readmes.md"},
+    {"id": "04", "title": "GCP sign-ins, projects, and environment values", "source": "content/section-04-cloud-signins-and-env-values.md"},
+    {"id": "05", "title": "Wrap-up", "source": "content/section-05-wrap-up.md"}
+  ],
+  "quiz": {
+    "questionbank_gift": "quiz/questionbank.gift",
+    "config": "quiz/quiz-config.json"
+  }
+}

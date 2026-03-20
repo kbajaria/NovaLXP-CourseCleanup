@@ -1,0 +1,66 @@
+{
+  "course_id": 184,
+  "label_name_prefix": "Quick Navigation",
+  "container_class": "d-flex flex-wrap gap-1",
+  "aria_label": "Finova section buttons",
+  "button_class": "btn btn-primary btn-sm",
+  "button_style": "font-size: 0.65rem; padding: 0.15rem 0.35rem; line-height: 1.1;",
+  "buttons": [
+    {
+      "label": "Course Navigation",
+      "href": "/course/view.php?id=184"
+    },
+    {
+      "label": "Welcome to Finova (Start here)",
+      "href": "/course/section.php?id=831"
+    },
+    {
+      "label": "Office Video Tours (Optional)",
+      "href": "/course/section.php?id=894"
+    },
+    {
+      "label": "Getting Set Up: Systems & Access",
+      "href": "/course/section.php?id=833"
+    },
+    {
+      "label": "HR, Payroll, Benefits & Pensions",
+      "href": "/course/section.php?id=834"
+    },
+    {
+      "label": "Industry Overview",
+      "href": "/course/section.php?id=835"
+    },
+    {
+      "label": "Finova Products & Solutions",
+      "href": "/course/section.php?id=836"
+    },
+    {
+      "label": "How We Deliver (Delivery Methodology)",
+      "href": "/course/section.php?id=837"
+    },
+    {
+      "label": "Life at Finova",
+      "href": "/course/section.php?id=838"
+    },
+    {
+      "label": "Security at a Glance",
+      "href": "/course/section.php?id=840"
+    },
+    {
+      "label": "Compliance Training (Mandatory)",
+      "href": "/course/section.php?id=844"
+    },
+    {
+      "label": "Role-Specific Onboarding",
+      "href": "/course/section.php?id=841"
+    },
+    {
+      "label": "Culture & Engagement",
+      "href": "/course/section.php?id=842"
+    },
+    {
+      "label": "30-60-90 Day Plan & Wrap-Up",
+      "href": "/course/section.php?id=843"
+    }
+  ]
+}

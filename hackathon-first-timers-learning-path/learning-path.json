@@ -1,0 +1,48 @@
+{
+  "learning_path": {
+    "id": "hackathon-first-timers-tech-enablement",
+    "title": "Start Here: First-Time Hackathon Pathway",
+    "summary": "A beginner-first, ordered pathway of NovaLXP courses that prepares non-technical learners to complete the Tech Enablement Track over two days.",
+    "audience": "Learners with low technology proficiency who may have never coded, used Cloud Workstations, or worked in Google Cloud.",
+    "estimated_minutes": 250
+  },
+  "courses": [
+    {
+      "order": 1,
+      "slug": "hackathon-digital-basics",
+      "title": "Hackathon Pathway 1 of 4: AI Hackathon Orientation",
+      "hackathon_alignment": [
+        "Supports all agenda items by removing basic computer-use blockers"
+      ]
+    },
+    {
+      "order": 2,
+      "slug": "hackathon-terminal-github-cloud-basics",
+      "title": "Hackathon Pathway 2 of 4: GCP Cloud Workstations Basics",
+      "hackathon_alignment": [
+        "Agent bootstrapping",
+        "BigQuery Agent Tools",
+        "Using MCP with Maps"
+      ]
+    },
+    {
+      "order": 3,
+      "slug": "hackathon-agent-and-subagent-basics",
+      "title": "Hackathon Pathway 3 of 4: Agent Foundations",
+      "hackathon_alignment": [
+        "Agent bootstrapping",
+        "Complaints sub-agent"
+      ]
+    },
+    {
+      "order": 4,
+      "slug": "hackathon-data-rag-mcp-maps-rehearsal",
+      "title": "Hackathon Pathway 4 of 4: Data and Integration Foundations",
+      "hackathon_alignment": [
+        "BigQuery Agent Tools",
+        "Following Policies with RAG",
+        "Using MCP with Maps"
+      ]
+    }
+  ]
+}

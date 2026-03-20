@@ -1,0 +1,20 @@
+{
+  "course": {
+    "shortname": "hackathon-digital-basics",
+    "fullname": "Hackathon Pathway 1 of 4: AI Hackathon Orientation",
+    "summary": "Start here. A beginner-first orientation to what an AI hackathon is, why organizations run them, what outcomes teams aim for, and how business-focused departments contribute during the event.",
+    "estimated_minutes": 50
+  },
+  "sections": [
+    {"id": "00", "title": "Welcome", "source": "content/section-00-welcome.md"},
+    {"id": "01", "title": "What an AI hackathon is", "source": "content/section-01-browser-and-signins.md"},
+    {"id": "02", "title": "What outcomes teams aim for", "source": "content/section-02-files-folders-copy-paste.md"},
+    {"id": "03", "title": "Why organizations run AI hackathons", "source": "content/section-03-reading-technical-instructions.md"},
+    {"id": "04", "title": "The role of business-focused departments", "source": "content/section-04-getting-unstuck.md"},
+    {"id": "05", "title": "What to expect over two days and wrap-up", "source": "content/section-05-wrap-up.md"}
+  ],
+  "quiz": {
+    "questionbank_gift": "quiz/questionbank.gift",
+    "config": "quiz/quiz-config.json"
+  }
+}

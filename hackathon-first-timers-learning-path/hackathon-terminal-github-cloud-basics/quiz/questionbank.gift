@@ -1,0 +1,91 @@
+// Hackathon GCP Cloud Workstations Basics - Question Bank (GIFT)
+
+::WB01_PwdPurpose::
+What does `pwd` usually show?
+{
+=Your current folder location
+~Your GitHub username
+~Your cloud billing status
+~Your browser history
+}
+
+::WB02_LsPurpose::
+What does `ls` help you do?
+{
+=See files and folders in the current location
+~Start a web server
+~Sign into GitHub
+~Create an API key
+}
+
+::WB03_CdPurpose::
+Why is `cd` important in a terminal?
+{
+=Many commands only work if you are in the correct folder
+~It closes browser tabs
+~It creates pull requests
+~It uploads secrets automatically
+}
+
+::WB04_CloudWorkstationsPurpose::
+In this hackathon, what is Cloud Workstations mainly used for?
+{
+=To provide a browser-based development environment inside GCP
+~To replace the Google Cloud project selector
+~To store billing invoices only
+~To create YouTube playlists
+}
+
+::WB05_ReadmeUse::
+A README is mainly helpful because it:
+{
+=Explains setup, prerequisites, and how to run the project
+~Stores browser cookies
+~Acts as a cloud credential
+~Replaces all code files
+}
+
+::WB06_RepoMeaning::
+What is a repository?
+{
+=A project and its stored change history
+~A list of browser bookmarks
+~A cloud region
+~A password manager
+}
+
+::WB07_GcpConsole::
+Why does the Google Cloud Console matter in this hackathon?
+{
+=It is where you confirm the correct account, project, services, and settings
+~It replaces the workstation terminal
+~It stores the quiz answers
+~It is only for billing teams
+}
+
+::WB08_EnvVarPurpose::
+Why are environment variables used?
+{
+=To provide runtime values such as configuration and secrets
+~To replace file explorers
+~To create browser tabs
+~To format markdown files
+}
+
+::WB09_SecretHandling::
+What is the best practice for API keys and tokens?
+{
+=Do not paste them into public places or screenshots
+~Store them in the repo README
+~Send them in a public chat for backup
+~Rename them so they are not secret anymore
+}
+
+::WB10_CloudProject::
+Why does the correct GCP project matter?
+{
+=Services, APIs, and permissions are usually tied to a specific project
+~It changes your keyboard layout
+~It decides which browser you use
+~It removes the need for documentation
+}

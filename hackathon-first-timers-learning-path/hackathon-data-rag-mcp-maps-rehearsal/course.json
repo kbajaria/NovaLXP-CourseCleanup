@@ -1,0 +1,20 @@
+{
+  "course": {
+    "shortname": "hackathon-data-rag-mcp-maps-rehearsal",
+    "fullname": "Hackathon Pathway 4 of 4: Data and Integration Foundations",
+    "summary": "Course 4 of 4 in the First-Time Hackathon Pathway. Bridges beginner technical literacy into BigQuery Agent Tools, Following Policies with RAG, and Using MCP with Maps, then ends with a final rehearsal of the two-day flow.",
+    "estimated_minutes": 70
+  },
+  "sections": [
+    {"id": "00", "title": "Welcome", "source": "content/section-00-welcome.md"},
+    {"id": "01", "title": "BigQuery and data retrieval basics", "source": "content/section-01-bigquery-basics.md"},
+    {"id": "02", "title": "Following policies with RAG", "source": "content/section-02-rag-and-policies.md"},
+    {"id": "03", "title": "MCP and Maps basics", "source": "content/section-03-mcp-and-maps.md"},
+    {"id": "04", "title": "Two-day rehearsal aligned to the track", "source": "content/section-04-two-day-rehearsal.md"},
+    {"id": "05", "title": "Wrap-up", "source": "content/section-05-wrap-up.md"}
+  ],
+  "quiz": {
+    "questionbank_gift": "quiz/questionbank.gift",
+    "config": "quiz/quiz-config.json"
+  }
+}
