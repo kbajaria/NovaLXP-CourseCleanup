@@ -11,6 +11,7 @@ Artifacts and runbooks for repeatable course-content changes in NovaLXP (Moodle 
 
 ## Repository layout
 - `docs/` implementation runbooks and change records
+- `docs/production-release-log.md` top-level index of releases that reached `production`
 - `docs/runbooks/` reusable course-factory runbooks
 - `templates/` ready-to-paste Moodle HTML snippets
 - `scripts/` helper scripts for environment discovery, bootstrap, and course-factory guardrails
@@ -28,9 +29,12 @@ Artifacts and runbooks for repeatable course-content changes in NovaLXP (Moodle 
    - `docs/deployments/dev-talentlms-migration-request-2026-03-20.md`
 3. Review environment/domain reference:
    - `docs/environment-endpoints.md`
-4. (Optional) Discover ALB hostnames once AWS credentials are configured:
+4. Review production release history/process:
+   - `docs/production-release-log.md`
+   - `docs/runbooks/production-release-process.md`
+5. (Optional) Discover ALB hostnames once AWS credentials are configured:
    - `./scripts/discover_alb_domains.sh eu-west-2`
-5. Apply the Moodle UI change in `dev` first, then `test`, then `production`.
+6. Apply the Moodle UI change in `dev` first, then `test`, then `production`.
 
 ## Course factory standard (quiz-driven completion)
 For new courses where passing a quiz should complete the course, use:
