@@ -2,3 +2,10 @@
 *.swp
 *.swo
 .env
+
+# Deployment bundles and scratch artifacts
+tmp-*
+aws/lambda-course-factory/function-deploy.zip
+moodle/local_novalxpcoursefactory*.zip
+moodle/local_novalxpcoursefactory*.tar.gz
+moodle/novalxpcoursefactory-test-deploy.tar.gz
