@@ -59,16 +59,23 @@ class job_store {
     /**
      * @param string $requestid
      * @param int $userid
-     * @param string $brief
+     * @param array $details
      * @return array
      */
-    public static function create(string $requestid, int $userid, string $brief): array {
+    public static function create(string $requestid, int $userid, array $details): array {
         $record = [
             'requestid' => $requestid,
             'userid' => $userid,
-            'brief' => $brief,
+            'requesttype' => (string)($details['requesttype'] ?? 'talentlms_migration'),
+            'brief' => (string)($details['brief'] ?? ''),
+            'reason' => (string)($details['reason'] ?? ''),
+            'sourcecourseid' => (string)($details['sourcecourseid'] ?? ''),
+            'sourcecoursetitle' => (string)($details['sourcecoursetitle'] ?? ''),
+            'sourcecourseurl' => (string)($details['sourcecourseurl'] ?? ''),
             'state' => 'queued',
-            'message' => get_string('jobqueued', 'local_novalxpcoursefactory'),
+            'message' => (string)($details['requesttype'] ?? '') === 'ai_course_factory'
+                ? get_string('jobqueued', 'local_novalxpcoursefactory')
+                : get_string('migrationjobqueued', 'local_novalxpcoursefactory'),
             'courseid' => 0,
             'coursetitle' => '',
             'courseurl' => '',

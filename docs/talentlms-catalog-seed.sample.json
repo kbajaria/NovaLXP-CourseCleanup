@@ -1,0 +1,23 @@
+[
+  {
+    "id": "tlms-101",
+    "title": "Customer Service Fundamentals",
+    "category": "Customer Experience",
+    "url": "https://example.talentlms.com/course/101",
+    "summary": "Core service standards, handling techniques, and escalation basics."
+  },
+  {
+    "id": "tlms-202",
+    "title": "Mortgage Compliance Refresher",
+    "category": "Compliance",
+    "url": "https://example.talentlms.com/course/202",
+    "summary": "Annual refresher on regulated lending requirements and controls."
+  },
+  {
+    "id": "tlms-303",
+    "title": "Collections Call Handling",
+    "category": "Operations",
+    "url": "https://example.talentlms.com/course/303",
+    "summary": "Conversation structure, vulnerability handling, and next-step actions."
+  }
+]

@@ -19,11 +19,18 @@ Artifacts and runbooks for repeatable course-content changes in NovaLXP (Moodle 
 ## Quick start
 1. Review the change runbook:
    - `docs/course-918-google-skills-change.md`
-2. Review environment/domain reference:
+2. For legacy course rebuilds from TalentLMS:
+   - `docs/talentlms-to-novalxp-migration-runbook.md`
+   - `templates/talentlms-course-template/`
+   - `docs/talentlms-catalog-seed.sample.json`
+   - `docs/finova-courses-seed-active.json`
+   - `docs/deploy-talentlms-migration-request-dev.md`
+   - `docs/deployments/dev-talentlms-migration-request-2026-03-20.md`
+3. Review environment/domain reference:
    - `docs/environment-endpoints.md`
-3. (Optional) Discover ALB hostnames once AWS credentials are configured:
+4. (Optional) Discover ALB hostnames once AWS credentials are configured:
    - `./scripts/discover_alb_domains.sh eu-west-2`
-4. Apply the Moodle UI change in `dev` first, then `test`, then `production`.
+5. Apply the Moodle UI change in `dev` first, then `test`, then `production`.
 
 ## Course factory standard (quiz-driven completion)
 For new courses where passing a quiz should complete the course, use:

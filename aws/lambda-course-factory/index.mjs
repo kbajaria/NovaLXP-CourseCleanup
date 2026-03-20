@@ -1,14 +1,10 @@
 import { GetSecretValueCommand, SecretsManagerClient } from '@aws-sdk/client-secrets-manager';
 import OpenAI from 'openai';
 
-const requiredEnv = [
-  'OPENAI_MODEL',
-  'MOODLE_BASE_URL',
-];
-
 const secretsClient = new SecretsManagerClient({});
 let cachedMoodleSecret;
 let cachedOpenAiSecret;
+let cachedTrelloConfig;
 
 const log = (stage, details = {}) => {
   const payload = {
@@ -45,18 +41,30 @@ const parseBody = (event) => {
   return JSON.parse(body);
 };
 
-const validateEnv = () => {
-  for (const name of requiredEnv) {
-    if (!process.env[name]) {
-      throw new Error(`Missing required environment variable: ${name}`);
-    }
-  }
+const getRequestType = (payload) => {
+  return String(payload?.request_type || 'ai_course_factory').trim() || 'ai_course_factory';
+};
 
-  if (!process.env.OPENAI_API_KEY && !process.env.OPENAI_SECRET_ARN) {
-    throw new Error('Missing OpenAI credentials: set OPENAI_API_KEY or OPENAI_SECRET_ARN');
+const validateEnv = (requestType) => {
+  if (!process.env.MOODLE_BASE_URL && !process.env.MOODLE_SECRET_ARN) {
+    throw new Error('Missing Moodle base URL: set MOODLE_BASE_URL or MOODLE_SECRET_ARN');
   }
   if (!process.env.MOODLE_TOKEN && !process.env.MOODLE_SECRET_ARN) {
     throw new Error('Missing Moodle credentials: set MOODLE_TOKEN or MOODLE_SECRET_ARN');
+  }
+
+  if (requestType === 'talentlms_migration') {
+    if (!process.env.TRELLO_SECRET_ARN) {
+      throw new Error('Missing Trello secret ARN: set TRELLO_SECRET_ARN');
+    }
+    return;
+  }
+
+  if (!process.env.OPENAI_MODEL) {
+    throw new Error('Missing required environment variable: OPENAI_MODEL');
+  }
+  if (!process.env.OPENAI_API_KEY && !process.env.OPENAI_SECRET_ARN) {
+    throw new Error('Missing OpenAI credentials: set OPENAI_API_KEY or OPENAI_SECRET_ARN');
   }
 };
 
@@ -124,6 +132,34 @@ const getResolvedMoodleConfig = async () => {
     moodleToken: process.env.MOODLE_TOKEN || secret.moodleToken || '',
     moodleBaseUrl: process.env.MOODLE_BASE_URL || secret.moodleBaseUrl || '',
   };
+};
+
+const getTrelloConfig = async () => {
+  if (cachedTrelloConfig) {
+    return cachedTrelloConfig;
+  }
+
+  const response = await secretsClient.send(new GetSecretValueCommand({
+    SecretId: process.env.TRELLO_SECRET_ARN
+  }));
+
+  if (!response.SecretString) {
+    throw new Error('Trello secret did not contain SecretString');
+  }
+
+  const secret = JSON.parse(response.SecretString);
+  const trelloConfig = {
+    key: secret.TRELLO_KEY || secret.trelloKey || '',
+    token: secret.TRELLO_TOKEN || secret.trelloToken || '',
+    listId: secret.TRELLO_LIST_ID || secret.trelloListId || '',
+  };
+
+  if (!trelloConfig.key || !trelloConfig.token || !trelloConfig.listId) {
+    throw new Error('Trello secret is missing one or more required fields');
+  }
+
+  cachedTrelloConfig = trelloConfig;
+  return cachedTrelloConfig;
 };
 
 const courseFactorySchema = {
@@ -515,6 +551,98 @@ const provisionCourse = async (payload, spec) => {
   };
 };
 
+const truncate = (value, length) => {
+  const text = String(value || '');
+  return text.length > length ? text.slice(0, length) : text;
+};
+
+const buildMigrationCardName = (payload) => {
+  const courseTitle = payload?.migration_request?.course?.title || 'Unknown course';
+  const requester = payload?.user?.fullname || payload?.user?.id || 'Unknown learner';
+  return `TalentLMS migration request: ${truncate(courseTitle, 80)} (${truncate(String(requester), 40)})`;
+};
+
+const buildMigrationCardDescription = (payload) => {
+  const course = payload?.migration_request?.course || {};
+  const lines = [
+    'Submitted from NovaLXP front page.',
+    '',
+    'Request type:',
+    'TalentLMS course migration',
+    '',
+    'Requested course:',
+    `- Title: ${course.title || 'Unknown'}`,
+    `- TalentLMS ID: ${course.id || 'Unknown'}`,
+    `- TalentLMS URL: ${course.url || 'Not provided'}`,
+    `- Category: ${course.category || 'Not provided'}`,
+    '',
+    'Learner reason:',
+    payload?.migration_request?.reason || 'No reason provided.',
+    '',
+    'Learner details:',
+    `- Name: ${payload?.user?.fullname || 'Unknown'}`,
+    `- User ID: ${payload?.user?.id || 'Unknown'}`,
+    `- Username: ${payload?.user?.username || 'Unknown'}`,
+    `- Email: ${payload?.user?.email || 'Not available'}`,
+    `- Locale: ${payload?.user?.locale || 'Unknown'}`,
+    '',
+    'Context:',
+    `- Request ID: ${payload?.request_id || ''}`,
+    `- Site page: ${payload?.context?.current_url || 'Unknown'}`,
+    `- Submitted at: ${new Date().toISOString()}`,
+  ];
+
+  return lines.join('\n');
+};
+
+const createMigrationTrelloCard = async (payload) => {
+  const trelloConfig = await getTrelloConfig();
+  const response = await fetch('https://api.trello.com/1/cards', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded'
+    },
+    body: new URLSearchParams({
+      idList: trelloConfig.listId,
+      name: buildMigrationCardName(payload),
+      desc: buildMigrationCardDescription(payload),
+      key: trelloConfig.key,
+      token: trelloConfig.token,
+      pos: 'bottom'
+    })
+  });
+
+  const responseText = await response.text();
+  let parsed = {};
+  try {
+    parsed = JSON.parse(responseText);
+  } catch (_error) {
+    parsed = {};
+  }
+
+  if (!response.ok) {
+    log('trello_card_create_failed', {
+      requestId: payload?.request_id || '',
+      statusCode: response.status,
+      body: responseText,
+    });
+    throw new Error('Trello request failed');
+  }
+
+  log('trello_card_created', {
+    requestId: payload?.request_id || '',
+    cardId: parsed.id || '',
+    cardUrl: parsed.url || '',
+    courseTitle: payload?.migration_request?.course?.title || '',
+  });
+
+  return {
+    cardid: parsed.id || '',
+    cardurl: parsed.url || '',
+    coursetitle: payload?.migration_request?.course?.title || '',
+  };
+};
+
 const updateJob = async (payload, state, details = {}) => {
   if (!payload || !payload.request_id) {
     return;
@@ -533,15 +661,56 @@ const updateJob = async (payload, state, details = {}) => {
 export const handler = async (event) => {
   let payload = null;
   try {
-    validateEnv();
     payload = parseBody(event);
+    const requestType = getRequestType(payload);
+    validateEnv(requestType);
     const requestId = payload && payload.request_id ? payload.request_id : '';
 
     log('request_start', {
       requestId,
+      requestType,
       tenantId: payload && payload.tenant_id ? payload.tenant_id : '',
       userId: payload && payload.user && payload.user.id ? payload.user.id : '',
     });
+
+    if (requestType === 'talentlms_migration') {
+      const requestedCourse = payload?.migration_request?.course || {};
+      const reason = String(payload?.migration_request?.reason || '').trim();
+      if (!requestedCourse.title || !requestedCourse.id || reason === '') {
+        return isHttpEvent(event)
+          ? json(400, { status: false, message: 'Missing migration request details' })
+          : { status: false, message: 'Missing migration request details' };
+      }
+
+      await updateJob(payload, 'processing', {
+        message: 'Your TalentLMS migration request is being processed.',
+      });
+
+      const trelloCard = await createMigrationTrelloCard(payload);
+      const success = {
+        status: true,
+        requestid: requestId,
+        requesttype: requestType,
+        message: `Migration request logged for ${requestedCourse.title}.`,
+        requestedcourse: requestedCourse,
+        trellocardid: trelloCard.cardid,
+        trellocardurl: trelloCard.cardurl,
+      };
+
+      log('request_complete', {
+        requestId,
+        requestType,
+        cardId: trelloCard.cardid,
+        courseTitle: requestedCourse.title,
+      });
+
+      await updateJob(payload, 'complete', {
+        message: 'Your request has been logged for review and added to the NovaLXP roadmap feedback queue.',
+        coursetitle: trelloCard.coursetitle,
+      });
+
+      return isHttpEvent(event) ? json(200, success) : success;
+    }
 
     if (!payload || typeof payload.query?.course_brief !== 'string' || payload.query.course_brief.trim() === '') {
       return isHttpEvent(event)
@@ -572,6 +741,7 @@ export const handler = async (event) => {
 
     log('request_complete', {
       requestId,
+      requestType,
       courseId: provisioned.courseid,
       quizId: provisioned.quizid,
       guardrailsReady: provisioned.guardrailsready,

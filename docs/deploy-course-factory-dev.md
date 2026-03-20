@@ -3,6 +3,9 @@
 Target environment:
 
 - Moodle URL: `https://dev.novalxp.co.uk`
+- Live Moodle dirroot on dev: `/var/www/moodle/public`
+- Moodle admin CLI path on dev: `/var/www/moodle/admin/cli`
+- Correct live plugin directory on dev: `/var/www/moodle/public/local/novalxpcoursefactory`
 - Category: `AI-Generated` (`id=5`)
 - Suggested Lambda name: `novalxp-course-factory-dev`
 - Suggested region: `eu-west-2`
@@ -19,8 +22,8 @@ Apply the new guardrail function to the real `local_novalxpapi` plugin using eit
 Then run:
 
 ```bash
-php admin/cli/upgrade.php --non-interactive
-php admin/cli/purge_caches.php
+php /var/www/moodle/admin/cli/upgrade.php --non-interactive
+php /var/www/moodle/admin/cli/purge_caches.php
 ```
 
 ## 2. Confirm the dev web service token can call all required functions
@@ -41,17 +44,23 @@ Important:
 
 ## 3. Install `local_novalxpcoursefactory` in dev
 
+Important path note:
+- The repo folder is `moodle/local_novalxpcoursefactory`, but the live Moodle plugin folder must be `local/novalxpcoursefactory`.
+- Do not deploy the plugin as `local/local_novalxpcoursefactory`.
+- On the current dev host, the served Moodle code is under `/var/www/moodle/public`, so the real target path is:
+  - `/var/www/moodle/public/local/novalxpcoursefactory`
+
 Copy:
 
 ```bash
-cp -R /Users/kamilabajaria/Projects/NovaLXP-Courses/moodle/local_novalxpcoursefactory /path/to/dev-moodle/local/
+cp -R /Users/kamilabajaria/Projects/NovaLXP-Courses/moodle/local_novalxpcoursefactory /var/www/moodle/public/local/novalxpcoursefactory
 ```
 
 Then run:
 
 ```bash
-php admin/cli/upgrade.php --non-interactive
-php admin/cli/purge_caches.php
+php /var/www/moodle/admin/cli/upgrade.php --non-interactive
+php /var/www/moodle/admin/cli/purge_caches.php
 ```
 
 Plugin settings in Moodle:
@@ -160,6 +169,8 @@ Using a learner account:
 - token service does not include `local_novalxpapi_apply_quiz_completion_guardrails`
 - token service does not include `local_novalxpcoursefactory_update_job`
 - token is bound to a restricted manual service such as `CourseCreationAPI`
+- plugin copied into `/var/www/moodle/local/...` instead of `/var/www/moodle/public/local/...`
+- plugin folder named `local_novalxpcoursefactory` instead of `novalxpcoursefactory`
 - Lambda env vars are incomplete
 - Moodle EC2 role cannot invoke Lambda
 - AWS CLI missing on the Moodle host

@@ -11,7 +11,7 @@ use moodle_exception;
 defined('MOODLE_INTERNAL') || die();
 
 /**
- * AJAX external function for front-page course factory requests.
+ * AJAX external function for front-page AI course requests.
  */
 class create_course extends external_api {
     /**
@@ -40,7 +40,7 @@ class create_course extends external_api {
             throw new moodle_exception('invalidrequest', 'local_novalxpcoursefactory');
         }
 
-        self::log('ajax_request_start user_id=' . $USER->id . ' brief_length=' . strlen($brief));
+        self::log('ajax_request_start user_id=' . $USER->id . ' request_type=ai_course_factory brief_length=' . strlen($brief));
         $result = \local_novalxpcoursefactory\service::queue_course($brief);
         if (empty($result['ok'])) {
             self::log('ajax_request_failed user_id=' . $USER->id . ' error=' . (string)($result['error'] ?? 'unknown'));
@@ -60,6 +60,7 @@ class create_course extends external_api {
 
         return [
             'status' => true,
+            'requesttype' => 'ai_course_factory',
             'requestid' => (string)$result['request_id'],
             'message' => (string)$result['summary'],
         ];
@@ -67,7 +68,8 @@ class create_course extends external_api {
 
     public static function execute_returns(): external_single_structure {
         return new external_single_structure([
-            'status' => new external_value(PARAM_BOOL, 'Whether the course was created successfully'),
+            'status' => new external_value(PARAM_BOOL, 'Whether the course request was queued successfully'),
+            'requesttype' => new external_value(PARAM_ALPHANUMEXT, 'Queued request type'),
             'requestid' => new external_value(PARAM_ALPHANUMEXT, 'Queued request id'),
             'message' => new external_value(PARAM_TEXT, 'User-facing status message'),
         ]);
