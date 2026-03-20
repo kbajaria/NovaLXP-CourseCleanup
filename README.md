@@ -11,6 +11,7 @@ Artifacts and runbooks for repeatable course-content changes in NovaLXP (Moodle 
 
 ## Repository layout
 - `docs/` implementation runbooks and change records
+- `docs/deployment-log.md` top-level index of environment deployments across `dev`, `test`, and `production`
 - `docs/production-release-log.md` top-level index of releases that reached `production`
 - `docs/runbooks/` reusable course-factory runbooks
 - `templates/` ready-to-paste Moodle HTML snippets
@@ -30,6 +31,7 @@ Artifacts and runbooks for repeatable course-content changes in NovaLXP (Moodle 
 3. Review environment/domain reference:
    - `docs/environment-endpoints.md`
 4. Review production release history/process:
+   - `docs/deployment-log.md`
    - `docs/production-release-log.md`
    - `docs/runbooks/production-release-process.md`
 5. (Optional) Discover ALB hostnames once AWS credentials are configured:

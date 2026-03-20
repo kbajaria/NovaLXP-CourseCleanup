@@ -83,6 +83,13 @@ npm install
 zip -r function.zip index.mjs package.json package-lock.json node_modules
 ```
 
+Build checklist:
+
+- build from the `aws/lambda-course-factory/` directory
+- include `node_modules` in the zip
+- if promoting the same build across environments, keep one known-good artifact and verify its hash before reuse
+- if you rebuild, do it from the current merged branch before promoting further
+
 Deploy:
 
 ```bash
@@ -124,6 +131,7 @@ Required IAM action:
 Lambda execution role also needs:
 
 - `secretsmanager:GetSecretValue` on `novalxp/course-factory/dev/moodle-api`
+- `secretsmanager:GetSecretValue` on the Trello secret if `TRELLO_SECRET_ARN` is configured for migration requests
 
 Also confirm the Moodle host has the AWS CLI:
 
@@ -172,6 +180,7 @@ Using a learner account:
 - plugin copied into `/var/www/moodle/local/...` instead of `/var/www/moodle/public/local/...`
 - plugin folder named `local_novalxpcoursefactory` instead of `novalxpcoursefactory`
 - Lambda env vars are incomplete
+- `TRELLO_SECRET_ARN` is set but the Lambda role cannot read the Trello secret
 - Moodle EC2 role cannot invoke Lambda
 - AWS CLI missing on the Moodle host
 - Lambda package was deployed without `node_modules`

@@ -130,6 +130,13 @@ npm install
 zip -r function.zip index.mjs package.json package-lock.json node_modules
 ```
 
+Build notes:
+
+- build from `aws/lambda-course-factory/`
+- include `node_modules` in the zip
+- if you promote the same build to `test` and `production`, either reuse the exact tested artifact or rebuild from the merged branch and verify the artifact hash before deployment
+- do not assume an older `function.zip` or `function-deploy.zip` is current without checking
+
 Deploy code:
 
 ```bash
@@ -158,6 +165,16 @@ The dev Moodle EC2 role must be able to invoke:
 The Lambda execution role must be able to read:
 - the Moodle API secret
 - the Trello secret
+
+Promotion footgun seen in `test` on 2026-03-20:
+- setting `TRELLO_SECRET_ARN` on the Lambda is not enough by itself
+- the Lambda execution role also needs a matching `secretsmanager:GetSecretValue` policy for that exact Trello secret ARN
+- without that policy, the browser will submit successfully but the learner will see an authorization error from the Lambda when the migration request tries to create the Trello card
+
+Recommended check before promoting beyond `dev`:
+1. verify the Lambda env includes `TRELLO_SECRET_ARN`
+2. verify the Lambda role has secret-read permission for the Trello secret
+3. run one direct Lambda smoke test for `talentlms_migration`
 
 Also confirm the Moodle host has the AWS CLI:
 
@@ -218,6 +235,7 @@ The card should include:
 - catalog JSON is malformed
 - the Lambda env is missing `TRELLO_SECRET_ARN`
 - the Trello secret points to the wrong list
+- the Trello secret ARN is configured but the Lambda role cannot read it
 - the Moodle EC2 role cannot invoke `novalxp-course-factory-dev`
 - the Lambda execution role cannot read one or both secrets
 - Moodle caches were not purged after plugin deployment

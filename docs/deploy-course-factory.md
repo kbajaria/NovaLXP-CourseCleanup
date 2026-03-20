@@ -129,6 +129,17 @@ npm install
 zip -r function.zip index.mjs package.json package-lock.json node_modules
 ```
 
+Build notes:
+
+- Build the zip from `aws/lambda-course-factory/` after `npm install` in that same directory.
+- The deployed artifact must include:
+  - `index.mjs`
+  - `package.json`
+  - `package-lock.json`
+  - `node_modules/`
+- If you keep a promoted artifact such as `function-deploy.zip`, make sure it was rebuilt from the current merged code before deploying to the next environment.
+- A missing or stale dependency tree will break the Lambda even if the source code looks correct locally.
+
 Create or update the function:
 
 ```bash
@@ -158,6 +169,13 @@ Recommended secret JSON:
 }
 ```
 
+For the TalentLMS migration branch, also provide a Trello secret and environment variable:
+
+- secret name pattern:
+  - `novalxp/feedback/<env>/trello`
+- required environment variable:
+  - `TRELLO_SECRET_ARN`
+
 ## Step 5: Allow Moodle EC2 To Invoke Lambda
 
 Attach IAM permission to the Moodle instance role:
@@ -182,6 +200,21 @@ aws --version
 ```
 
 If Lambda reads the token from Secrets Manager, attach `secretsmanager:GetSecretValue` on the secret ARN to the Lambda execution role.
+
+For the TalentLMS migration flow, the Lambda execution role must also have `secretsmanager:GetSecretValue` on the Trello secret ARN referenced by `TRELLO_SECRET_ARN`.
+
+Do not stop at setting the environment variable only.
+The same role must be allowed to read:
+
+- the Moodle API secret
+- the OpenAI secret if used
+- the Trello secret for migration requests
+
+Recommended pre-promotion check:
+
+1. confirm `TRELLO_SECRET_ARN` is set on the Lambda
+2. confirm the Lambda execution role has a matching inline or attached policy for that exact secret ARN
+3. run one direct Lambda smoke test for `talentlms_migration` before asking a learner to test in the browser
 
 ## Step 6: Front-Page Validation
 
@@ -230,6 +263,8 @@ If course creation fails:
 - plugin folder named `local_novalxpcoursefactory` instead of `novalxpcoursefactory`
 - Lambda zip missing `node_modules`
 - the browser is still running an old cached JS bundle and not the polling client
+- `TRELLO_SECRET_ARN` is set but the Lambda role cannot read that secret yet
+- the Lambda code was updated in one environment but the next environment is still using an older zip artifact
 
 If the course is created but completion does not work:
 
@@ -241,3 +276,10 @@ If the course is created but completion does not work:
 ## Recommended First Environment
 
 Deploy to `dev` first, validate with one generated course, then promote to `test`, then `production`.
+
+For the TalentLMS migration path specifically, also validate:
+
+1. seeded catalog is present and parses successfully
+2. the pane label/fallback copy is correct for the target environment
+3. one direct Lambda migration-request smoke test succeeds
+4. one browser-submitted request succeeds and creates a Trello card
