@@ -27,9 +27,10 @@ Provide a separate AI course-creation capability on the NovaLXP front page witho
    - course summary
    - up to 5 sections
    - exactly 5 quiz questions
-5. Lambda provisions the course in Moodle through `local_novalxpapi` web service functions.
-6. Lambda updates the Moodle job to `complete` or `failed` through `local_novalxpcoursefactory_update_job`.
-7. The browser polling path reads that stored job state and surfaces success or failure to the learner.
+5. Lambda calls Amazon Bedrock (Claude via EU cross-region inference profile) to score the generated course against the original brief on four dimensions: relevance, content depth, quiz alignment, and clarity — each 1–10 with a one-sentence explanation — plus an overall score and 2–3 sentence summary. Scoring is best-effort: if Bedrock is unavailable or returns an error, a fallback "unavailable" message is used and course creation continues normally.
+6. Lambda provisions the course in Moodle through `local_novalxpapi` web service functions, including a read-only "AI Quality Review" section at the bottom of the course containing the Bedrock scorecard as a Bootstrap HTML table.
+7. Lambda updates the Moodle job to `complete` or `failed` through `local_novalxpcoursefactory_update_job`.
+8. The browser polling path reads that stored job state and surfaces success or failure to the learner.
 
 ## Moodle provisioning status
 - Implemented:
@@ -42,6 +43,18 @@ Provide a separate AI course-creation capability on the NovaLXP front page witho
   - async job queueing and status polling
   - Lambda callback into Moodle to update job state
   - learner self-enrolment through existing `local_novalxpapi_create_course` behavior
+  - AI Quality Review section added at course bottom with Bedrock-generated scorecard
+
+## Bedrock scoring
+- Model: `amazon.nova-lite-v1:0` (controlled by `BEDROCK_SCORING_MODEL` Lambda environment variable)
+- Region: `eu-west-2` (same as Lambda)
+- IAM: Lambda execution role has `bedrock:InvokeModel`, `bedrock:Converse`, `aws-marketplace:ViewSubscriptions`, and `aws-marketplace:Subscribe` via inline policy `BedrockScoringAccess` on all three Lambda roles
+- Scorecard creation is wrapped in a try/catch — if the `add_page` call fails for any reason (e.g. WAF, network), the error is logged as `scorecard_section_failed` and course creation completes normally
+
+## Production WAF
+- The production CloudFront distribution (`learn.novalxp.co.uk`, `E317SOC1RRGSCT`) has a WAF ACL (`novalxp-secops-scan-temp-20260320`) with managed rule groups including `AWSManagedRulesCommonRuleSet` and `AWSManagedRulesSQLiRuleSet`
+- Rule `AllowMoodleWebservice` (priority 1) allows all requests to `/webservice/rest/server.php` before the managed rule groups can inspect them, preventing HTML content in `add_page` calls from triggering XSS/SQLi blocks
+- Dev and test do not have a WAF
 
 ## Why this is separate
 - Different permissions from learner Q&A.
@@ -55,3 +68,4 @@ Provide a separate AI course-creation capability on the NovaLXP front page witho
   - `local_novalxpapi_apply_quiz_completion_guardrails`
   - `local_novalxpcoursefactory_update_job`
 - The Lambda deployment package must include `node_modules`; missing dependencies will fail at Lambda init time before any job update can occur.
+- The `@aws-sdk/client-bedrock-runtime` package is required in addition to `@aws-sdk/client-secrets-manager` and `openai`.

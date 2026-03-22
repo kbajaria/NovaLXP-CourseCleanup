@@ -29,6 +29,7 @@ Suggested statuses:
 
 | Date | PR | Commit | Summary | Deployment Record | Status |
 | --- | --- | --- | --- | --- | --- |
+| 2026-03-22 | — | `11e2ff8` | AI quality scoring via Bedrock; WAF webservice allowlist; jobqueued lang fix; scorecard fault-tolerance | [docs/deployments/all-envs-ai-quality-scoring-2026-03-22.md](deployments/all-envs-ai-quality-scoring-2026-03-22.md) | released |
 | 2026-03-20 | [#1](https://github.com/kbajaria/NovaLXP-CourseCleanup/pull/1) | `3c58b8ba21a6ab9dfcfb2a50c7a27e9f41e9c4a9` | TalentLMS migration request feature released to production | [docs/deployments/prod-talentlms-migration-request-2026-03-20.md](/C:/Users/kbaja/Projects/novalxp-courses/docs/deployments/prod-talentlms-migration-request-2026-03-20.md) | released |
 | 2026-03-06 | Not recorded | Not recorded | Front-page featured pane 1 production mapping update | [docs/deployments/prod-frontpage-featured-pane1-2026-03-06.md](/C:/Users/kbaja/Projects/novalxp-courses/docs/deployments/prod-frontpage-featured-pane1-2026-03-06.md) | released |
 | 2026-03-06 | Not recorded | Not recorded | Aha! Roadmaps beginner course released to production | [docs/deployments/prod-course-198-aha-roadmaps-2026-03-06.md](/C:/Users/kbaja/Projects/novalxp-courses/docs/deployments/prod-course-198-aha-roadmaps-2026-03-06.md) | released |
