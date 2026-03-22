@@ -36,6 +36,7 @@ $string['migrationjobqueued'] = 'Submitting your TalentLMS migration request...'
 $string['migrationjobprocessing'] = 'Your TalentLMS migration request is being processed.';
 $string['jobnotfound'] = 'We could not find that migration request.';
 $string['emptycatalog'] = 'No TalentLMS catalog has been seeded yet.';
+$string['jobqueued'] = 'Your course request has been received. Generating your course...';
 $string['submitting'] = 'Creating your course. This usually takes about a minute...';
 $string['successprefix'] = 'Your AI-generated course is ready.';
 $string['successsuffix'] = 'Click the course title to open it and enrol.';

@@ -453,7 +453,7 @@ const buildSectionHtml = (section) => {
 
 const buildScoringPrompt = (brief, spec) => {
   const sections = spec.sections.map((s, i) =>
-    `Section ${i + 1}: ${s.title}\n${String(s.content || '').slice(0, 600)}`
+    `Section ${i + 1}: ${s.title}\n${String(s.content || '')}`
   ).join('\n\n');
   const questions = spec.quiz.questions.map((q, i) => `${i + 1}. ${q.prompt}`).join('\n');
 
