@@ -653,23 +653,31 @@ const provisionCourse = async (payload, spec, scoreResult) => {
     guardrailsReady: Boolean(guardrails.guardrailsready || false),
   });
 
-  const scorecardSectionId = await callMoodle('local_novalxpapi_add_section', {
-    courseid: courseId,
-    name: 'AI Quality Review',
-  });
-  await callMoodle('local_novalxpapi_add_page', {
-    courseid: courseId,
-    section: Number(scorecardSectionId),
-    title: 'AI Quality Review',
-    content: buildScorecardHtml(scoreResult),
-    visible: 1,
-  });
-  log('scorecard_section_created', {
-    requestId: payload.request_id || '',
-    courseId,
-    scorecardSectionId: Number(scorecardSectionId),
-    scoringUnavailable: Boolean(scoreResult?.unavailable),
-  });
+  try {
+    const scorecardSectionId = await callMoodle('local_novalxpapi_add_section', {
+      courseid: courseId,
+      name: 'AI Quality Review',
+    });
+    await callMoodle('local_novalxpapi_add_page', {
+      courseid: courseId,
+      section: Number(scorecardSectionId),
+      title: 'AI Quality Review',
+      content: buildScorecardHtml(scoreResult),
+      visible: 1,
+    });
+    log('scorecard_section_created', {
+      requestId: payload.request_id || '',
+      courseId,
+      scorecardSectionId: Number(scorecardSectionId),
+      scoringUnavailable: Boolean(scoreResult?.unavailable),
+    });
+  } catch (scorecardError) {
+    log('scorecard_section_failed', {
+      requestId: payload.request_id || '',
+      courseId,
+      message: scorecardError?.message || 'Unknown error',
+    });
+  }
 
   return {
     courseid: courseId,
